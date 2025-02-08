@@ -83,9 +83,9 @@ From the output of the script used in the last challenge to view the encrypted p
 
 Next, I used hashcat to recover the password, supplying my newly created hashfile with the single hash and the word list provided from the labs. The password hash has a username, so I used --user in my hashcat command to tell hashcat to expect a username. 
 
-![Always Be Cracking](https://github.com/user-attachments/assets/891afed3-70e6-405e-b64e-6173b0e11948)
+![Web Password File-2](https://github.com/user-attachments/assets/d31ebb94-d51d-465a-9abc-d8f83ef03357)
 
-The credentials for this user are tomcat/tacmot. 
+In Hashcat, cracked passwords are show in in the format username:hash:password when you use the --user argument. 
 
 # Remote Shell
 
