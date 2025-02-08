@@ -21,15 +21,14 @@ As you can see from the screenshot below, I have completed every challenge. Each
 
 Questions are answered either by submitting a flag or string, or are multiple choice. Due to my agreement with the SANS Copyright Team, I cannot disclose the answers for the CTF. So, my write-up will include the question/challenge and the steps I took to solve it, but not the answers themselves. The order of the challenge categories is below:
 
-* Introduction
-* OSINT and Recon
-* issplaylist.com 
-* orders.issplaylist.com
-* pls.issplaylist.com
-* songs.issplaylist.com
-* support.issplaylist.com
-* ops.issplaylist.com
-* caffe.issplaylist.com
-* stor.issplaylist.com
-* dc1.issplaylist.com
-* Attribution
+1. OSINT and Recon
+2. issplaylist.com
+3. orders.issplaylist.com
+4. pls.issplaylist.com
+5. songs.issplaylist.com
+6. support.issplaylist.com
+7. ops.issplaylist.com
+8. caffe.issplaylist.com
+9. stor.issplaylist.com
+10. dc1.issplaylist.com
+11. Attribution
