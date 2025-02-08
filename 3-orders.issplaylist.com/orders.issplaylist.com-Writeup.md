@@ -2,11 +2,10 @@
 
 * Challenge - Retrieve the search engine restriction resource on the web server orders.issplaylist.com. Enter the flag.
 * Points - 2
-* Answer - NetWars{UsefulRecon}
 
 The robots.txt file restricts which pages can be indexed by search engines. You can access it by specifying it in the URL, for example here I got the flag by typing http://orders.issplaylist.com/robots.txt. 
 
-![Search Engine Restriction-1](https://github.com/user-attachments/assets/bb3bd7d9-69f3-466d-831b-8a21a2040e59)
+![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/417e0097-91ca-4e6e-9db4-50ab5e1ec503)
 
 
 # Apache Struts Version
