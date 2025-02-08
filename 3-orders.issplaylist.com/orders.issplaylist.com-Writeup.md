@@ -20,12 +20,11 @@ Looking at the robots.txt file screenshot from the above challenge, we can see t
 
 * Challenge - Research the version of Apache Struts using in-game assets or public Internet resources. Which CVE entry describes a known vulnerability for this version of Apache Struts?
 * Points - 2
-* Answer - CVE-2018-11776
 
 When I saw the term "in-game assets" I thought about ClippedBin and how it was used for the OSINT and Recon section of this CTF. I went to ClippedBin and searched for "struts" and found an entry. After viewing the entry, I see a CVE entry for this version of Apache Struts. 
 
 ![Vulnerability Research-1](https://github.com/user-attachments/assets/7c1b2a92-f370-477e-8826-a1646eb964d7)
-![Vulnerability Research-2](https://github.com/user-attachments/assets/9b7d164e-1153-4a3b-9725-f4864342e12e)
+![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/c8d925aa-f38b-4259-9fa4-b72fe40ace5d)
 
 
 # Exploit Identification
