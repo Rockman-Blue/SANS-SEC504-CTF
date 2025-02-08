@@ -56,7 +56,7 @@ When I ran the exploit code, the output suggested to run it with -h to get help 
 
 I used the help information to craft the command needed. After experimenting with a few commands to run this script correctly, I arrived at the solution below.
 
-![Vulnerability Exploitation-2](https://github.com/user-attachments/assets/52f60701-f4a1-44ca-90ee-3185c364c83e)
+![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/45d1da2b-8b0a-4d60-878e-515232c9f6b6)
 
 
 # Web Password File
