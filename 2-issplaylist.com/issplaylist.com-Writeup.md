@@ -63,4 +63,4 @@ Now that I have the cookie for admin from the Cookie Theft challenge, I can use 
 
 This returned the admin page output. Scroll down to see the flag. 
 ![Unauthorized Access-2](https://github.com/user-attachments/assets/922e6443-10d2-454e-bd81-05d523dab0ac)
-![Unauthorized Access-3](https://github.com/user-attachments/assets/ee50190d-5dd2-42a7-9b40-7845162253c9)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/391d29fd-1221-4379-9ae1-4cefed9fa3a1)
