@@ -47,9 +47,9 @@ After starting the listener on my attacker terminal, I went back to the browser.
 ![Cookie Theft-3](https://github.com/user-attachments/assets/27d2e9b7-6333-4f3a-9d7d-363310cc713b)
 
 
-Going back to my attacker terminal, where the cookiecatcher file is running, I can see the name of the stolen cookie. 
+Going back to my attacker terminal, where the cookiecatcher PHP file is running, I can see the name of the stolen cookie. 
 
-![Cookie Theft-4](https://github.com/user-attachments/assets/fb3b55f2-da85-4847-927a-7a633a6b07a5)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/54c44f79-0f51-4ca6-b5c6-1a05b60ffecf)
 
 
 # Unauthorized Access
