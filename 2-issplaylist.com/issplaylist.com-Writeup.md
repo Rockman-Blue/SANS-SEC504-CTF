@@ -19,7 +19,7 @@ First, I tried experiemnting with including a ' in the fields to get an SQL erro
 ![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/53da4c88-831c-44b2-9c21-4b9dd8284073)
 
 Then I tested for an XSS vulnerability by typing the hr HTML tag into each field of the contact form. I noticed the horizontal line from the hr HTML tag was displayed on the page. 
-![Vulnerability Discovery-3](https://github.com/user-attachments/assets/f4add8de-bcef-4607-85cd-37f41ae9ea2f)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/87c7fd9d-fc96-4990-88aa-c63c96e4a939)
 
 This means my input was reflected on the page. To confirm this, I viewed the page source, and used CTRL + F to look for my input, the hr HTML tag. The page source shows my input. All of this means that the site is vulnerable to XSS, but specifically reflected XSS. 
 ![Vulnerability Discovery-4](https://github.com/user-attachments/assets/41bba667-32ad-4ad5-b657-65ed34138328)
