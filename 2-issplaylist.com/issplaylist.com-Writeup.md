@@ -16,7 +16,7 @@ First, I navigated to the website in the question. From there, I clicked Contact
 * Answer - Cross-Site Scripting
 
 First, I tried experiemnting with including a ' in the fields to get an SQL error. That did not work, as I got the same flag as the previous challenge. 
-![Vulnerability Discovery-2](https://github.com/user-attachments/assets/0e6de2c5-1d7d-4132-9b4d-613c304e6b7c)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/53da4c88-831c-44b2-9c21-4b9dd8284073)
 
 Then I tested for an XSS vulnerability by typing the hr HTML tag into each field of the contact form. I noticed the horizontal line from the hr HTML tag was displayed on the page. 
 ![Vulnerability Discovery-3](https://github.com/user-attachments/assets/f4add8de-bcef-4607-85cd-37f41ae9ea2f)
