@@ -17,7 +17,7 @@ This challenge tests basic website reconnaissance. The company name is ISS Playl
 
 At the company page, hover over the names to see the email and the convention for usernames. 
 
-![Username Format Reconnaissance 2](https://github.com/user-attachments/assets/c9b12fe7-fe81-4163-a953-f8e3fb24575c)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/9cf47844-9b13-4f3a-8757-cbe5ef4b67cf)
 
 
 # ClippedBin OSINT 1
