@@ -100,13 +100,12 @@ SSH is one way to get a remote shell to a server. I logged into the server using
 
 * Challenge - The support system has a custom sudo configuration. Which command is the tomcat user allowed to run as root?
 * Points - 2
-* Answer - chmod
 
 Now that I have SSH access to the system as the tomcat user, I can run the command below to see what the tomcat user can run as root.  
 
-![Local Privilege Management-1](https://github.com/user-attachments/assets/6e4a6f22-87d7-455b-a2a4-097541783c68)
+![Web Password File-2](https://github.com/user-attachments/assets/30ef4cd3-67e7-41ee-840d-6431884d8418)
 
-From the multiple choice options present, chmod is the option in the output, so that's the right answer.
+From the multiple choice options present, one of the options in the output, so that's the right answer.
 
 
 # Local Privilege Escalation
