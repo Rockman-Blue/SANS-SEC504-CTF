@@ -41,7 +41,6 @@ Looking at the same ClippedBin entry from the above challenge, the author's name
 
 * Challenge - Use the exploit to gain access to the orders.issplaylist.com server. Retrieve the flag in the /opt/tomcat/webapps/ROOT directory.
 * Points - 5
-* Answer - NetWars{ExploitSuccess}
 
 First, I created a new file from my Linux terminal called exploit.py in Gedit:
 * gedit exploit.py
