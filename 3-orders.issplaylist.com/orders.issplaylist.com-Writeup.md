@@ -12,7 +12,6 @@ The robots.txt file restricts which pages can be indexed by search engines. You 
 
 * Challenge - Using the information on the orders.issplaylist.com website, identify the version of Apache Struts in use.
 * Points - 2
-* Answer - 2.3.14
 
 Looking at the robots.txt file screenshot from the above challenge, we can see the struts version listed in one of the lines.  
 
