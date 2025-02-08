@@ -77,7 +77,6 @@ Viewing the directory, I see the .htpasswd file, which is the file used for stor
 
 * Challenge - Crack the password for the tomcat user using the .htpasswd file contents. Submit the plaintext password for the tomcat user.
 * Points - 3
-* Answer - tacmot
 
 From the output of the script used in the last challenge to view the encrypted passwords, I copied the hash to my clipboard. Back at my Linux terminal, I ran "gedit orders-hash.txt" to create a new file with Gedit and paste the hash into the file. Then I saved and closed the file. 
 
@@ -91,7 +90,6 @@ In Hashcat, cracked passwords are show in in the format username:hash:password w
 
 * Challenge - Using the compromised username and password, access a shell on the target server. Submit the flag shown when logging in.
 * Points - 3
-* Answer - NetWars{RemoteAccessAchieved}
 
 SSH is one way to get a remote shell to a server. I logged into the server using the compromised credentials from previous challenges in this section, tomcat/tacmot. 
 
