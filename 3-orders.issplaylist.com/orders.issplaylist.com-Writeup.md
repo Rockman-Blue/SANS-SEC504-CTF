@@ -64,7 +64,6 @@ I used the help information to craft the command needed. After experimenting wit
 
 * Challenge - Using the same exploit access, examine the file used for storing encrypted passwords in the web root (/opt/tomcat/webapps/ROOT/). Submit the flag.
 * Points - 3
-* Answer - NetWars{WebPasswordHashes}
 
 First, I used the exploit used in the above challenge to view the contents of the /opt/tomcat/webapps/ROOT directory. 
 
@@ -72,7 +71,7 @@ First, I used the exploit used in the above challenge to view the contents of th
 
 Viewing the directory, I see the .htpasswd file, which is the file used for storing encrypted passwords. The next step is to craft a command to display the contents of this file. For this, I changed the command to be run inside the single quotes from ls to show the directory's content, to cat to view the .htpasswd file.
 
-![Web Password File-2](https://github.com/user-attachments/assets/dd956a8d-f356-47b7-9469-4161e737ac30)
+![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/87b19080-97db-4041-86d6-ccbaf3b5344a)
 
 
 # Always Be Cracking
