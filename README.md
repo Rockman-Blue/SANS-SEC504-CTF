@@ -19,7 +19,7 @@ As you can see from the screenshot below, I have completed every challenge. Each
 
 ![Screenshot 2024-12-16 114512](https://github.com/user-attachments/assets/73805530-a97f-4ea8-aa0c-92273592a904)
 
-Questions are answered either by submitting a flag or string, or are multiple choice. The order of the challenge categories is below.
+Questions are answered either by submitting a flag or string, or are multiple choice. Due to my agreement with the SANS Copyright Team, I cannot disclose the answers for the CTF. So, my write-up will include the question/challenge and the steps I took to solve it, but not the answers themselves. The order of the challenge categories is below:
 
 * Introduction
 * OSINT and Recon
