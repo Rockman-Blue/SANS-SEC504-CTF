@@ -70,7 +70,7 @@ First, I used the exploit used in the above challenge to view the contents of th
 
 Viewing the directory, I see the .htpasswd file, which is the file used for storing encrypted passwords. The next step is to craft a command to display the contents of this file. For this, I changed the command to be run inside the single quotes from ls to show the directory's content, to cat to view the .htpasswd file.
 
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/87b19080-97db-4041-86d6-ccbaf3b5344a)
+![Web Password File-2](https://github.com/user-attachments/assets/700eccf0-5aa6-4d1e-a18e-34e73e65a742)
 
 
 # Always Be Cracking
