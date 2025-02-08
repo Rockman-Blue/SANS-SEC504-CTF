@@ -95,4 +95,4 @@ Going back to the host at cam.issplaylist.com, use the credentials from the past
 
 Once logged in at the cam.issplaylist.com page with admin/admin, use the camera controls on the page to look at the board for the answer. 
 
-![IP Camera Disclosure-2](https://github.com/user-attachments/assets/333df755-0b79-4498-964d-57e5ae4c3aa0)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/f703841c-e64a-4c10-9490-8b0229ca217f)
