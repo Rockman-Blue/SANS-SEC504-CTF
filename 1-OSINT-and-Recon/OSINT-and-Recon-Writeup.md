@@ -66,11 +66,10 @@ From the same output of the dig command that performs a zone transfer, we can se
 
 * Challenge - Access the IP camera logon page. Submit the flag.
 * Points - 1
-* Answer - NetWars{WebCamLogin}
 
 I already know the hostname for the camera target from the output of the above screenshot. In Firefox, I type "cam.issplaylist.com" in the search bar. The flag is displayed at the bottom of the page. 
 
-![IP Camera Logon-2](https://github.com/user-attachments/assets/6f60a1ca-0b8b-4cb3-932b-55adb39c519a)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/3d3f72df-3091-4b8c-a74f-6a09711e004c)
 
 
 # IP Camera Access
