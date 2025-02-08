@@ -56,11 +56,10 @@ Regarding DNS reconnaissance, the biggest vulnerability a DNS server can have is
 
 * Challenge - What is the IPv4 address of the camera target?
 * Points - 1
-* Answer - 10.142.145.170
 
 From the same output of the dig command that performs a zone transfer, we can see the IP of the host "cam.issplaylist.com". Cam is for the camera target. 
 
-![IP Camera Target-2](https://github.com/user-attachments/assets/209baa6f-f20a-4d3c-a5b1-e16914985d61)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/0d4c7f84-3e8f-473a-9c63-4ea225064968)
 
 
 # IP Camera Logon
