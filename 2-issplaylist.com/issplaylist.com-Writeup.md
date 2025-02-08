@@ -28,9 +28,8 @@ This means my input was reflected on the page. To confirm this, I viewed the pag
 
 * Challenge - Identify the hidden page on the http://www.issplaylist.com server. Submit the page name (XXXXX.html).
 * Points - 5
-* Answer - admin.html
 
-Typically, admin pages are hidden from normal users. If a web server is misconfigured, you can just go straight to the admin page with a forced browsing attack. From the question, we know the page name is five characters. So I typed issplaylist.com/admin.html in my browser and saw an admin page. 
+Typically, admin pages are hidden from normal users. If a web server is misconfigured, you can just go straight to the admin page with a forced browsing attack. From the question, we know the page name is five characters. So I typed issplaylist.com/admin.html in my browser. 
 ![Forced Browsing-2](https://github.com/user-attachments/assets/17690325-9e0f-4325-b4b2-1b41ab424daf)
 
 # Cookie Theft
