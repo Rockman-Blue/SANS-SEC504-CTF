@@ -91,7 +91,6 @@ Going back to the host at cam.issplaylist.com, use the credentials from the past
 
 * Challenge - Who does Bridget need to follow up with?
 * Points - 2
-* Answer - Phyliss
 
 Once logged in at the cam.issplaylist.com page with admin/admin, use the camera controls on the page to look at the board for the answer. 
 
