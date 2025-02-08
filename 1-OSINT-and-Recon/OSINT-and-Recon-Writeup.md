@@ -76,7 +76,6 @@ I already know the hostname for the camera target from the output of the above s
 
 * Challenge - Gain access to the IP camera system through the web interface logon page. Submit the flag displayed after logging in to the system.
 * Points - 4
-* Answer - NetWars{WebCamAccess}
 
 From the previous challenges in this category/section, I know that I should use ClippedBin for OSINT against the target. So I go to clippedbin.com, and then the recent page. From there, I search for the hostname "cam.issplaylist.com" and find a paste that contains the credentials for this target.
 
@@ -85,7 +84,8 @@ From the previous challenges in this category/section, I know that I should use 
 
 Going back to the host at cam.issplaylist.com, use the credentials from the paste - admin/admin to login. After logging in, the flag is displayed at the bottom of the page. 
 
-![IP Camera Access-4](https://github.com/user-attachments/assets/9ac9d7b9-0b4d-47ad-99f1-268a24590f74)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/de9280cf-6126-4796-b062-2676914b7e06)
+
 
 # IP Camera Disclosure
 
