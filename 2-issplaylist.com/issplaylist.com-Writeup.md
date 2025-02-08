@@ -2,12 +2,11 @@
 
 * Challenge - Interact with the contact form on the http://www.issplaylist.com website. What is the flag returned as the reference number?
 * Points - 3
-* Answer - NetWars{ContactFormSubmitted} 
 
 First, I navigated to the website in the question. From there, I clicked Contact in the navbar at the top of the site to go to the contact form. After that, I submitted the form with expected input to get the flag. 
 
 ![Contact-2](https://github.com/user-attachments/assets/b6e69b17-d014-40da-a89b-01f74dc2b186)
-![Contact-3](https://github.com/user-attachments/assets/2dda7127-bda9-4f27-8425-948b6cbbf6f5)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/b1380dc0-ccd7-44f8-8536-92d8d0bebf16)
 
 
 # Vulnerability Discovery
