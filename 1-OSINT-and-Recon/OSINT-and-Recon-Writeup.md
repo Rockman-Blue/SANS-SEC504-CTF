@@ -8,7 +8,7 @@ This challenge tests basic website reconnaissance. The company name is ISS Playl
 
 ![Screenshot 2024-12-16 115918](https://github.com/user-attachments/assets/2ef9c741-5967-4f1a-b366-8d83faab7f8a)
 
-![Screenshot 2024-12-16 115956](https://github.com/user-attachments/assets/3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed)
+![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/b67cbe1b-d1ec-4c95-880b-78d5e03fa33b)
 
 
 # Username Format Reconnaissance
