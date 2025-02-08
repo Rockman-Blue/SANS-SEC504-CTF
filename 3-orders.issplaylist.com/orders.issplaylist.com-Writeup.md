@@ -24,14 +24,13 @@ Looking at the robots.txt file screenshot from the above challenge, we can see t
 When I saw the term "in-game assets" I thought about ClippedBin and how it was used for the OSINT and Recon section of this CTF. I went to ClippedBin and searched for "struts" and found an entry. After viewing the entry, I see a CVE entry for this version of Apache Struts. 
 
 ![Vulnerability Research-1](https://github.com/user-attachments/assets/7c1b2a92-f370-477e-8826-a1646eb964d7)
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/c8d925aa-f38b-4259-9fa4-b72fe40ace5d)
+![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/9dc83e9c-0151-44e5-96d7-751bf4e65ade)
 
 
 # Exploit Identification
 
 * Challenge - Using in-game assets, identify an exploit left behind by the attackers. Enter the name of the exploit code author (first and last).
 * Points - 2
-* Answer - Mazin Ahmed
 
 Looking at the same ClippedBin entry from the above challenge, the author's name for the exploit code is present. 
 
