@@ -5,7 +5,7 @@
 
 The robots.txt file restricts which pages can be indexed by search engines. You can access it by specifying it in the URL, for example here I got the flag by typing http://orders.issplaylist.com/robots.txt. 
 
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/417e0097-91ca-4e6e-9db4-50ab5e1ec503)
+![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/8dcfb35b-2a83-4c15-84af-6e1a13d40b0e)
 
 
 # Apache Struts Version
@@ -14,7 +14,7 @@ The robots.txt file restricts which pages can be indexed by search engines. You 
 * Points - 2
 * Answer - 2.3.14
 
-Looking at the robots.txt file screenshot from the above challenge, we can see the struts version listed as 2.3.14 in one of the names. 
+Looking at the robots.txt file screenshot from the above challenge, we can see the struts version listed in one of the lines.  
 
 
 # Vulnerability Research
