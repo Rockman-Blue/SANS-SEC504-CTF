@@ -122,7 +122,6 @@ From running the command in the above challenge, I see that the tomcat user can 
 
 * Challenge - What is the login password for the jorestes user account?
 * Points - 4
-* Answer - Carolina1
 
 I copied the /etc/shadow contents into my clipboard and typed "exit" to drop my SSH session and return to my terminal. Then I pasted the password hashes into a new file.
 * gedit tomcat-hashes.txt
@@ -131,15 +130,14 @@ After pasting the hashes in Gedit, I saved and closed the file. Now it's time to
 
 ![Local Privilege Escalation-2](https://github.com/user-attachments/assets/758754f4-5125-414c-90f5-6d4f8b29f24b)
 
-![Local Privilege Escalation-3](https://github.com/user-attachments/assets/c0623290-2e2c-4b13-8d89-a1e78ae52ccd)
+![396523377-c0623290-2e2c-4b13-8d89-a1e78ae52ccd](https://github.com/user-attachments/assets/3343a6c9-3556-4e9e-9c93-b038db434cbf)
 
-The credentials for the jorestes user are jorestes/Carolina1. 
+The credentials for the jorestes user are retrieved by Hashcat in the format of <user>:<password_hash>:<plaintext_password>.
 
 
 # pemma Password
 
 * Challenge - What is the login password for the pemma user account?
 * Points - 4
-* Answer - spacestation
 
-From the Hashcat commands ran in the above challenge, the password for the penma user was cracked. The credential is penma/spacestation. 
+From the Hashcat commands ran in the above challenge, the password for the penma user was cracked. 
