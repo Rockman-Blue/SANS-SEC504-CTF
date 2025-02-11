@@ -2,7 +2,6 @@
 
 * Challenge - Explore the pls.issplaylist.com site and observe a sample playlist. Enter the flag.
 * Points - 2
-* Answer - NetWars{SearchResultFlag}
 
 I navigated to the site at pls.issplaylist.com and typed in "Rock" in the search bar and hit enter. 
 
@@ -10,7 +9,7 @@ I navigated to the site at pls.issplaylist.com and typed in "Rock" in the search
 
 The flag is displayed a bit further down the page. 
 
-![Site Reconnaissance-2](https://github.com/user-attachments/assets/a5981359-65a1-4ed7-a77f-e23dba05e113)
+![396549663-a5981359-65a1-4ed7-a77f-e23dba05e113](https://github.com/user-attachments/assets/1a04e7e9-c433-4f59-b382-d401a2ed5ca6)
 
 
 # Error Generation
