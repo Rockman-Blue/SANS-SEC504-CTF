@@ -37,7 +37,6 @@ From the above previous challenge, there's an SQL error. The SQL error indicates
 
 * Challenge - Exploit the vulnerability identified on the pls.issplaylist.com website. Retrieve the flag value stored in the flag table.
 * Points - 5
-* Answer - NetWars{DatabaseAccess}
 
 Manual SQL injection can be trick and time consuming. Instead, I'll use the Sqlmap tool to make exploiting the vulnerability easier. Several uses of Sqlmap are needed to get the flag. When you use SQL map, there are two rules to follow:
 * Use a valid, non-error generating URL.
@@ -62,7 +61,7 @@ I did so with the following command. After running the below command to dump the
 
 ![Vulnerability Exploitation-4](https://github.com/user-attachments/assets/f6838295-173e-4859-8131-ea57534688ae)
 
-![Vulnerability Exploitation-5](https://github.com/user-attachments/assets/6bee0bde-da58-417d-89b1-958e7f955557)
+![396563914-6bee0bde-da58-417d-89b1-958e7f955557](https://github.com/user-attachments/assets/be3128ba-b0ab-4676-897c-165394b647fc)
 
 
 # Always Be Cracking
