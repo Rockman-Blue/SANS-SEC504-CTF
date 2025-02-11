@@ -168,9 +168,9 @@ The command output confirms that my user Rockman was added. Next I added my newl
 
 ![396630275-deebe007-cb8f-4bb8-9212-e4fa076211cd](https://github.com/user-attachments/assets/8cecf12f-fa90-4fd6-b0f8-499a65fa09e7)
 
-The command output confirmed that Rockman was added to the administrators group. Now it's time to go to my attacker terminal and use Smbclient to download the flag file from the share. When I typed the below command and entered my password, I was granted with an SMB prompt, and a connection to the non-hidden share, Submissions.
+The command output confirmed that Rockman was added to the administrators group. Now it's time to go to my attacker terminal and use Smbclient to download the flag file from the share. When I typed the below command and entered my password, I was granted with an SMB prompt, and a connection to the non-hidden share specified in the command.
 
-![Access Share-3](https://github.com/user-attachments/assets/de00efe1-5994-4d98-b8d9-206a4d048dd7)
+![396630916-de00efe1-5994-4d98-b8d9-206a4d048dd7](https://github.com/user-attachments/assets/2931788f-17d9-4557-ac3d-db4c034e8f3e)
 
 Now that I'm connected to the share it's time to enumerate the share's contents. With Smbclient, this can be done with ls. I typed ls at the SMB prompt to enumerate the share's files.  
 
