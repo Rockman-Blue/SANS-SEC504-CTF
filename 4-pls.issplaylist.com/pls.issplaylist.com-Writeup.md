@@ -77,7 +77,7 @@ From the question, I know that we're looking for the users table in the pls data
 
 ![Always Be Cracking-1](https://github.com/user-attachments/assets/0c054e03-19cf-426a-aa4d-d5b31493e2d2)
 
-![Always Be Cracking-2](https://github.com/user-attachments/assets/32159ebf-15d5-4192-bcbe-a8ac7fba11d7)
+![396567468-32159ebf-15d5-4192-bcbe-a8ac7fba11d7](https://github.com/user-attachments/assets/b69ad21f-9bf0-4144-812f-a24d325d5216)
 
 In the Sqlmap output from the second screenshot of the two above, it shows "writing hashes to a temporary file '/tmp/sqlmapy0bF_L4759/sqlmaphashes-TpoRtk.txt'". I copied that file to my working directory, confirmed it was copied over successfully, and displayed the contents. 
 
