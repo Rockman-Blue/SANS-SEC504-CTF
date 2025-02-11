@@ -86,9 +86,9 @@ On Windows machines, dir can be used to display directory contents. I used the d
 The output of the attack confirms the presence of F-L-A-G.txt in the web root directory, wwwroot. Now that I know what file I'm looking for and the location, it's time to craft the right command to display the flag file's content. The Windows type command displays the contents of the specified text file. I used the following command:
 * 128 && type c:\InetPub\songs.issplaylist.com\wwwroot\F-L-A-G.txt
 
-![Vulnerability Exploitation-2](https://github.com/user-attachments/assets/a8f9d367-381d-4049-9ab4-06b35863b21f)
+![396619438-a8f9d367-381d-4049-9ab4-06b35863b21f](https://github.com/user-attachments/assets/c119b2be-1441-4dd8-8021-bc2aabee8cdf)
 
-The command injection attack works successfully and I'm able to see the output of the F-L-A-G.txt file. That output is the answer to this challenge. 
+The attack works successfully and I'm able to see the output of the F-L-A-G.txt file. That output is the answer to this challenge. 
 
 
 # Windows Version Enumeration
