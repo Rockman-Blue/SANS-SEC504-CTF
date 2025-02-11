@@ -160,7 +160,8 @@ To access the non-hidden share, I have two main tools, Rpcclient and Smbclient. 
 Re-using the command injection vulnerability, I create a new user account and add it to the administrators group with two commands. First, I input this command into the input field:
 * 128 && net user /add Rockman Password1
 
-![Access Share-1](https://github.com/user-attachments/assets/bdc4ff92-0352-4510-b2ed-ba81611bafbb)
+![396629793-bdc4ff92-0352-4510-b2ed-ba81611bafbb](https://github.com/user-attachments/assets/0b5a25d5-8e92-4371-891b-40c54609f815)
+
 
 The command output confirms that my user Rockman was added. Next I added my newly created user account to the administrators group with the following command injection: 
 * 128 && net localgroup administrators /add Rockman
