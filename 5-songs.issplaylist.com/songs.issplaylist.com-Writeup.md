@@ -56,9 +56,9 @@ I thought to try inputing 128 into the form on status page. This worked and the 
 * Points - 4
 * Answer - Command Injection
 
-This question is multiple choice. I tried the different choices from top to down, starting with SQL injection. First I tried inputing a single quote, ' into the input field of the status page's form. This did not return a SQL error, but instead the same error page that contained the NetWars{InvalidSubmissionsAreUseful} flag like the image below. 
+This question is multiple choice. I tried the different choices from top to down, starting with SQL injection. First I tried inputing a single quote, ' into the input field of the status page's form. This did not return a SQL error, but instead the same error page that contained the NetWars flag like the image below. 
 
-![Vulnerability Discovery-1](https://github.com/user-attachments/assets/1022f923-3a7d-4948-aef3-44ad1b53b508)
+![396615979-1022f923-3a7d-4948-aef3-44ad1b53b508](https://github.com/user-attachments/assets/2d9af7f0-f8e7-4196-a70f-13d0470e8610)
 
 
 Next on the list of answer options to test is command injection. I know that there are many ways to attempt command stacking, mainly by putting a ;, &&, and || in between two commands. I tried multiple command stacking tests in the input field along with the whoami command. This is because the whoami command works on both Linux and Windows systems. I used a command that would work on both systems to make identifying the vulnerability easier. 
