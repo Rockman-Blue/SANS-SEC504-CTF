@@ -97,10 +97,10 @@ The attack works successfully and I'm able to see the output of the F-L-A-G.txt 
 * Answer - 10.0.17763.3287
 
 From the previous challenges, I know the following information:
-* The songs.issplaylist.com target is vulnerable to command injection attacks at the status page.
+* The songs.issplaylist.com target is vulnerable to an attack at the status page.
 * The songs.issplaylist.com target is a Windows sserver system.
 
-Windows has many built-in utilities for system information enumeration. One of them is the ver tool, which I used in a command injection attack to get the version of Windows server. I entered the below command into the input field:
+Windows has many built-in utilities for system information enumeration. One of them is the ver tool, which I used in an attack to get the version of Windows server. I entered the below command into the input field:
 * 128 && ver
 
 This returned the version number. 
