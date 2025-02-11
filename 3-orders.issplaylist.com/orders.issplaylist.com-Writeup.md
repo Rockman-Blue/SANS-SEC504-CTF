@@ -112,11 +112,10 @@ From the multiple choice options present, one of the options in the output, so t
 
 * Challenge - Using the commands available through sudo, escalate privileges to gain root access on the system. Retrieve the flag stored in the /etc/shadow file.
 * Points - 4
-* Answer - NetWars{ShadowSuccess}
 
 From running the command in the above challenge, I see that the tomcat user can run chmod, chown, and chgrp as root. Chmod is used to change access permissions of files and directories, so I used the fact that I can run chmod as root to view the /etc/shadow file. 
 
-![Local Privilege Escalation](https://github.com/user-attachments/assets/ac395b16-77da-43f0-99e7-d485ad417efb)
+![396520663-ac395b16-77da-43f0-99e7-d485ad417efb](https://github.com/user-attachments/assets/f2cef1b8-cee0-434e-a7b1-fdcf82db2dc4)
 
 
 # jorestes Password
