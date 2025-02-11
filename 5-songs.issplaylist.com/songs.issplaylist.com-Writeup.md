@@ -206,7 +206,7 @@ After successfully gaining a reverse shell with Meterpreter against the target s
 
 Hashdump is used to dump the contents of the SAM database on a Windows system. The SAM database stores user password information, similar to how /etc/shadow on Linux stores password hashes. Now that I have the password hashes, I copied the hashes to my clipboard. Next, I typed "exit" at the Meterpreter prompt to drop my reverse shell connection to the target system. Lastly, I typed "exit" to exit the Metasploit console and return to the Linux termal. From there I used Gedit to create a new file, paste the hashes into it, save the file, then close it. 
 
-![Always Be Cracking-5](https://github.com/user-attachments/assets/c513bb0e-864d-42da-a8ec-6aaa637f3207)
+![396670563-c513bb0e-864d-42da-a8ec-6aaa637f3207](https://github.com/user-attachments/assets/ca5c0e42-caef-428c-9255-5ef1c8e168f3)
 
 Now that I have the hashfile, it's time to look for the NT hash for the Administrator account. The screenshot above shows the hashes, and the NT password hash is the rightmost section of the colon separated fields from hashdump’s output. The NT hash for the Administrator account is the bc50ab76b6db99f148629a76bf0766c4. 
 
