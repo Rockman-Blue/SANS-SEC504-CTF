@@ -226,4 +226,4 @@ With Hashcat, you can specify the following generic format to view already crack
 
 I used these arguments for the songs-hashes.txt file. The password for the Administrator account was successfully cracked. 
 
-![Always Be Cracking (2)-2](https://github.com/user-attachments/assets/05da8276-2165-448c-b9e2-7168d58b3018)
+![396672664-05da8276-2165-448c-b9e2-7168d58b3018](https://github.com/user-attachments/assets/b96de60c-8e3f-42b7-b903-bc2ac84fb320)
