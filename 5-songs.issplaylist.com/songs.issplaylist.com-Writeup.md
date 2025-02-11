@@ -76,7 +76,7 @@ After trying the first two options in the bullet list above, I got the same erro
 * Points - 5
 * Answer - NetWars{WebRootFlag}
 
-Now that I know that this page is vulnerable to command injection and that the general formula is typing 128 && followed by a Windows command, this challenge is about crafting the right command. I know the target is a Windows machine because of the file path in the question. 
+The general formula to target the page's vulnerability is typing 128 && followed by a Windows command, this challenge is about crafting the right command. I know the target is a Windows machine because of the file path in the question. 
 
 On Windows machines, dir can be used to display directory contents. I used the dir command to find the filename associated with the flag in the web root directory by typing the below input into the field:
 * 128 && dir c:\InetPub\songs.issplaylist.com\wwwroot
