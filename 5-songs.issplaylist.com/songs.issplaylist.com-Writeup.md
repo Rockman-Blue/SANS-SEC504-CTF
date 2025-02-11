@@ -94,7 +94,6 @@ The attack works successfully and I'm able to see the output of the F-L-A-G.txt 
 
 * Challenge - What version of Windows Server is used for the songs.issplaylist.com server?
 * Points - 2
-* Answer - 10.0.17763.3287
 
 From the previous challenges, I know the following information:
 * The songs.issplaylist.com target is vulnerable to an attack at the status page.
@@ -105,7 +104,7 @@ Windows has many built-in utilities for system information enumeration. One of t
 
 This returned the version number. 
 
-![Windows Version Enumeration-1](https://github.com/user-attachments/assets/1f55c13d-dae6-41e1-8667-9c73acecd0e8)
+![396621435-1f55c13d-dae6-41e1-8667-9c73acecd0e8](https://github.com/user-attachments/assets/b7b48be8-32d3-43a6-a80c-2799e232d272)
 
 
 # Privilege Evaluation
