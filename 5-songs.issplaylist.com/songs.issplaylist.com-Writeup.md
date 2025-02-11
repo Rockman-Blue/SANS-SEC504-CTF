@@ -48,7 +48,7 @@ The robots.txt file has a line with a number, 128.
 
 I thought to try inputing 128 into the form on status page. This worked and the flag was displayed on the page. 
 
-![Valid Status-2](https://github.com/user-attachments/assets/798894a7-578b-4775-87b0-d6600dcee6e0)
+![396612222-798894a7-578b-4775-87b0-d6600dcee6e0](https://github.com/user-attachments/assets/2480f979-5e5f-4833-9de1-39e1f4fdca69)
 
 
 # Vulnerability Discovery
