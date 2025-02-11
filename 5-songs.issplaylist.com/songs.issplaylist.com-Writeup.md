@@ -166,7 +166,7 @@ Re-using the command injection vulnerability, I create a new user account and ad
 The command output confirms that my user Rockman was added. Next I added my newly created user account to the administrators group with the following command injection: 
 * 128 && net localgroup administrators /add Rockman
 
-![Access Share-2](https://github.com/user-attachments/assets/deebe007-cb8f-4bb8-9212-e4fa076211cd)
+![396630275-deebe007-cb8f-4bb8-9212-e4fa076211cd](https://github.com/user-attachments/assets/8cecf12f-fa90-4fd6-b0f8-499a65fa09e7)
 
 The command output confirmed that Rockman was added to the administrators group. Now it's time to go to my attacker terminal and use Smbclient to download the flag file from the share. When I typed the below command and entered my password, I was granted with an SMB prompt, and a connection to the non-hidden share, Submissions.
 
