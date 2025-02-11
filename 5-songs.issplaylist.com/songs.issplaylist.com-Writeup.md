@@ -134,7 +134,7 @@ The output shows the account that is assigned to the web server process.
 The Windows net use command displays current and active shares. First I tried inputing the following command injection into the input field:
 * 128 && net view /all \\songs.issplaylist.com
 
-![Privileged Assessment-1](https://github.com/user-attachments/assets/4cf3a8d4-3cb4-47f3-986a-54bf53a67352)
+![396627601-4cf3a8d4-3cb4-47f3-986a-54bf53a67352](https://github.com/user-attachments/assets/feabc52a-fa49-48cb-9f8f-c4a027742008)
 
 This did not show me the output I wanted. After some troubleshooting, I figured out that to use the net use command to list all of the shares, I needed to specify the server IP after //. 
 
