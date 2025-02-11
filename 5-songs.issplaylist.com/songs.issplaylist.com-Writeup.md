@@ -65,9 +65,9 @@ Next on the list of answer options to test is command injection. I know that the
 * 128 || whoami
 * 128 && whoami
 
-After trying the first two options in the bullet list above, I got the same error page as the screenshot above when I tried testing the form for an SQL injection vulnerability. However, when I tried the last option in the bullet list, I noticed the output was different. The whoami command ran successfully. 
+After trying the first two options in the bullet list above, I got the same error page as the screenshot above when I tried testing the form for an SQL injection vulnerability. However, when I tried the last option in the bullet list, I noticed the output was different. The whoami command ran successfully.
 
-![Vulnerability Discovery-2](https://github.com/user-attachments/assets/aaac689c-b21f-4bc5-a893-7e589b7c52cc)
+![396616531-aaac689c-b21f-4bc5-a893-7e589b7c52cc](https://github.com/user-attachments/assets/e6c33e90-707e-4791-8718-fb7b8ee91970)
 
 
 # Vulnerability Exploitation
