@@ -118,10 +118,10 @@ The whoami command shows user, group, and privilege information for the user log
 The output to whoami is in the general format:
 * DomainName/username
 
-I used a command injection attack against the server with whoami by typing the following into the input field:
+I used a attack against the server with whoami by typing the following into the input field:
 * 128 && whoami
 
-The output shows that the administrator account is assigned to the web server process. 
+The output shows that the account that is assigned to the web server process. 
 
 ![Privilege Evaluation-1](https://github.com/user-attachments/assets/bafd72b5-7d98-4636-b788-9b2a4b5b0823)
 
