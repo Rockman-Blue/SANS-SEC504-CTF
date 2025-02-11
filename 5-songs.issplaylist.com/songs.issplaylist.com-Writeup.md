@@ -74,7 +74,6 @@ After trying the first two options in the bullet list above, I got the same erro
 
 * Challenge - Use the vulnerability identified in the check submission functionality of the songs.issplaylist.com site to identify the flag in the web root directory c:\InetPub\songs.issplaylist.com\wwwroot.
 * Points - 5
-* Answer - NetWars{WebRootFlag}
 
 The general formula to target the page's vulnerability is typing 128 && followed by a Windows command, this challenge is about crafting the right command. I know the target is a Windows machine because of the file path in the question. 
 
