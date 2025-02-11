@@ -68,7 +68,6 @@ I did so with the following command. After running the below command to dump the
 
 * Challenge - Use your access to the target database to retrieve the contents of the users table in the pls database. Recover the password for ISS Playlist employee epreston.
 * Points - 4
-* Answer - spacestation
 
 For this challenge I will use Sqlmap again. From the previous challenge, I know how to dump the contents of a table for a specified database with the following generic command format:
 * sqlmap -u "URL" -D databaseName -T tableName --dump
@@ -92,15 +91,14 @@ Now it's time to figure out which hash mode to specify in the command since Hash
 
 ![Always Be Cracking-5](https://github.com/user-attachments/assets/c93ed970-76a7-41b3-ae9c-0fded56c2708)
 
-Next, I use the --show and --user arguments to tell Hashcat to display the cracked password and associated usernames. The password for epreson is spacestation.
+Next, I use the --show and --user arguments to tell Hashcat to display the cracked password and associated usernames. The password for epreson is shown.
 
-![Always Be Cracking-6](https://github.com/user-attachments/assets/951181fc-b1b2-4d51-8cc8-c99c3fb3fa00)
+![396574981-951181fc-b1b2-4d51-8cc8-c99c3fb3fa00](https://github.com/user-attachments/assets/cbfd96f1-84b5-4966-8f28-b7fa962bdd6d)
 
 
 # Always Be Cracking (2)
 
 * Challenge - Continue to recover passwords from the users table. Submit the password for the jorestes account.
 * Points - 4
-* Answer - Carolina1
 
-The password for the jorestes account, Carolina1 was cracked when I did the challenge above. 
+The password for the jorestes account was cracked when I did the challenge above. 
