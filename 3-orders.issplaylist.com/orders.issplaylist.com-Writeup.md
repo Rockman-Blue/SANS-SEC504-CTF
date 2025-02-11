@@ -82,7 +82,7 @@ From the output of the script used in the last challenge to view the encrypted p
 
 Next, I used hashcat to recover the password, supplying my newly created hashfile with the single hash and the word list provided from the labs. The password hash has a username, so I used --user in my hashcat command to tell hashcat to expect a username. 
 
-![Web Password File-2](https://github.com/user-attachments/assets/d31ebb94-d51d-465a-9abc-d8f83ef03357)
+![411253955-d31ebb94-d51d-465a-9abc-d8f83ef03357](https://github.com/user-attachments/assets/710e8756-9a58-419f-acee-fefee403bfb9)
 
 In Hashcat, cracked passwords are show in in the format username:hash:password when you use the --user argument. 
 
