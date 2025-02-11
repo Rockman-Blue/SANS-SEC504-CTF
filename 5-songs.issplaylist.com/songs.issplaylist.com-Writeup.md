@@ -38,7 +38,6 @@ The field expects an ID number, so anything that is not a number is an invalid s
 
 * Challenge - Continue to examine the song submission status check feature on the songs.issplaylist.com website. Identify the flag associated with a valid submission ID value.
 * Points - 3
-* Answer - NetWars{SubmissionValidated}
 
 At the status page, the first thing I tried was inputting several numbers starting from 1. However, I still kept getting the same error page as the screenshot above. After trying many numbers and not getting anywhere, I decided to look back on other questions in this challenge of the CTF event.
 
