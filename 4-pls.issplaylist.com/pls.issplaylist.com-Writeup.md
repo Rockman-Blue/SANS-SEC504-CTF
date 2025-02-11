@@ -16,7 +16,6 @@ The flag is displayed a bit further down the page.
 
 * Challenge - Manipulate your search syntax when generating a playlist, attempting to produce an error. Enter the flag.
 * Points - 4
-* Answer - NetWars{ErrorReported}
 
 Here, I can produce an error with unexpected inpupt. The first thing I tried was typing in a ' in the search field to see if the page returns an SQL error. 
 
