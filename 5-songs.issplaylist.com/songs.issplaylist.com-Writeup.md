@@ -54,7 +54,6 @@ I thought to try inputing 128 into the form on status page. This worked and the 
 
 * Challenge - Explore the songs.issplaylist.com website to identify a vulnerability. Identify the type of vulnerability.
 * Points - 4
-* Answer - Command Injection
 
 This question is multiple choice. I tried the different choices from top to down, starting with SQL injection. First I tried inputing a single quote, ' into the input field of the status page's form. This did not return a SQL error, but instead the same error page that contained the NetWars flag like the image below. 
 
@@ -66,7 +65,7 @@ Next on the list of answer options to test is command injection. I know that the
 * 128 || whoami
 * 128 && whoami
 
-After trying the first two options in the bullet list above, I got the same error page as the screenshot above when I tried testing the form for an SQL injection vulnerability. However, when I tried the last option in the bullet list, I noticed the output was different. The whoami command ran successfully, which confirms that this page is vulnerable to a command injection attack. 
+After trying the first two options in the bullet list above, I got the same error page as the screenshot above when I tried testing the form for an SQL injection vulnerability. However, when I tried the last option in the bullet list, I noticed the output was different. The whoami command ran successfully. 
 
 ![Vulnerability Discovery-2](https://github.com/user-attachments/assets/aaac689c-b21f-4bc5-a893-7e589b7c52cc)
 
