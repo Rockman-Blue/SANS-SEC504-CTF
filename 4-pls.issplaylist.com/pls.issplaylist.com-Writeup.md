@@ -29,9 +29,8 @@ The page returns an SQL error and the flag is displayed.
 
 * Challenge - Explore the pls.issplaylist.com website to identify a vulnerability. Identify the type of vulnerability.
 * Points - 5
-* Answer - SQL Injection
 
-From the above previous challenge, there's an SQL error. The SQL error indicates that the search function is querying from a backend database and returned the results of the query to the frontend of the site after submitting a search term. This presents the opportunity for a SQL injection attack. 
+From the above previous challenge, there's an SQL error. The SQL error indicates that the search function is querying from a backend database and returned the results of the query to the frontend of the site after submitting a search term. 
 
 
 # Vulnerability Exploitation
