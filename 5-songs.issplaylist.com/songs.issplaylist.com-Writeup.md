@@ -202,7 +202,7 @@ Now that the options are set, I type "exploit" to send the exploit to the target
 
 After successfully gaining a reverse shell with Meterpreter against the target sytem. It's time to migrate to the LSASS process, and then run the hashdump command. The hashdump command fails, because it's a privileged operation. To fix the privilege issue, I migrated to the lsass.exe process. After this, I ran hashdump again and was able to get the password hashes for several users. 
 
-![Always Be Cracking-4](https://github.com/user-attachments/assets/85e8dd7c-e50a-43c9-8732-68c23f788ed2)
+![396669565-85e8dd7c-e50a-43c9-8732-68c23f788ed2](https://github.com/user-attachments/assets/94a9e021-4bd1-49ed-9c68-635fa1566d7d)
 
 Hashdump is used to dump the contents of the SAM database on a Windows system. The SAM database stores user password information, similar to how /etc/shadow on Linux stores password hashes. Now that I have the password hashes, I copied the hashes to my clipboard. Next, I typed "exit" at the Meterpreter prompt to drop my reverse shell connection to the target system. Lastly, I typed "exit" to exit the Metasploit console and return to the Linux termal. From there I used Gedit to create a new file, paste the hashes into it, save the file, then close it. 
 
