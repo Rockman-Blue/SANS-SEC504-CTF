@@ -81,7 +81,7 @@ From the question, I know that we're looking for the users table in the pls data
 
 In the Sqlmap output from the second screenshot of the two above, it shows "writing hashes to a temporary file '/tmp/sqlmapy0bF_L4759/sqlmaphashes-TpoRtk.txt'". I copied that file to my working directory, confirmed it was copied over successfully, and displayed the contents. 
 
-![Always Be Cracking-3](https://github.com/user-attachments/assets/ef269b8f-15a0-4eb8-a697-7e9829e7a1b9)
+![396571455-ef269b8f-15a0-4eb8-a697-7e9829e7a1b9](https://github.com/user-attachments/assets/064c6704-011e-42e0-a26f-0fdce6cba520)
 
 Now that I have the hashes from the user table, it's time to crack them with hashcat. It took some tries to get the right command. After the first error, I tried the command again, this time with the --user argument to tell Hashcat to expect a username in addition to the password. 
 
