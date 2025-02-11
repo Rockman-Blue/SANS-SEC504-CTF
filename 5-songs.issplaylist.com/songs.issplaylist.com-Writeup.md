@@ -44,7 +44,7 @@ At the status page, the first thing I tried was inputting several numbers starti
 
 The robots.txt file has a line with a number, 128. 
 
-![Valid Status-1](https://github.com/user-attachments/assets/1515495b-3b16-4aed-a8db-cd0e8e41879d)
+![396611957-1515495b-3b16-4aed-a8db-cd0e8e41879d](https://github.com/user-attachments/assets/7d727319-9214-48c3-b12e-0de90239958a)
 
 I thought to try inputing 128 into the form on status page. This worked and the flag was displayed on the page. 
 
