@@ -2,13 +2,12 @@
 
 * Challenge - Which TCP ports are open on the songs.issplaylist.com server?
 * Points - 2
-* Answer - 80, 135, 139, 445
 
 Nmap is a popular tool that offers port scanning and other features. This question was multiple choice, so I limited my port scan to only the ports in the answer options to save time. When possible, use Nmap with sudo. 
 
-![Port Scan-1](https://github.com/user-attachments/assets/2c7524af-db7d-4643-99ac-6bb346b24a27)
+![396607652-2c7524af-db7d-4643-99ac-6bb346b24a27](https://github.com/user-attachments/assets/ed813b37-3556-46f0-a71f-576b1c765bce)
 
-Nmap tells me which ports are open and closed with the reason information. I can see that 80, 135, 139, and 445 are open. 
+Nmap tells me which ports are open and closed with the reason information. 
 
 
 # Site Reconnaissance
