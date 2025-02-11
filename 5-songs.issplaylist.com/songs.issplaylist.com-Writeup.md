@@ -178,7 +178,7 @@ Now that I'm connected to the share it's time to enumerate the share's contents.
 
 Among the files in the share is flag.txt, which contains the answer to this challenge. With Smbclient, you can get followed by the filename to download the SMB share's file to your local system. I do this for flag.txt to download the file to my Linux VM, close the SMB connection, confirm the flag.txt file was download, and show its output to find the flag. 
 
-![Access Share-5](https://github.com/user-attachments/assets/dfbaec17-acde-4350-9826-f9005e29b40c)
+![396631885-dfbaec17-acde-4350-9826-f9005e29b40c](https://github.com/user-attachments/assets/62d80b65-578d-4c39-971d-8af1255a476e)
 
 
 # Always Be Cracking
