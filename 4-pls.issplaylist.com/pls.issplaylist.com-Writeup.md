@@ -20,7 +20,7 @@ The flag is displayed a bit further down the page.
 
 Here, I can produce an error with unexpected inpupt. The first thing I tried was typing in a ' in the search field to see if the page returns an SQL error. 
 
-![Error Generation-1](https://github.com/user-attachments/assets/b9b28aee-01a9-4234-93e0-9a2674e38505)
+![396550594-b9b28aee-01a9-4234-93e0-9a2674e38505](https://github.com/user-attachments/assets/2fd6eeb3-a3a8-47bd-9f12-900d2e3518fa)
 
 The page returns an SQL error and the flag is displayed. 
 
