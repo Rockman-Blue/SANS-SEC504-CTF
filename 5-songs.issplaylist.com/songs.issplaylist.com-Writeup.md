@@ -184,7 +184,6 @@ Among the files in the share is flag.txt, which contains the answer to this chal
 
 * Challenge - Use your credentials to access the songs.issplaylist.com server. Submit the NT password hash value for the Administrator account.
 * Points - 5
-* Answer - bc50ab76b6db99f148629a76bf0766c4
 
 For this challenge, I'll be using Metasploit with the windows/smb/psexec module against the target system. 
 
@@ -215,7 +214,6 @@ Now that I have the hashfile, it's time to look for the NT hash for the Administ
 
 * Challenge - Submit the Administrator account plaintext password.
 * Points - 5
-* Answer - dr0wSSaP
 
 With the hash file, I use Hashcat to crack the recovered password hashes. Note that the screenshot output is not the full output.
 
