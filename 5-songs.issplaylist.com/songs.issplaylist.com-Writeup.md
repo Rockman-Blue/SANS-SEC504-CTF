@@ -129,7 +129,6 @@ The output shows the account that is assigned to the web server process.
 
 * Challenge - Enumerate the SMB shares on the songs.issplaylist.com server. Identify the name of the non-hidden share.
 * Points - 3
-* Answer - Submissions
 
 The Windows net use command displays current and active shares. First I tried inputing the following command injection into the input field:
 * 128 && net view /all \\songs.issplaylist.com
@@ -145,9 +144,9 @@ At my attacker terminal, I ran the ping command against songs.issplaylist.com to
 Now that I have the IP, I tried using the same net use command as above, but this time putting //IP instead of //Hostname. I entered the following command: 
 * 128 && net view /all \\10.142.146.70
 
-![Privileged Assessment-3](https://github.com/user-attachments/assets/b8a309e2-cd4a-402b-8347-05a8cb24e983)
+![396628727-b8a309e2-cd4a-402b-8347-05a8cb24e983](https://github.com/user-attachments/assets/efc83ed1-004a-4366-a362-957a446c54e2)
 
-Hidden shares end in $. Since the Submissions share is the only one not ending in $, it's the non-hidden share and the answer to this challenge. 
+Hidden shares end in $, so the share not ending in $ is the non-hidden share and the answer to this challenge. 
 
 
 # Access Share
