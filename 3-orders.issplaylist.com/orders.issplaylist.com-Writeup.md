@@ -5,7 +5,7 @@
 
 The robots.txt file restricts which pages can be indexed by search engines. You can access it by specifying it in the URL, for example here I got the flag by typing http://orders.issplaylist.com/robots.txt. 
 
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/8dcfb35b-2a83-4c15-84af-6e1a13d40b0e)
+![Search Engine Restriction-1](https://github.com/user-attachments/assets/0a83be58-0472-48f3-b8a8-ebd628f8e1c2)
 
 
 # Apache Struts Version
