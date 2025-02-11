@@ -116,14 +116,14 @@ This returned the version number.
 The whoami command shows user, group, and privilege information for the user logged onto the system. In this case, using it against the target server will display the user account assigned to the web server process. 
 
 The output to whoami is in the general format:
-* DomainName/username
+* DomainName\username
 
 I used a attack against the server with whoami by typing the following into the input field:
 * 128 && whoami
 
-The output shows that the account that is assigned to the web server process. 
+The output shows the account that is assigned to the web server process. 
 
-![Privilege Evaluation-1](https://github.com/user-attachments/assets/bafd72b5-7d98-4636-b788-9b2a4b5b0823)
+![396625298-bafd72b5-7d98-4636-b788-9b2a4b5b0823](https://github.com/user-attachments/assets/04ca0495-1102-43a1-af09-bcad07ad49ba)
 
 
 # Privileged Assessment
