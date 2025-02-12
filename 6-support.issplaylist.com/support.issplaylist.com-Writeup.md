@@ -2,13 +2,12 @@
 
 * Challenge - Which TCP ports are open on the support.issplaylist.com server?
 * Points - 2
-* Answer - 22, 80, 2430
 
 Since this question is multiple choice, I’ll only scan the ports that are possible answers to save time. 
  
-![Port Scan-1](https://github.com/user-attachments/assets/76056844-2607-4203-936a-4f813f330f21)
+![396673680-76056844-2607-4203-936a-4f813f330f21](https://github.com/user-attachments/assets/17921ff7-0520-4026-8591-a689446223ca)
 
-Viewing the output of Nmap, I see that only ports 22, 80, and 2430 are open out of the ports I scanned for. 
+Viewing the output of Nmap, I see that three ports are open out of all the ports I scanned. 
 
 
 # Service Version Enumeration
