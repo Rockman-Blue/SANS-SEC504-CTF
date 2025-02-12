@@ -87,4 +87,4 @@ Now it's time to find the bash_history.save file. After looking in different dir
 
 I viewed the contents of the suspicious file in /var/www/html/images and it displayed the flag.
 
-![More Backdoors-2](https://github.com/user-attachments/assets/447686c6-050e-427f-9fd6-60a7e4bdd2ec)
+![396683115-447686c6-050e-427f-9fd6-60a7e4bdd2ec](https://github.com/user-attachments/assets/925cba8c-3c5c-4a48-9837-44dcd452eed1)
