@@ -28,9 +28,9 @@ The output shows me the version of OpenSSH used.
 * Points - 5
 * Answer - NetWars{ShellAccessIsGood}
 
-The backdoor will be on one of the open ports from the Port Scan challenge above. I looked at those scan results, and started thinking about which port to connect to with Netcat. I thought that SSH would be rules out because I don't have credentials for a user on the target system. Next I looked at the service running on port 2430 and thought it was suspicious. To use Netcat to connect to the port of the target system, I needed the IP address of the system. So I used ping to obtain the IP address, then I used Netcat to connect to port 2430. 
+The backdoor will be on one of the open ports from the Port Scan challenge above. I looked at those scan results, and started thinking about which port to connect to with Netcat. I thought that SSH would be ruled out because I don't have credentials for a user on the target system. Next I looked at the service running on another open port and thought it was suspicious. To use Netcat to connect to the port of the target system, I needed the IP address of the system. So I used ping to obtain the IP address, then I used Netcat to connect to the open port. 
 
-![Backdoor Reuse-1](https://github.com/user-attachments/assets/330036e7-11da-4ca6-8880-f5bb40dcbc01)
+![396676301-330036e7-11da-4ca6-8880-f5bb40dcbc01](https://github.com/user-attachments/assets/ff4cef82-b517-444e-86df-9dfcfb1d7ac2)
 
 Now that I have a shell against the target system I run “ls” to enumerate files, then “cat flag1.txt” to get the flag. 
 
