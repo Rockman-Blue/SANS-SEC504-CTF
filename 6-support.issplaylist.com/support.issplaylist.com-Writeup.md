@@ -66,9 +66,9 @@ The top file seems obvious, but I thought about if how I could identify it even 
 * Points - 3
 * Answer - NetWars{RootAccessIsBetter}
 
-From the previous challenge, I know that /tmp/backdoor is the file that grants the attacker root access. I run the backdoor file, and my prompt changed. To confirm I successfully obtained root access, I used the whoami command. 
+From the previous challenge, I know that a file in /tmp is the file that grants the attacker root access. I run the file, and my prompt changed. To confirm I successfully obtained root access, I used the whoami command. 
 
-![Root Privileges Required-1](https://github.com/user-attachments/assets/3f8b412b-ebeb-40da-be18-03b95bd6e32d)
+![396680915-3f8b412b-ebeb-40da-be18-03b95bd6e32d](https://github.com/user-attachments/assets/578e28b0-50cc-4bf1-9718-1e0be318f238)
 
 After confirming that I have root access, I enumerated the files in the current working directory with ls and displayed the output of flag2.txt. 
 
