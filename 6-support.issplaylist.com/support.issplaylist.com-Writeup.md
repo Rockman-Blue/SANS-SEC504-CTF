@@ -41,7 +41,7 @@ Now that I have a shell against the target system I run “ls” to enumerate fi
 * Challenge - A listening process on the support.issplaylist.com server is deployed to grant the attacker backdoor access to the system. What is the user ID number granted to the attacker when they access the backdoor?
 * Points - 3
 
-I know the listening process that grants the attacker backdoor access to the system runs on an open port from the previous challenges. After connecting to the backdoor, I run the “id” command to view the user ID number - revealing the answer to this challenge. 
+I know the listening process that grants the attacker backdoor access to the system runs on the open port with the venus service. After connecting to the backdoor, I run the “id” command to view the user ID number - revealing the answer to this challenge. 
 
 ![396677255-4dc41aeb-c3db-4227-bd5d-69c107ff4483](https://github.com/user-attachments/assets/c604e278-cc79-4a45-a2f0-ccf44f553a8c)
 
