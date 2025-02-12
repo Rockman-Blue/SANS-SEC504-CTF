@@ -50,17 +50,14 @@ I know the listening process that grants the attacker backdoor access to the sys
 
 * Challenge - In addition to the backdoor listener on TCP/2430, the attacker also left a privilege escalation backdoor on the system. What is the filename of the executable that grants the attacker root access?
 * Points - 4
-* Answer - backdoor
 
 The key words here are privilege escalation. For Linux privilege escalation, there's a variety of commands to look for weak spots in the system configuration. I ran a find command to look for uncommon SETUID files. 
 
-![Local Privilege Escalation-1](https://github.com/user-attachments/assets/a83712d3-21b3-4952-a6a3-484357cabeb8)
+![396679976-471d0168-28bf-4835-a4b0-183aa8ef510e](https://github.com/user-attachments/assets/04ca13c5-c112-47e3-905d-e6b0e156a8e3)
 
 After searching through the output of the find command that did not return permission denied, there were a few options. Most of those options resided in the /usr/bin/ folder, which makes sense since that directory contains the executable file for common Linux commands. 
 
-![Local Privilege Escalation-1](https://github.com/user-attachments/assets/471d0168-28bf-4835-a4b0-183aa8ef510e)
-
-The backdoor file seems obvious, but I thought about if how I could identify it even if the name wasn't backdoor. One indicator of a backdoor is an executable binary being located in a temporary directory, in this case /tmp. On Linux systems, executable binaries are typically stored in the /usr/bin/ directory, one being in /tmp is a something to investigate. 
+The top file seems obvious, but I thought about if how I could identify it even if the name wasn't obvious. One indicator of a backdoor is an executable binary being located in a temporary directory, in this case /tmp. On Linux systems, executable binaries are typically stored in the /usr/bin/ directory, one being in /tmp is a something to investigate. 
 
 
 # Root Privileges Required
