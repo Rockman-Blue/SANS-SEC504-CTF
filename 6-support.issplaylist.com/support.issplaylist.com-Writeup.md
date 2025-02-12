@@ -78,13 +78,12 @@ After confirming that I have root access, I enumerated the files in the current 
 
 * Challenge - In addition to the TCP/2430 backdoor, the attacker added a 2nd backdoor access script to the system. Identify the 2nd attacker backdoor script, then submit the flag.
 * Points - 8
-* Answer - NetWars{WebshellBackdoor}
 
-First off, I started browsing different directories for suspicious files. After doing this for some time and not finding anything to note, I looked at some hints. One of the hints mentioned that attackers may leave evidence behind. When I read that I thought about the bash history file and the history command. I checked the history of commands typed with the history command, but nothing is returned. This means that the attacker must have cleared it to avoid detection. 
+First off, I started browsing different directories for suspicious files. After doing this for some time and not finding anything to note, I looked at some in-game hints. One of the hints mentioned that attackers may leave evidence behind. When I read that I thought about the bash history file and the history command. I checked the history of commands typed with the history command, but nothing is returned. This means that the attacker must have cleared it to avoid detection. 
 
-Now it's time to find the bash_history.save file. After looking in different directories, I found it in the root directory. I used cat to view the bash_history.save file and noticed a suspicious file called bk.php in /var/www/html/images. 
+Now it's time to find the bash_history.save file. After looking in different directories, I found it in the root directory. I used cat to view the bash_history.save file and noticed a suspicious file in /var/www/html/images. 
 
-![More Backdoors-1](https://github.com/user-attachments/assets/4233e66b-fad0-4108-8926-56efd19af6a5)
+![396682791-4233e66b-fad0-4108-8926-56efd19af6a5](https://github.com/user-attachments/assets/2cd7d4d4-36c1-4879-857d-e8f7807814f2)
 
 I viewed the contents of the suspicious file in /var/www/html/images and it displayed the flag.
 
