@@ -57,7 +57,7 @@ The key words here are privilege escalation. For Linux privilege escalation, the
 
 After searching through the output of the find command that did not return permission denied, there were a few options. Most of those options resided in the /usr/bin/ folder, which makes sense since that directory contains the executable file for common Linux commands. 
 
-The top file seems obvious, but I thought about if how I could identify it even if the name wasn't obvious. One indicator of a backdoor is an executable binary being located in a temporary directory, in this case /tmp. On Linux systems, executable binaries are typically stored in the /usr/bin/ directory, one being in /tmp is a something to investigate. 
+The top file seems obvious due to its name, but I thought about if how I could identify it even if the name wasn't obvious. One indicator of a backdoor is an executable binary being located in a temporary directory, in this case /tmp. On Linux systems, executable binaries are typically stored in the /usr/bin/ directory, one being in /tmp is a something to investigate. 
 
 
 # Root Privileges Required
