@@ -2,13 +2,12 @@
 
 * Challenge - Which TCP ports are open on the ops.issplaylist.com server?
 * Points - 2 
-* Answer - 21, 22, 10000
 
-This question is multiple choice, so I limit my scan to only those ports. Nmap shows me the open ports. Use Nmap with sudo whenever possible for the best restuls. 
+This question is multiple choice, so I limited my scan to only those ports. Nmap shows me the open ports. Use Nmap with sudo whenever possible for the best restuls. 
 
-![Port Scan-1](https://github.com/user-attachments/assets/4330b8ec-24c0-4643-b61a-b3cc31c9c2e4)
+![397377818-4330b8ec-24c0-4643-b61a-b3cc31c9c2e4](https://github.com/user-attachments/assets/ad5c647e-ba57-4a9b-a4e9-5d59462ba23a)
 
-Nmap shows me that the open ports are 21, 22, and 10000.
+Nmap shows me that there are three open ports
 
 # Service Interaction
 
