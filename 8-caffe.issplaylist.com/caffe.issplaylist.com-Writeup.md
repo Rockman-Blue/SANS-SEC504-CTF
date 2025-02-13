@@ -16,7 +16,7 @@ This question is multiple choice, so I limited my scan to the only possible answ
 
 I know that Netcat can be used to connect to an open port on a server. First, I need the server's IP address. After obtaining that with a ping command, I connect to port 11111 with Netcat and retrieve the flag. 
 
-![Server Connection-1](https://github.com/user-attachments/assets/9704e3a2-c40d-4087-8727-5423887fdcd9)
+![397427227-9704e3a2-c40d-4087-8727-5423887fdcd9](https://github.com/user-attachments/assets/8f7f011a-ecb5-4bf5-b901-178bc6a675fb)
 
 
 # Vulnerability Discovery
