@@ -62,7 +62,6 @@ Now that I know the file location, it's as simple as running a cat command to ob
 
 * Challenge - Recover the plaintext password for the Webmin admin user. Submit the plaintext password.
 * Points - 5
-* Answer - Jasmine1
 
 I copied the admin hash from output of the command from the challenge above and opened a new terminal. On my terminal, I created a new file and pasted the hash with Gedit. 
 
@@ -73,7 +72,7 @@ I looked at the hashfile and noticed that both hashes started with $1, which ind
 
 After cracking the password, I modified my previous command to include --show and --user to show cracked passwords and their associated username.
 
-![Always Be Cracking-2](https://github.com/user-attachments/assets/6510431a-cb66-4b85-977b-998415bb9854)
+![397387272-6510431a-cb66-4b85-977b-998415bb9854](https://github.com/user-attachments/assets/ae80d95d-7374-4aec-a201-693bc23d3a58)
 
 
 # Credential Reuse
