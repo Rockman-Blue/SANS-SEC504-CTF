@@ -81,19 +81,19 @@ After cracking the password, I modified my previous command to include --show an
 * Points - 6 
 * Answer - NetWars{GoodGuessBadPassword}
 
-I know the credentials for the Webmin admin user are admin/Jasmine1. With SSH, the generic command format is ssh username@domain/IP. I tried to SSH into the server with the admin credentials, but I got a permissioned denied error. I thought I typed in the password of Jasmine1 wrong, so I typed the password more slowly twice and still got the same error.
+I know the credentials for the Webmin admin from previous challenges. With SSH, the generic command format is ssh username@domain/IP. I tried to SSH into the server with the admin credentials, but I got a permissioned denied error. I thought I typed in the password wrong, so I typed the password more slowly twice and still got the same error.
 
 ![Credential Reuse-1](https://github.com/user-attachments/assets/41cbf1c5-c91f-4b8f-8758-1a6f1ae66a65)
 
-Instead of trying to SSH, I went to http://ops.issplaylist.com:10000/ and logged in with the credentials admin/Jasmine1. I was able to successfully login to the Webmin admin interface. 
+Instead of trying to SSH, I went to http://ops.issplaylist.com:10000/ and logged in with the admin credentials. I was able to successfully login to the Webmin admin interface. 
 
 ![Credential Reuse-2](https://github.com/user-attachments/assets/7db0322e-9ebb-4a7d-92bf-da28face4aae)
 
-From there I clicked on System in the left side pane, then Users and Groups. From there I found a new user to login over SSH. The username is Hacker1, but the password is encrypted. 
+From there I clicked on System in the left side pane, then Users and Groups. From there I found a new user to login over SSH. The username is Hacker1, but the password is hashed. 
 
 ![Credential Reuse-3](https://github.com/user-attachments/assets/72c4091c-7842-4c92-a0cb-2278e2d8bc85)
 
-I return to my terminal to create a new file, paste the encrypted password, then save and exit using Gedit. After creating the hashfile that contains the encrypted password for the Hacker1 user, I cracked it with Hashcat. 
+I return to my terminal to create a new file, paste the hashed password, then save and exit using Gedit. After creating the hashfile that contains the hashed password for the Hacker1 user, I cracked it with Hashcat. 
 
 ![Credential Reuse-4](https://github.com/user-attachments/assets/d5ec4495-49a7-4c53-9e64-bf824b6161c0)
 
