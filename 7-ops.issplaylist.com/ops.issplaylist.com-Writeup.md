@@ -78,8 +78,8 @@ After cracking the password, I modified my previous command to include --show an
 # Credential Reuse
 
 * Challenge - Login to the server over SSH. Submit the flag.
-* Points - NetWars{GoodGuessBadPassword}
-* Answer - 6
+* Points - 6 
+* Answer - NetWars{GoodGuessBadPassword}
 
 I know the credentials for the Webmin admin user are admin/Jasmine1. With SSH, the generic command format is ssh username@domain/IP. I tried to SSH into the server with the admin credentials, but I got a permissioned denied error. I thought I typed in the password of Jasmine1 wrong, so I typed the password more slowly twice and still got the same error.
 
