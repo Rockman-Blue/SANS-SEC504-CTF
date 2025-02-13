@@ -126,7 +126,7 @@ One of the hints said I need root access, and that I should obtain it through pr
 
 Now it's time to test that my privilege escalation attack worked. I SSH into the server again, and noticed that my prompt changed to #, the root prompt. I confirm that I am root by running whoami.
 
-![Post-Exploitation Credential Gathering-5](https://github.com/user-attachments/assets/c301dd30-9df3-4248-9191-f6d5260c0df7)
+![397408394-c301dd30-9df3-4248-9191-f6d5260c0df7](https://github.com/user-attachments/assets/625ba61f-0bff-427c-ac85-6a56fa9eacaa)
 
 Now that I have root access, I can run Tcpdump to start capturing traffic on the target system. After running Tcpdump for a few minutes, I pressed CTRL + C to stop capturing traffic. 
 
