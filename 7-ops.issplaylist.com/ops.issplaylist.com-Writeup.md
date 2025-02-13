@@ -42,7 +42,6 @@ Now that my options are set, it's time to exploit the vulnerability. I send the 
 
 * Challenge - Use your access to obtain the Webmin local user authentication file. Submit the flag.
 * Points - 5
-* Answer - NetWars{WebminPasswordHash}
 
 Using the same access gained through the exploit used in the challenge above, it's time to look for the webmin password file. After trying to dig around in the filesystem to find the file, I couldn't find it on my own. 
 
@@ -56,7 +55,7 @@ The ClippedBin search reveals two pastes. After looking at both, one of them tel
 
 Now that I know the file location, it's as simple as running a cat command to obtain the file and the flag. 
 
-![Webmin Password File-3](https://github.com/user-attachments/assets/0c480331-f3d1-4366-ba0b-900a218316bd)
+![397384886-0c480331-f3d1-4366-ba0b-900a218316bd](https://github.com/user-attachments/assets/164e5b11-237c-465c-81ad-320b6536238a)
 
 
 # Always Be Cracking
