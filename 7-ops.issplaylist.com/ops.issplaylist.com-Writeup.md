@@ -13,11 +13,10 @@ Nmap shows me that there are three open ports
 
 * Challenge - Access the service running on TCP/10000. Submit the flag.
 * Points - 2
-* Answer - NetWars{ItsWebmin}
 
 Initially, I tried connecting to the open port with Netcat. This didn't work out, but then I remembered that you can use a web browser to connect to a port on the webserver by specifying a colon, followed by the port number. 
 
-![Service Interaction-1](https://github.com/user-attachments/assets/8ba8b0ec-afe1-4ba5-9265-c9490ecaeef5)
+![397378800-8ba8b0ec-afe1-4ba5-9265-c9490ecaeef5](https://github.com/user-attachments/assets/920f4f7e-3f67-4d9d-91b0-1bd1a199bd01)
 
 After typing in the URL:portnumber for the server, the flag is displayed on the page. 
 
