@@ -24,7 +24,6 @@ After typing in the URL:portnumber for the server, the flag is displayed on the 
 
 * Challenge - Exploit the vulnerability associated with the Webmin service on the ops.issplaylist.com site. Retrieve the flag value stored in the /flag.txt file.
 * Points - 8
-* Answer - NetWars{BackdooredWebmin}
 
 For this challenge, I will use Metasploit. First I started the console, searched for Webmin eploits, and loaded one to use. I picked #0 because it seemed the simplest to use from reading its description compared to the other ones. 
 
@@ -34,9 +33,9 @@ Now that the exploit is loaded, it is time to show and set the options so that t
 
 ![Vulnerability Exploitation-2](https://github.com/user-attachments/assets/46e520b0-5b79-43c5-a187-aa3e50fe54d4)
 
-Since my options are set, it's time to exploit the vulnerability. I send the exploit and it works successfully. I display the contents of the /flag.txt file to get the answr to this challenge. 
+Now that my options are set, it's time to exploit the vulnerability. I send the exploit and it works successfully. I display the contents of the /flag.txt file to get the answer to this challenge. 
 
-![Vulnerability Exploitation-3](https://github.com/user-attachments/assets/e3e6c9eb-0264-411c-96e4-a812e5e35bdb)
+![397382776-e3e6c9eb-0264-411c-96e4-a812e5e35bdb](https://github.com/user-attachments/assets/d79d917b-0a8a-4ee8-9c8a-ee16332de6b0)
 
 
 # Webmin Password File
