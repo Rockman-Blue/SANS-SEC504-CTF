@@ -79,7 +79,6 @@ After cracking the password, I modified my previous command to include --show an
 
 * Challenge - Login to the server over SSH. Submit the flag.
 * Points - 6 
-* Answer - NetWars{GoodGuessBadPassword}
 
 I know the credentials for the Webmin admin from previous challenges. With SSH, the generic command format is ssh username@domain/IP. I tried to SSH into the server with the admin credentials, but I got a permissioned denied error. I thought I typed in the password wrong, so I typed the password more slowly twice and still got the same error.
 
@@ -99,7 +98,7 @@ I return to my terminal to create a new file, paste the hashed password, then sa
 
 Now that I have a user on the system to SSH with, Hacker1/Password. I ran “ssh Hacker1@ops.issplaylist.com” and entered the password. Once I logged in, I got the flag.
 
-![Credential Reuse-5](https://github.com/user-attachments/assets/249ca5d6-c7f9-4672-ada5-5b4afb572599)
+![397402175-249ca5d6-c7f9-4672-ada5-5b4afb572599](https://github.com/user-attachments/assets/ecb0e81a-c91c-41d8-ad13-d2adbdf6a0ac)
 
 # Post-Exploitation Credential Gathering
 
