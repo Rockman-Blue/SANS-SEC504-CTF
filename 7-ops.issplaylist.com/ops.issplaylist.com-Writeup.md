@@ -104,7 +104,6 @@ Now that I have a user on the system to SSH with, Hacker1/Password. I ran “ssh
 
 * Challenge - Submit the password for the ftpacctng user accessing the system.
 * Points - 9 
-* Answer - D4taD0wnload
 
 From the Webmin server running at http://ops.issplaylist.com:10000, I found the password hash of the ftpacctng user by going to System > Users and Groups > ftpacctng.
 
@@ -134,4 +133,5 @@ Now that I have root access, I can run Tcpdump to start capturing traffic on the
 
 Now I used Tcpdump with the -r argument to read from the pcap file and search for the password with Grep. 
 
-![Post-Exploitation Credential Gathering-7](https://github.com/user-attachments/assets/f5a04e00-6fc1-47e9-98f0-d675b3ef1fa0)
+![397424301-f5a04e00-6fc1-47e9-98f0-d675b3ef1fa0](https://github.com/user-attachments/assets/64e406c0-4cb0-4bd2-ac8c-470430148118)
+
