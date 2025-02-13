@@ -22,7 +22,6 @@ I know that Netcat can be used to connect to an open port on a server. First, I 
 
 * Challenge - Explore the caffe.issplaylist.com IoT device to identify a vulnerability. Identify the type of vulnerability.
 * Points - 9
-* Answer - Command Injection
 
 Now that I’m connected to the server, I will start to look for vulnerabilities. Looking at the menu for this server from the screenshot above, 97 is a connectivity checker. I select it by typing 97 at the prompt and hitting enter. 
 
@@ -32,7 +31,7 @@ Out of the possible options, number 4 seems vulnerable. What I am expecting is t
 
 ![Vulnerability Discovery-2](https://github.com/user-attachments/assets/3785e985-6c5e-47d4-9181-dab32b158371)
 
-The ping functionality of this server works as expected. After experimenting with different inputs with ;, ||, and &&, I am able to perform a command injection attack. The fact that ls ran successfully indicates the server is vulnerable. 
+The ping functionality of this server works as expected. After experimenting with different inputs with ;, ||, and &&, I am able to perform an input based attack. The fact that ls ran successfully indicates the server is vulnerable. 
 
 ![Vulnerability Discovery-3](https://github.com/user-attachments/assets/038129ce-cca9-4e08-bbd6-0b0f271dee03)
 
