@@ -2,11 +2,10 @@
 
 * Challenge - Which TCP port(s) are open on the caffe.issplaylist.com server?
 * Points - 2
-* Answer - 11111
 
-This question is multiple choice, so I limited my scan to the only possible answers to save time. From the output, only port 11111 is open. 
+This question is multiple choice, so I limited my scan to the only possible answers to save time. From the output, only one port is open. 
 
-![Port Scan-1](https://github.com/user-attachments/assets/07f2da3c-47e6-463a-a4f3-fd101a41fe5c)
+![397426293-07f2da3c-47e6-463a-a4f3-fd101a41fe5c](https://github.com/user-attachments/assets/fffc0675-f448-49be-8b0d-0972514c5dc1)
 
 
 # Server Connection
