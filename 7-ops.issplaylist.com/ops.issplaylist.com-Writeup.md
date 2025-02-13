@@ -66,7 +66,7 @@ Now that I know the file location, it's as simple as running a cat command to ob
 
 I copied the admin hash from output of the command from the challenge above and opened a new terminal. On my terminal, I created a new file and pasted the hash with Gedit. 
 
-![Always Be Cracking-1](https://github.com/user-attachments/assets/7fe96846-150a-41fc-9344-b268b132893e)
+![397385871-7fe96846-150a-41fc-9344-b268b132893e](https://github.com/user-attachments/assets/28481c4a-7338-41ff-aa10-398cb101712a)
 
 I looked at the hashfile and noticed that both hashes started with $1, which indicates that this hash is an MD5 hash. With this knowledge, I ran Hashcat to crack the admin password using the command below
 * hashcat -m 500 -a 0 ops-hash.txt /usr/share/wordlists/passwords.txt
