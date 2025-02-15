@@ -8,7 +8,7 @@ The dc1 server isn’t accessible directly from your attacker system. I must use
 
 ![397445591-6b37e190-bf87-43a5-8fba-afd4f5abb9c0](https://github.com/user-attachments/assets/90b9989c-2041-420b-9ce1-e9c5ddcf009e)
 
-![Exploitation-2](https://github.com/user-attachments/assets/aec023f1-51b3-4a5c-80d5-925030f4e41a)
+![397446205-aec023f1-51b3-4a5c-80d5-925030f4e41a](https://github.com/user-attachments/assets/0effe357-ac01-4470-900d-2f34ca99686a)
 
 Now that I have Meterpreter access to a system inside the network, I can pivot to the DC1. But first, I need the IP of the dc1 system. In a new terminal, I run "ping dc1.issplaylist.com" to get the DC1's IP, 10.142.145.150.
 
