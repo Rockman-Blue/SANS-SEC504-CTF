@@ -38,7 +38,6 @@ There are many ways to establish persistence on a Windows system. Some examples 
 
 * Challenge - Which user that is not part of the ISS Playlist Information Technology Team has logged on to the domain controller? Submit the username.
 * Points - 3
-* Answer - prosa
 
 The C:\Users directory on Windows contains information about the users who have accessed the system recently. I cd to that directory, and use the dir command to display the directory contents. I see an account that follows the ISS Playlist username convention found earlier in the CTF.  
 
@@ -46,7 +45,7 @@ The C:\Users directory on Windows contains information about the users who have 
 
 Only administrators should log onto the domain controller, so I will check if the user is an admin in the IT team. I visit the company page at the site for ISS Playlist, which shows the name, email, and role for the employees of ISS playlist. From a previous challenge, I know that the username format - so finding the employee name from there is easy.  
 
-![Suspicious User-2](https://github.com/user-attachments/assets/faee73e6-de78-4ee7-8451-bb00f2247b1e)
+![397453877-faee73e6-de78-4ee7-8451-bb00f2247b1e](https://github.com/user-attachments/assets/21dabe0a-c547-4036-85aa-89f9f4a9f969)
 
 The user shown in C:\Users directory for this domain controller is the director of sales. It doesn’t make sense that someone in this role would be accessing the dc1 system. Therefore, that user is the answer for this challenge.  
 
