@@ -2,7 +2,6 @@
 
 * Challenge - Gain access to the dc1.issplaylist.com server. Submit the flag in C:\flag1.txt.
 * Points - 10
-* Answer - NetWars{PrettyCloseNow}
 
 The dc1 server isn’t accessible directly from your attacker system. I must use Metasploit to exploit a previously compromised system, then pivot to dc1 from there. From previous challenges and compromises, the non-hidden share in the 9-stor.issplaylist.com series of challenges is vulnerable to SMB attacks. I will Metasploit with the psexec exploit to attack this server’s SMB functionality. I start Metasploit, load the exploit, configure the options, and send the exploit to get a reverse TCP shell on the server with Meterpreter. 
 
@@ -22,7 +21,7 @@ Now that the route is added, I have to change the RHOST to the IP address of the
 
 In Meterpreter, I get a system shell, then access to PowerShell. The file path for the flag is C:\flag1.txt, so I use the type command to display the contents of the file. 
 
-![Exploitation-5](https://github.com/user-attachments/assets/fe946e37-7a92-485e-96c9-650c72d6e1bf)
+![397449893-fe946e37-7a92-485e-96c9-650c72d6e1bf](https://github.com/user-attachments/assets/d0b45895-d477-4d20-90d0-f30fd9f19aa6)
 
 
 # Windows Persistence
