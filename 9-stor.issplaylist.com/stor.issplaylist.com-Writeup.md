@@ -37,7 +37,6 @@ The command ran successfully, and I was able to get a SMB prompt. I enumerated t
 
 * Challenge - Examine the embedded data in any song from the STOR share. Submit the flag.
 * Points - 7
-* Answer - NetWars{WeareBabySharkHackersBSH}
 
 Embedded data means data hidden in some or wrapped by some other data. Exiftool is a script that extracts metadata from a file. I connect back to the STOR share, enumerate the folders, cd to one, and download an audio file from the server.
 
