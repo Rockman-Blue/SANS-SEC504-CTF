@@ -20,8 +20,7 @@ I click on the top email from bsh@sunsetisp.com. This email displays the flag.
 
 * Challenge - Read the manifesto from the hacking team. Submit the flag.
 * Points - 10
-* Answer - NetWars{YouveReachedTheEnd}
 
 From the same email that I viewed in the previous challenge, I click on the manifesto link. At the bottom of the page is the flag. 
 
-![The Manifesto-1](https://github.com/user-attachments/assets/9069ee7e-0081-4cda-bde7-60e2401d8c49)
+![397464592-9069ee7e-0081-4cda-bde7-60e2401d8c49](https://github.com/user-attachments/assets/cbfdc9be-bc34-47ad-af1b-b56d04e2da12)
