@@ -71,7 +71,7 @@ To get around this, I have to migrate the Meterpreter shell from the initial pro
 
 Now that I have obtained the password hashes for the IP domain, I copy them into my clipboard. I exit Meterpreter and Metasploit to return to my local terminal. From there, I create a new file with Gedit, paste the hashes, save the file, then close it. 
 
-![Always Be Cracking-1](https://github.com/user-attachments/assets/cc1afe0a-c19b-486a-97ed-92209468593e)
+![397459476-cc1afe0a-c19b-486a-97ed-92209468593e](https://github.com/user-attachments/assets/d19ce5e6-4381-4a68-9031-73b4dc7b33f2)
 
 Next, I use Hashcat to crack the passwords with a straight attack. 
 
