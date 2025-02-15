@@ -59,4 +59,5 @@ First, I use Smbclient to list all of the shares on the server. In the "Server S
 
 After experimenting with connecting to the hidden shares, I noticed that the C$ share had a flag.txt file. I connected to the C$ share, enumerated the files, and downloaded the flag.txt file. I exit the SMB connection and confirm the flag.txt file was downloaded onto my local system. From there, I display the file contents to get the flag. 
 
-![Target Exploitation-2](https://github.com/user-attachments/assets/056014ee-3d00-4a83-97cb-aa6db405d399)
+![397444118-056014ee-3d00-4a83-97cb-aa6db405d399](https://github.com/user-attachments/assets/866157e2-3224-4825-81fd-b566a23f718c)
+
