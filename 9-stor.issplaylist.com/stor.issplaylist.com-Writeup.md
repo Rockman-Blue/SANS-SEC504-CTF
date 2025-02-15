@@ -54,9 +54,9 @@ Now that I have an audio file from the server, I exit the SMB connection to retu
 * Points - 8
 * Answer - NetWars{CredentialReuseOhMy}
 
-First, I use Smbclient to list all of the shares on the server. In the "Server Share Access" challenge, I connected to the STOR share to find the value in the flag.txt file on the share. Since I already looked at the STOR share, I figured the flag.txt file for this challenge must be on a different share. 
+First, I use Smbclient to list all of the shares on the server. In the "Server Share Access" challenge, I connected to the non-hidden share to find the value in the flag.txt file on that share. Since I already looked at that share, I figured the flag.txt file for this challenge must be on a different share. 
 
-![Target Exploitation-1](https://github.com/user-attachments/assets/59d2b71e-4d83-4b25-84ac-d229a553fba9)
+![397442459-59d2b71e-4d83-4b25-84ac-d229a553fba9](https://github.com/user-attachments/assets/288747dd-0d84-4152-bbd8-9f7439753f93)
 
 After experimenting with connecting to the hidden shares, I noticed that the C$ share had a flag.txt file. I connected to the C$ share, enumerated the files, and downloaded the flag.txt file. I exit the SMB connection and confirm the flag.txt file was downloaded onto my local system. From there, I display the file contents to get the flag. 
 
