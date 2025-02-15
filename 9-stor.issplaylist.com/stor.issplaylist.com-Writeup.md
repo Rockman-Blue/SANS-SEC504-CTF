@@ -31,7 +31,7 @@ In the previous challenge, I enumerated the SMB shares on the server to find the
 
 The command ran successfully, and I was able to get a SMB prompt. I enumerated the files on the share with ls and saw that flag.txt is present. I used the get command to download the file to my local system. After the file was downloaded, I exit the SMB connection and go back to my local system. I confirm that flag.txt was download successfully, and displayed the contents. 
 
-![Server Share Access-2](https://github.com/user-attachments/assets/02f2c933-aae2-4049-9b89-43e941b02367)
+![397436756-02f2c933-aae2-4049-9b89-43e941b02367](https://github.com/user-attachments/assets/a54fec73-0d56-4898-ae49-e099b7e4fc2d)
 
 
 # Embedded Data Retrieval
