@@ -1,1 +1,65 @@
+# Target Enumeration
 
+* Challenge - What is the non-hidden share name on the stor.issplaylist.com server?
+* Points - 8 
+* Answer - STOR
+
+When I saw share in the challenge question, I thought of Windows and SMB. Two popular SMB tools are Rpcclient and Smbclient. Rpcclient is used for target configuration details, while Smbclient is used for file share access. In this case, Smbclient is the appropriate tool. With Smbclient, I need a username and password. I tried to look at ClippedBin to find usernames, but that didn’t work.
+
+Instead, I tried to re-use already compromised credentials from previous challenges to try to access the SMB server. Some credentials I tested are:
+* tomcat/tacmot
+* pemma/spacestation
+* epreston/spacestation
+* cghislaine/spacestation
+* jorestes/Carolina1
+
+After some testing, I was able to login as the jorestes user. In the command above, IP is the domain, and jorestes is the user. The quotes around domain\user are needed since \ is interpreted as a shell escape character without it. The “-m SMB2” argument is needed to access modern windows systems.
+
+![Target Enumeration-1](https://github.com/user-attachments/assets/8336b3d9-27a7-4a3a-afcf-c7eec3fa69f1)
+
+I see the non hidden share name is STOR, since it doesn’t have a $ at the end of the share name. The hidden shares are ADMIN$, C$, and IPC$.
+
+
+# Server Share Access
+
+* Challenge - Access the data store on the stor.issplaylist.com server. Submit the flag value.
+* Points - 8
+* Answer - NetWars{SomeOfThisMusicIsGood}
+
+In the previous challenge, I enumerated the SMB shares on the server to find the non-hidden one was “STOR”. Now let’s connect to it to retrieve the flag. After noticing the error message at the bottom of the command above, "Failed to connect...", I changed my Smbclient command to connect with SMB3. I then authenticated with the password of Carolina1 for the jorestes user.  
+
+![Server Share Access-1](https://github.com/user-attachments/assets/795ff296-6c26-45ca-a50e-48d4858039ee)
+
+The command ran successfully, and I was able to get a SMB prompt. I enumerated the files on the share with ls and saw that flag.txt is present. I used the get command to download the file to my local system. After the file was downloaded, I exit the SMB connection and go back to my local system. I confirm that flag.txt was download successfully, and displayed the contents. 
+
+![Server Share Access-2](https://github.com/user-attachments/assets/02f2c933-aae2-4049-9b89-43e941b02367)
+
+
+# Embedded Data Retrieval
+
+* Challenge - Examine the embedded data in any song from the STOR share. Submit the flag.
+* Points - 7
+* Answer - NetWars{WeareBabySharkHackersBSH}
+
+Embedded data means data hidden in some or wrapped by some other data. Exiftool is a script that extracts metadata from a file. I connect back to the STOR share, enumerate the folders, cd to one, and download an audio file from the server.
+
+![Embedded Data Retrieval-1](https://github.com/user-attachments/assets/b2667a4b-d89f-4380-921c-89d40aa649fa)
+
+Now that I have an audio file from the server, I exit the SMB connection to return to my local system terminal by typing "exit" and hitting enter. I confirm the .mp3 file was successfully downloaded. I run Exiftool against the .mp3 file, the value of the comment field is the flag. 
+
+![Embedded Data Retrieval-2](https://github.com/user-attachments/assets/0864e850-b04f-4fa9-8c7f-f760f567af10)
+
+
+# Target Exploitation
+
+* Challenge - Gain remote access to the stor.issplaylist.com server. Submit the flag value in C:\flag.txt.
+* Points - 8
+* Answer - NetWars{CredentialReuseOhMy}
+
+First, I use Smbclient to list all of the shares on the server. In the "Server Share Access" challenge, I connected to the STOR share to find the value in the flag.txt file on the share. Since I already looked at the STOR share, I figured the flag.txt file for this challenge must be on a different share. 
+
+![Target Exploitation-1](https://github.com/user-attachments/assets/59d2b71e-4d83-4b25-84ac-d229a553fba9)
+
+After experimenting with connecting to the hidden shares, I noticed that the C$ share had a flag.txt file. I connected to the C$ share, enumerated the files, and downloaded the flag.txt file. I exit the SMB connection and confirm the flag.txt file was downloaded onto my local system. From there, I display the file contents to get the flag. 
+
+![Target Exploitation-2](https://github.com/user-attachments/assets/056014ee-3d00-4a83-97cb-aa6db405d399)
