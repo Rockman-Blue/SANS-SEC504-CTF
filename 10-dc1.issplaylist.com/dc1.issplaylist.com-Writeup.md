@@ -40,11 +40,11 @@ There are many ways to establish persistence on a Windows system. Some examples 
 * Points - 3
 * Answer - prosa
 
-The C:\Users directory on Windows contains information about the users who have accessed the system recently. I cd to that directory, and use the dir command to display the directory contents. The prosa account seems suspicious, since only Administrators should log onto the domain controller. 
+The C:\Users directory on Windows contains information about the users who have accessed the system recently. I cd to that directory, and use the dir command to display the directory contents. I see an account that follows the ISS Playlist username convention found earlier in the CTF.  
 
 ![397452871-1afc2f60-ff63-48e7-a7ad-92931701493c](https://github.com/user-attachments/assets/2301d135-6979-41e9-a895-9b166b9aa077)
 
-To give prosa the benefit of the doubt, I will check to see if they are part of the ISS Playlist Information Technology Team. I visit the company page at the site for ISS Playlist, which shows the name, email, and role for the employees of ISS playlist. From a previous challenge, I know that the user format is first initial followed by the last name. 
+Only administrators should log onto the domain controller, so I will check if the user is an admin in the IT team. I visit the company page at the site for ISS Playlist, which shows the name, email, and role for the employees of ISS playlist. From a previous challenge, I know that the username format.  
 
 ![Suspicious User-2](https://github.com/user-attachments/assets/faee73e6-de78-4ee7-8451-bb00f2247b1e)
 
