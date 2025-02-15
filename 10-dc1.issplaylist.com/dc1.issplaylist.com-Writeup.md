@@ -53,7 +53,6 @@ The user shown in C:\Users directory for this domain controller is the director 
 
 * Challenge - Retrieve password hashes for the IP domain. Submit the NT password hash for the prosa account.
 * Points - 10 
-* Answer - 9d5c7d52a9fe6adad03db7a4613937d6
 
 From the PowerShell prompt I have on the dc1 system, I type exit to return to the Windows command prompt. From there, I type exit again to return to the Meterpreter prompt. Meterpreter supports the hashdump command, which will allow me to dump the password hashes for this Windows domain controller system. If you try to run the hashdump command right away in Meterpreter, you will get an operation failed error. 
 
