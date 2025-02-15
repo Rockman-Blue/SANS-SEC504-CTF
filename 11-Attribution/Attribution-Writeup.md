@@ -8,7 +8,7 @@ First I need to find out how to access the email service that ISS Playlist uses.
 
 ![Email Assessment-1](https://github.com/user-attachments/assets/1b41e1ac-ab10-4e3b-a6d2-c654be719d82)
 
-This displays all of the DNS records, disclosing the mail server - mail.issplaylist.com. In a web browser I go to that page and login with the credentials prosa@issplaylist.com/Sharks21. I am able to successfully login to prosa's email.
+This displays all of the DNS records, disclosing the mail server - mail.issplaylist.com. In a web browser I go to that page and login with the credentials of the suspicious user discovered in the 10-dc1.issplaylist.com challenge category. I am able to successfully login to the user's email.
 
 ![Email Assessment-2](https://github.com/user-attachments/assets/fa271198-282d-48f9-a751-19eb35831db4)
 
