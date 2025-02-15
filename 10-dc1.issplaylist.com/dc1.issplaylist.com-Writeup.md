@@ -79,4 +79,4 @@ Next, I use Hashcat to crack the passwords with a straight attack.
 
 After Hashcat finishes cracking the passwords, I run it again with --show and --user to display cracked passwords and their associated usernames. The password for the prosa user is Sharks21. 
 
-![Always Be Cracking-3](https://github.com/user-attachments/assets/49a30eb8-921e-45b8-931f-c858fb30b3d2)
+![397460535-49a30eb8-921e-45b8-931f-c858fb30b3d2](https://github.com/user-attachments/assets/cea9d871-ee3a-4256-a722-c7dbb9076e9a)
