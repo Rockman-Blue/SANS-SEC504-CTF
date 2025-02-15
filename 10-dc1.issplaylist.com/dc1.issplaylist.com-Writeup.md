@@ -44,11 +44,11 @@ The C:\Users directory on Windows contains information about the users who have 
 
 ![397452871-1afc2f60-ff63-48e7-a7ad-92931701493c](https://github.com/user-attachments/assets/2301d135-6979-41e9-a895-9b166b9aa077)
 
-Only administrators should log onto the domain controller, so I will check if the user is an admin in the IT team. I visit the company page at the site for ISS Playlist, which shows the name, email, and role for the employees of ISS playlist. From a previous challenge, I know that the username format.  
+Only administrators should log onto the domain controller, so I will check if the user is an admin in the IT team. I visit the company page at the site for ISS Playlist, which shows the name, email, and role for the employees of ISS playlist. From a previous challenge, I know that the username format - so finding the employee name from there is easy.  
 
 ![Suspicious User-2](https://github.com/user-attachments/assets/faee73e6-de78-4ee7-8451-bb00f2247b1e)
 
-So Phyliss Rosa is prosa, which is the director of sales. It doesn’t make sense that someone in this role would be accessing the dc1 system. Therefore, prosa is the answer for this challenge.  
+The user shown in C:\Users directory for this domain controller is the director of sales. It doesn’t make sense that someone in this role would be accessing the dc1 system. Therefore, that user is the answer for this challenge.  
 
 # Password Hash Retrieval
 
