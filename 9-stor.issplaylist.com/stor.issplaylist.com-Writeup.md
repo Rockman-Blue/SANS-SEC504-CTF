@@ -2,7 +2,6 @@
 
 * Challenge - What is the non-hidden share name on the stor.issplaylist.com server?
 * Points - 8 
-* Answer - STOR
 
 When I saw share in the challenge question, I thought of Windows and SMB. Two popular SMB tools are Rpcclient and Smbclient. Rpcclient is used for target configuration details, while Smbclient is used for file share access. In this case, Smbclient is the appropriate tool. With Smbclient, I need a username and password. I tried to look at ClippedBin to find usernames, but that didn’t work.
 
@@ -15,9 +14,9 @@ Instead, I tried to re-use already compromised credentials from previous challen
 
 After some testing, I was able to login as the jorestes user. In the command above, IP is the below, and jorestes is the user. The quotes around domain\user are needed since \ is interpreted as a shell escape character without it. The “-m SMB2” argument is needed to access modern windows systems.
 
-![Target Enumeration-1](https://github.com/user-attachments/assets/8336b3d9-27a7-4a3a-afcf-c7eec3fa69f1)
+![397433964-8336b3d9-27a7-4a3a-afcf-c7eec3fa69f1](https://github.com/user-attachments/assets/e15507ab-b38c-4ba4-87e0-ed224cb6e14e)
 
-I see the non hidden share name is STOR, since it doesn’t have a $ at the end of the share name. The hidden shares are ADMIN$, C$, and IPC$.
+ There is one non-hidden share name is, the one that doesn’t have a $ at the end of the share name. The hidden shares are ADMIN$, C$, and IPC$ - or anything with a $ at the end of the name.
 
 
 # Server Share Access
