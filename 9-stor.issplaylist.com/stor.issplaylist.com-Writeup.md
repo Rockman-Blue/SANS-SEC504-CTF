@@ -45,7 +45,7 @@ Embedded data means data hidden in some or wrapped by some other data. Exiftool 
 
 Now that I have an audio file from the server, I exit the SMB connection to return to my local system terminal by typing "exit" and hitting enter. I confirm the .mp3 file was successfully downloaded. I run Exiftool against the .mp3 file, the value of the comment field is the flag. 
 
-![Embedded Data Retrieval-2](https://github.com/user-attachments/assets/0864e850-b04f-4fa9-8c7f-f760f567af10)
+![397439209-0864e850-b04f-4fa9-8c7f-f760f567af10](https://github.com/user-attachments/assets/bb0f46d7-9ca3-4e03-8756-b0162780ffa9)
 
 
 # Target Exploitation
