@@ -67,7 +67,6 @@ To get around this, I have to migrate the Meterpreter shell from the initial pro
 
 * Challenge - Submit the plaintext password for the prosa account.
 * Points - 5
-* Answer - Sharks21
 
 Now that I have obtained the password hashes for the IP domain, I copy them into my clipboard. I exit Meterpreter and Metasploit to return to my local terminal. From there, I create a new file with Gedit, paste the hashes, save the file, then close it. 
 
