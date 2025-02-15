@@ -2,7 +2,6 @@
 
 * Challenge - Access the email account of the suspected ISS Playlist employee. Submit the flag.
 * Points - 10
-* Answer - NetWars{TheSmokingGun}
 
 First I need to find out how to access the email service that ISS Playlist uses. In the “DNS Reconnaissance” challenge for the “OSINT and Recon” section, I discovered that it's possible to do a zone transfer with Dig.
 
@@ -14,7 +13,7 @@ This displays all of the DNS records, disclosing the mail server - mail.issplayl
 
 I click on the top email from bsh@sunsetisp.com. This email displays the flag. 
 
-![Email Assessment-3](https://github.com/user-attachments/assets/0dfeea7e-c91a-45ce-96ca-5b906a3a29c4)
+![397463503-0dfeea7e-c91a-45ce-96ca-5b906a3a29c4](https://github.com/user-attachments/assets/ca02a3c3-f78a-4337-b485-31be3754991e)
 
 
 # The Manifesto
