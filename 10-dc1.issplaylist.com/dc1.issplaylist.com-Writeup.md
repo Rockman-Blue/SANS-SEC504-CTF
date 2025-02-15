@@ -4,7 +4,7 @@
 * Points - 10
 * Answer - NetWars{PrettyCloseNow}
 
-The dc1 server isn’t accessible directly from your attacker system. I must use Metasploit to exploit a previously compromised system, then pivot to dc1 from there. From previous challenges and compromises, the stor.issplaylist.com server is vulnerable to SMB attacks. I will Metasploit with the psexec exploit to attack this server’s SMB functionality. I start Metasploit, load the exploit, configure the options, and send the exploit to get a reverse TCP shell with Meterpreter. 
+The dc1 server isn’t accessible directly from your attacker system. I must use Metasploit to exploit a previously compromised system, then pivot to dc1 from there. From previous challenges and compromises, the non-hidden share in the 9-stor.issplaylist.com series of challenges is vulnerable to SMB attacks. I will Metasploit with the psexec exploit to attack this server’s SMB functionality. I start Metasploit, load the exploit, configure the options, and send the exploit to get a reverse TCP shell with Meterpreter. 
 
 ![Exploitation-1](https://github.com/user-attachments/assets/6b37e190-bf87-43a5-8fba-afd4f5abb9c0)
 
