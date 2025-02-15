@@ -51,7 +51,6 @@ Now that I have an audio file from the server, I exit the SMB connection to retu
 
 * Challenge - Gain remote access to the stor.issplaylist.com server. Submit the flag value in C:\flag.txt.
 * Points - 8
-* Answer - NetWars{CredentialReuseOhMy}
 
 First, I use Smbclient to list all of the shares on the server. In the "Server Share Access" challenge, I connected to the non-hidden share to find the value in the flag.txt file on that share. Since I already looked at that share, I figured the flag.txt file for this challenge must be on a different share. 
 
