@@ -23,7 +23,6 @@ After some testing, I was able to login as the jorestes user. In the command abo
 
 * Challenge - Access the data store on the stor.issplaylist.com server. Submit the flag value.
 * Points - 8
-* Answer - NetWars{SomeOfThisMusicIsGood}
 
 In the previous challenge, I enumerated the SMB shares on the server to find the one non-hidden share. Now let’s connect to it to retrieve the flag. After noticing the error message at the bottom of the command above, "Failed to connect...", I changed my Smbclient command to connect with SMB3. I then authenticated with the password of for the jorestes user, which was discovered earlier in the CTF.  
 
