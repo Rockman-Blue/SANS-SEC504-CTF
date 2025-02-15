@@ -41,7 +41,7 @@ The command ran successfully, and I was able to get a SMB prompt. I enumerated t
 
 Embedded data means data hidden in some or wrapped by some other data. Exiftool is a script that extracts metadata from a file. I connect back to the STOR share, enumerate the folders, cd to one, and download an audio file from the server.
 
-![Embedded Data Retrieval-1](https://github.com/user-attachments/assets/b2667a4b-d89f-4380-921c-89d40aa649fa)
+![397438228-b2667a4b-d89f-4380-921c-89d40aa649fa](https://github.com/user-attachments/assets/d6d8e50f-a6a1-499d-98ee-d49ef6ac7028)
 
 Now that I have an audio file from the server, I exit the SMB connection to return to my local system terminal by typing "exit" and hitting enter. I confirm the .mp3 file was successfully downloaded. I run Exiftool against the .mp3 file, the value of the comment field is the flag. 
 
