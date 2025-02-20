@@ -129,21 +129,21 @@ The output shows the account that is assigned to the web server process.
 * Challenge - Enumerate the SMB shares on the songs.issplaylist.com server. Identify the name of the non-hidden share.
 * Points - 3
 
-The Windows net use command displays current and active shares. First I tried inputing the following command injection into the input field:
-* 128 && net view /all \\songs.issplaylist.com
+The Windows ```net view``` command can be used to display SMB shares shared by a specific computer. First I tried inputting the following command into the input field:
+* ```128 && net view /all \\songs.issplaylist.com```
 
-![396627601-4cf3a8d4-3cb4-47f3-986a-54bf53a67352](https://github.com/user-attachments/assets/feabc52a-fa49-48cb-9f8f-c4a027742008)
+![Privileged-Assessment-1](https://github.com/user-attachments/assets/e2f90271-abaa-49c7-9628-9df99a21d48f)
 
-This did not show me the output I wanted. After some troubleshooting, I figured out that to use the net use command to list all of the shares, I needed to specify the server IP after //. 
+This did not show me the output I wanted. After some troubleshooting, I figured out that to use the ```net view``` command to list all of the shares, I needed to specify the server IP after //. 
 
 At my attacker terminal, I ran the ping command against songs.issplaylist.com to get the IP of the server. 
 
-![Privileged Assessment-2](https://github.com/user-attachments/assets/a8ed586a-7aed-43f8-86a6-071b7b91f9d8)
+![Privileged-Assessment-2](https://github.com/user-attachments/assets/384157a6-cfe6-462f-8aa3-5d399d9310df)
 
-Now that I have the IP, I tried using the same net use command as above, but this time putting //IP instead of //Hostname. I entered the following command: 
-* 128 && net view /all \\10.142.146.70
+Now that I have the IP, I tried using the same ```net view``` command as above, but this time putting ```\\IP``` instead of ```\\Hostname```. I entered the following command: 
+* ```128 && net view /all \\10.142.146.70```
 
-![396628727-b8a309e2-cd4a-402b-8347-05a8cb24e983](https://github.com/user-attachments/assets/efc83ed1-004a-4366-a362-957a446c54e2)
+![Privileged-Assessment-3](https://github.com/user-attachments/assets/223fae26-62cb-4413-86e7-cf9e60f375ca)
 
 Hidden shares end in $, so the share not ending in $ is the non-hidden share and the answer to this challenge. 
 
