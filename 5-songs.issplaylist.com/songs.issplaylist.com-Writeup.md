@@ -39,15 +39,15 @@ The field expects an ID number, so anything that is not a number is an invalid s
 * Challenge - Continue to examine the song submission status check feature on the songs.issplaylist.com website. Identify the flag associated with a valid submission ID value.
 * Points - 3
 
-At the status page, the first thing I tried was inputting several numbers starting from 1. However, I still kept getting the same error page as the screenshot above. After trying many numbers and not getting anywhere, I decided to look back on other questions in this challenge of the CTF event.
+At the status page, the first thing I tried was inputting several numbers starting from 1. However, I still kept getting the same error page as the screenshot above. After trying many numbers and not getting anywhere, I decided to look back on other challenges in this section of the CTF event.
 
-The robots.txt file has a line with a number, 128. 
+The ```robots.txt``` file has a line with a number, ```128```. 
 
-![396611957-1515495b-3b16-4aed-a8db-cd0e8e41879d](https://github.com/user-attachments/assets/7d727319-9214-48c3-b12e-0de90239958a)
+![Valid-Status-1](https://github.com/user-attachments/assets/8bf66d76-2602-4f72-aabb-db9eed5512d0)
 
-I thought to try inputing 128 into the form on status page. This worked and the flag was displayed on the page. 
+I thought to try inputting ```128``` into the form on status page. This worked and the flag was displayed on the page. 
 
-![396612222-798894a7-578b-4775-87b0-d6600dcee6e0](https://github.com/user-attachments/assets/2480f979-5e5f-4833-9de1-39e1f4fdca69)
+![Valid-Status-2](https://github.com/user-attachments/assets/2731adc4-e276-49be-a924-09fad93cfa78)
 
 
 # Vulnerability Discovery
