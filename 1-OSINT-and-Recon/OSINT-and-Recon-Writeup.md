@@ -71,7 +71,7 @@ From the same output of the Dig command that performs a zone transfer, I can see
 
 I already know the hostname for the camera target from the output of the above screenshot. In Firefox, I type "cam.issplaylist.com" in the search bar. The flag is displayed at the bottom of the page. 
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/3d3f72df-3091-4b8c-a74f-6a09711e004c)
+![IP-Camera-Logon-1](https://github.com/user-attachments/assets/9058d8a4-279b-495b-82ed-8d858c400203)
 
 
 # IP Camera Access
