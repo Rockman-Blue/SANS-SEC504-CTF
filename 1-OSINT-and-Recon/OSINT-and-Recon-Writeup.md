@@ -61,7 +61,7 @@ Regarding DNS reconnaissance, the biggest vulnerability a DNS server can have is
 
 From the same output of the Dig command that performs a zone transfer, I can see the IP of the host "cam.issplaylist.com". Cam is for the camera target. 
 
-![IP-Camera-Target-1](https://github.com/user-attachments/assets/17718e67-842c-4873-a4e7-fa26007d7021)
+![IP-Camera-Target-1](https://github.com/user-attachments/assets/555539a1-6052-4198-859d-b432caae71d2)
 
 
 # IP Camera Logon
