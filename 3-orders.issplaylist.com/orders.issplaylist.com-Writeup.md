@@ -80,13 +80,13 @@ Viewing the directory, I see the ```.htpasswd``` file, which is the file used fo
 * Challenge - Crack the password for the tomcat user using the .htpasswd file contents. Submit the plaintext password for the tomcat user.
 * Points - 3
 
-From the output of the script used in the last challenge to view the encrypted passwords, I copied the hash to my clipboard. Back at my Linux terminal, I ran "gedit orders-hash.txt" to create a new file with Gedit and paste the hash into the file. Then I saved and closed the file. 
+From the output of the script used in the last challenge to view the encrypted passwords, I copied the hash to my clipboard. Back at my Linux terminal, I ran ```gedit orders-hash.txt``` to create a new file with Gedit and paste the hash into the file. Next I saved and closed the file. 
 
-Next, I used hashcat to recover the password, supplying my newly created hashfile with the single hash and the word list provided from the labs. The password hash has a username, so I used --user in my hashcat command to tell hashcat to expect a username. 
+Next, I used hashcat to recover the password, supplying my newly created hashfile with the single hash and the word list provided from this course's labs. The password hash has a username, so I used ```--user``` in my hashcat command to tell hashcat to expect a username. 
 
-![411253955-d31ebb94-d51d-465a-9abc-d8f83ef03357](https://github.com/user-attachments/assets/710e8756-9a58-419f-acee-fefee403bfb9)
+![Always-Be-Cracking-1](https://github.com/user-attachments/assets/fc39df42-9bee-482d-9d19-a068138b81eb)
 
-In Hashcat, cracked passwords are show in in the format username:hash:password when you use the --user argument. 
+In Hashcat, cracked passwords are show in in the format ```username:hash:password``` when you use the ```--user``` argument. 
 
 # Remote Shell
 
