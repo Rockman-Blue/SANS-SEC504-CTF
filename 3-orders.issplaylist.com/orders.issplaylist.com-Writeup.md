@@ -93,9 +93,9 @@ In Hashcat, cracked passwords are show in in the format ```username:hash:passwor
 * Challenge - Using the compromised username and password, access a shell on the target server. Submit the flag shown when logging in.
 * Points - 3
 
-SSH is one way to get a remote shell to a server. I logged into the server using the compromised credentials from previous challenges in this section, tomcat/tacmot. 
+SSH is one way to get a remote shell to a server. I log into the server using the compromised credentials for the tomcat user, and the flag is shown.  
 
-![Web Password File-2](https://github.com/user-attachments/assets/82b5a4b5-4801-4c87-a32b-1e02602a4abd)
+![Remote-Shell-1](https://github.com/user-attachments/assets/675139d6-afbd-448a-a871-2f0416fab3be)
 
 
 # Local Privilege Management
