@@ -43,24 +43,24 @@ Manual SQL injection can be trick and time consuming. Instead, I'll use the Sqlm
 
 First, I use Sqlmap against the URL that was displayed in the browser when I typed the expected input of "Rock" into the search bar, http://pls.issplaylist.com/index.php?search=Rock. This command shows that the search field is vulnerable, and gives us some details on the injection point.  
 
-![Vulnerability Exploitation-1](https://github.com/user-attachments/assets/c3e1d47d-c3b9-4abc-96bf-2b7f2bb57df3)
+![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/8dc8fe99-b1d8-41e2-80c2-a7c3533a03ce)
 
 Next, I repeat the same command as above, but with the addition of the ```--dbs``` argument to enumerate the SQL databases that are present. 
 
-![Vulnerability Exploitation-2](https://github.com/user-attachments/assets/ba1be97d-3582-4a93-84e0-573c49489bb2)
+![Vulnerability-Exploitation-2](https://github.com/user-attachments/assets/6f33c5e5-06b1-40ca-b352-5f17fb4dcf3d)
 
 The next step is to enumerate the tables in the databases with the ```-D``` argument, which replaces the ```--dbs``` argument. This is to find which database has the flag table. I tested the ```-D``` argument with the ```information_schema```, ```pls```, and ```test``` databases to find which one has the flag table. Eventually, I ran the command below, and the ```pls``` database was the one that contained the flag table. 
 
-![Vulnerability Exploitation-3](https://github.com/user-attachments/assets/ba1baa31-f68b-4654-988d-dcff6354a4d3)
+![Vulnerability-Exploitation-3](https://github.com/user-attachments/assets/14df778b-9c6d-4383-bd8a-d32d8293c9e3)
 
 Now that I know that the pls database has the flag table, it's time to find the flag. Sqlmap supports dumping table content with the ```--dump``` argument. The format is:
 * ```sqlmap -u "URL" -D databaseName -T tableName --dump```
 
 I did so with the following command. After running the below command to dump the table output, I found the flag. 
 
-![Vulnerability Exploitation-4](https://github.com/user-attachments/assets/f6838295-173e-4859-8131-ea57534688ae)
+![Vulnerability-Exploitation-4](https://github.com/user-attachments/assets/45f067fb-2b9b-4374-af68-8f8ca8a368fe)
 
-![396563914-6bee0bde-da58-417d-89b1-958e7f955557](https://github.com/user-attachments/assets/be3128ba-b0ab-4676-897c-165394b647fc)
+![Vulnerability-Exploitation-5](https://github.com/user-attachments/assets/19d557f8-3b28-482c-b0cd-174904fdd10c)
 
 
 # Always Be Cracking
