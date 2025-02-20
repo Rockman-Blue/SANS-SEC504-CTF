@@ -43,7 +43,7 @@ Typically, administrators pages are hidden from normal users. If a web server is
 * Challenge - Administrators for the http://www.issplaylist.com site frequently examine the contact page submissions using their browsers. Exploit the site vulnerability to steal cookie content from the administrator. What is the name of the cookie used to authenticate administrative users?
 * Points - 5
 
-From the Vulnerability Discovery challenge, I know the site is vulnerable to reflected XSS. In Lab 4.4 from the course, SANS supplied to us a cookiecatcher PHP file. I started a PHP web server to listen for the cookie.
+From the Vulnerability Discovery challenge, I know the site is vulnerable to a specific input based attack. In Lab 4.4 from this course, SANS supplied to us a cookiecatcher PHP file. I started a PHP web server to listen for the cookie.
 
 ![Cookie Theft-2](https://github.com/user-attachments/assets/2c7745ff-5355-45e6-b776-8a5f270ba28d)
 
