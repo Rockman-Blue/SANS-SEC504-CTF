@@ -49,7 +49,7 @@ At the ClippedBin trending page, I search for "password". This returned three di
 * Challenge - Use the vulnerability on the DNS server at ns1.sunsetisp.com to obtain information about the issplaylist.com domain. Submit the flag.
 * Points - 3
 
-Regarding DNS reconnaissance, the biggest vulnerability a DNS server can have is a zone transfer request. Zone transfers are used by admins to replicate DNS records and other data from the primary server to the secondary server. This is so the secondary server can be a backup to the primary to enforce redundancy.By using a zone transfer request, you can get lots of valuable information about your target. Dig is a common tool used for DNS reconnaissance, and you can specify the record type AXFR to attempt a zone transfer request. At my attacker terminal, I ran the following command to perform a zone transfer request against the target, which displayed the flag. 
+Regarding DNS reconnaissance, the biggest vulnerability a DNS server can have is when an attacker can perform a zone transfer request. Zone transfers are used by admins to replicate DNS records and other data from the primary server to the secondary server. This is so the secondary server can be a backup to the primary to enforce redundancy. If you can successfully perform a zone transfer request, you can get lots of valuable information about your target. Dig is a common tool used for DNS reconnaissance, and you can specify the record type AXFR to attempt a zone transfer request. At my attacker terminal, I run the following command to perform a zone transfer request against the target, which displayed the flag. 
 
 ![DNS-Reconnaissance-1](https://github.com/user-attachments/assets/20e85917-b8f2-49e1-ae80-4f4ef2adb1e8)
 
