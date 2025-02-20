@@ -3,9 +3,9 @@
 * Challenge - Which TCP ports are open on the songs.issplaylist.com server?
 * Points - 2
 
-Nmap is a popular tool that offers port scanning and other features. This question was multiple choice, so I limited my port scan to only the ports in the answer options to save time. When possible, use Nmap with sudo. 
+Nmap is a popular tool that offers port scanning and other useful features. This question was multiple choice, so I limited my port scan to only the ports in the answer options to save time. When possible, use Nmap with sudo for more accurate results. 
 
-![396607652-2c7524af-db7d-4643-99ac-6bb346b24a27](https://github.com/user-attachments/assets/ed813b37-3556-46f0-a71f-576b1c765bce)
+![Port-Scan-1](https://github.com/user-attachments/assets/253223d1-8df9-4d38-b6b5-eb1ec85508c5)
 
 Nmap tells me which ports are open and closed with the reason information. 
 
