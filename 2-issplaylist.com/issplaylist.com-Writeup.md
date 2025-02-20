@@ -61,8 +61,10 @@ Going back to my attacker terminal, where the cookiecatcher PHP file is running,
 * Challenge - Use the stolen cookie to access the admin page. Submit the flag.
 * Points - 5
 
-Now that I have the cookie for admin from the Cookie Theft challenge, I can use curl and the -b argument to specify a token and return the content of that page as if I were logging in as admin. In my attacker terminal, I ran a curl command to get access to the admin page.
+Now that I have the cookie for admin from the Cookie Theft challenge, I can use curl with the -b argument to specify a token and return the content of that page as if I were logging in as an administrator. In my attacker terminal, I ran a curl command to get access to the admin page.
 
-This returned the admin page output. Scroll down to see the flag. 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/374ca600-ede7-44a5-8a2e-c04462682c60)
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/391d29fd-1221-4379-9ae1-4cefed9fa3a1)
+This returned the administrator page output. I scroll down to see the flag. 
+
+![Unauthorized-Access-1](https://github.com/user-attachments/assets/32a2744e-00b6-4bba-a965-428df3bed6e4)
+
+![Unauthorized-Access-2](https://github.com/user-attachments/assets/f342c0ec-3b34-451e-b4e8-10c872c88e94)
