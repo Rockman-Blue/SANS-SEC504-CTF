@@ -15,9 +15,9 @@ Nmap tells me which ports are open and closed with the reason information.
 * Challenge - Browse to the songs.issplaylist.com site. Examine the site to collect basic information. Find the file associated with search engine crawlers. Submit the flag.
 * Points - 2
 
-The robots.txt file is a file associated with search engine crawlers. It tells search engines which pages on the web server to hide from indexing. I went to http://songs.issplaylist.com/robots.txt and the flag is displayed in the robots.txt file.
+The ```robots.txt``` file is a file associated with search engine crawlers. It tells search engines which pages on the web server to hide from indexing. I went to http://songs.issplaylist.com/robots.txt and the flag is displayed in the ```robots.txt``` file.
 
-![396608595-fa43dae4-7d9c-4883-b404-987c008f5538](https://github.com/user-attachments/assets/c4f8a46e-17ef-4701-a438-d388ecef92bb)
+![Site-Reconnaissance-1](https://github.com/user-attachments/assets/3d5780d1-7e5d-40f0-b31a-163cf80fdf91)
 
 
 # Invalid Status
