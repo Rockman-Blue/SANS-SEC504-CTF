@@ -51,7 +51,7 @@ At the ClippedBin trending page, I search for "password". This returned three di
 
 Regarding DNS reconnaissance, the biggest vulnerability a DNS server can have is a zone transfer request. Transferring DNS records and zone files data from the primary server to the secondary server is done with a zone transfer. This is so admins can have the secondary server be a backup to the primary for redundancy.By using a zone transfer request, you can get lots of valuable information about your target. Dig is a common tool used for DNS reconnaissance, and you can specify the record type AXFR to attempt a zone transfer request. At my attacker terminal, I ran the following command to perform a zone transfer request against the target, which displayed the flag. 
 
-![DNS-Reconnaissance-1](https://github.com/user-attachments/assets/41aa27bd-6a04-41f6-884c-11d34ac93270)
+![DNS-Reconnaissance-1](https://github.com/user-attachments/assets/20e85917-b8f2-49e1-ae80-4f4ef2adb1e8)
 
 
 # IP Camera Target
@@ -61,7 +61,7 @@ Regarding DNS reconnaissance, the biggest vulnerability a DNS server can have is
 
 From the same output of the Dig command that performs a zone transfer, I can see the IP of the host "cam.issplaylist.com". Cam is for the camera target. 
 
-![DNS-Reconnaissance-1](https://github.com/user-attachments/assets/e34b314b-0d1d-4a9a-af20-89be4ab2846c)
+![IP-Camera-Target-1](https://github.com/user-attachments/assets/17718e67-842c-4873-a4e7-fa26007d7021)
 
 
 # IP Camera Logon
