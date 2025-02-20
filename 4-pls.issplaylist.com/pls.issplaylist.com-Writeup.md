@@ -5,11 +5,11 @@
 
 I navigated to the site at pls.issplaylist.com and typed in "Rock" in the search bar and hit enter. 
 
-![Site Reconnaissance-1](https://github.com/user-attachments/assets/9f7cc207-61cf-45fe-8afe-72ff85698f37)
+![Site-Reconnaissance-1](https://github.com/user-attachments/assets/c26d62d4-3491-47bd-9508-354105434935)
 
 The flag is displayed a bit further down the page. 
 
-![396549663-a5981359-65a1-4ed7-a77f-e23dba05e113](https://github.com/user-attachments/assets/1a04e7e9-c433-4f59-b382-d401a2ed5ca6)
+![Site-Reconnaissance-2](https://github.com/user-attachments/assets/e9a11345-0099-4a2b-9227-74bfbf4a0a89)
 
 
 # Error Generation
