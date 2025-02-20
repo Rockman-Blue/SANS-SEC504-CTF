@@ -85,7 +85,7 @@ From the previous challenges in this section, I know that I should use ClippedBi
 
 ![IP-Camera-Access-2](https://github.com/user-attachments/assets/5d160609-dfc7-4175-8ed9-aed79d654b96)
 
-Going back to the host at cam.issplaylist.com, use the admin credentials from the paste to login. After logging in, the flag is displayed at the bottom of the page. 
+Going back to the host at cam.issplaylist.com, I use the admin credentials from the paste to login. After logging in, the flag is displayed at the bottom of the page. 
 
 ![IP-Camera-Access-3](https://github.com/user-attachments/assets/9af0838e-90e7-420a-b99a-c87950197f07)
 
