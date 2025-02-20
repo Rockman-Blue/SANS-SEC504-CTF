@@ -3,7 +3,7 @@
 * Challenge - Retrieve the search engine restriction resource on the web server orders.issplaylist.com. Enter the flag.
 * Points - 2
 
-The robots.txt file restricts which pages can be indexed by search engines. You can access it by specifying it in the URL, for example here I got the flag by typing http://orders.issplaylist.com/robots.txt. 
+The robots.txt file restricts which webpages can be indexed by search engines. You can access it by specifying it in the URL, for example here I got the flag by typing http://orders.issplaylist.com/robots.txt. 
 
 ![Search-Engine-Restriction-1](https://github.com/user-attachments/assets/bc5588ff-adfe-489a-aee4-3b230cd64cd6)
 
@@ -13,7 +13,7 @@ The robots.txt file restricts which pages can be indexed by search engines. You 
 * Challenge - Using the information on the orders.issplaylist.com website, identify the version of Apache Struts in use.
 * Points - 2
 
-Looking at the robots.txt file screenshot from the above challenge, we can see the struts version listed in one of the lines.  
+Looking at the robots.txt file screenshot from the above challenge, I can see the struts version listed in one of the lines.  
 
 
 # Vulnerability Research
