@@ -37,7 +37,7 @@ I navigate to clippedbin.com. In the CTF introduction, SANS tells me that the fl
 * Challenge - Use the http://www.clippedbin.com website to identify ISS Playlist password information disclosed by an attacker. There's a password repeated 4 times in the list. Submit the password as the answer.
 * Points - 2
 
-At the ClippedBin trending page, I searched for password. This returned three different pastes, after opening each one in a new tab, I found the paste that has the password information. The password in lines 5-8 are repeated, for a total of four repeated passwords.
+At the ClippedBin trending page, I search for "password". This returned three different pastes, after opening each one in a new tab, I found the paste that has the password information. The password in lines 5-8 are repeated, for a total of four repeated passwords.
 
 ![ClippedBin OSINT 2-2](https://github.com/user-attachments/assets/0ab1bb58-7c34-4caa-be25-655ef815b285)
 ![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/a64cc828-53c9-4d61-bdfe-72a8764e2e48)
