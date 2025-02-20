@@ -79,13 +79,13 @@ I already know the hostname for the camera target from the output of the above s
 * Challenge - Gain access to the IP camera system through the web interface logon page. Submit the flag displayed after logging in to the system.
 * Points - 4
 
-From the previous challenges in this category/section, I know that I should use ClippedBin for OSINT against the target. So I go to clippedbin.com, and then the recent page. From there, I search for the hostname "cam.issplaylist.com" and find a paste that contains the credentials for this target.
+From the previous challenges in this section, I know that I should use ClippedBin for OSINT against the target. So I go to clippedbin.com, and then the recent page. From there, I search for the hostname "cam.issplaylist.com" and find a paste that contains the credentials for this target.
 
 ![IP-Camera Access-1](https://github.com/user-attachments/assets/3c67fa55-392d-4915-af6a-f1f015756c2d)
 
 ![IP-Camera-Access-2](https://github.com/user-attachments/assets/5d160609-dfc7-4175-8ed9-aed79d654b96)
 
-Going back to the host at cam.issplaylist.com, use the credentials from the paste - admin/admin to login. After logging in, the flag is displayed at the bottom of the page. 
+Going back to the host at cam.issplaylist.com, use the admin credentials from the paste to login. After logging in, the flag is displayed at the bottom of the page. 
 
 ![IP-Camera-Access-3](https://github.com/user-attachments/assets/9af0838e-90e7-420a-b99a-c87950197f07)
 
