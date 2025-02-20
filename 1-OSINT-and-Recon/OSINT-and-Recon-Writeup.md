@@ -95,6 +95,6 @@ Going back to the host at cam.issplaylist.com, use the admin credentials from th
 * Challenge - Who does Bridget need to follow up with?
 * Points - 2
 
-Once logged in at the cam.issplaylist.com page with admin/admin, use the camera controls on the page to look at the board for the answer. 
+Once I'm logged in at the cam.issplaylist.com page with the admin credentials, I use the camera controls on the page to look at the board for the answer. 
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/f703841c-e64a-4c10-9490-8b0229ca217f)
+![IP-Camera-Disclosure-1](https://github.com/user-attachments/assets/376c5bf3-a3a1-496f-bcc0-1e136f0a703c)
