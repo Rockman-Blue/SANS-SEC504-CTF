@@ -155,28 +155,27 @@ Hidden shares end in $, so the share not ending in $ is the non-hidden share and
 
 To access the non-hidden share, I have two main tools, Rpcclient and Smbclient. Rpcclient is used to gather target configuration details. Smbclient is used to interact with shares, to enumerate, download and upload files. To use either of these tools, I need valid credentials
 
-Re-using the command injection vulnerability, I create a new user account and add it to the administrators group with two commands. First, I input this command into the input field:
-* 128 && net user /add Rockman Password1
+Re-using the site's vulnerability, I create a new user account and add it to the administrators group with two commands. First, I input this command into the input field:
+* ```128 && net user /add Rockman Password1```
 
-![396629793-bdc4ff92-0352-4510-b2ed-ba81611bafbb](https://github.com/user-attachments/assets/0b5a25d5-8e92-4371-891b-40c54609f815)
-
+![Access-Share-1](https://github.com/user-attachments/assets/d0c3bb1e-8c0c-482c-a280-2768249cae9b)
 
 The command output confirms that my user Rockman was added. Next I added my newly created user account to the administrators group with the following command injection: 
-* 128 && net localgroup administrators /add Rockman
+* ```128 && net localgroup administrators /add Rockman```
 
-![396630275-deebe007-cb8f-4bb8-9212-e4fa076211cd](https://github.com/user-attachments/assets/8cecf12f-fa90-4fd6-b0f8-499a65fa09e7)
+![Access-Share-2](https://github.com/user-attachments/assets/9ef1117e-8373-4ca2-aa90-65beb1a5cb83)
 
-The command output confirmed that Rockman was added to the administrators group. Now it's time to go to my attacker terminal and use Smbclient to download the flag file from the share. When I typed the below command and entered my password, I was granted with an SMB prompt, and a connection to the non-hidden share specified in the command (syntax is //<domain_name>/<share_name>).
+The command output confirmed that my user, Rockman was added to the administrators group. Now it's time to go to my attacker terminal and use Smbclient to download the flag file from the share. When I typed the below command and entered my password, I was granted with an SMB prompt, and a connection to the non-hidden share specified in the command (syntax is ```//<domain_name>/<share_name>```).
 
-![396630916-de00efe1-5994-4d98-b8d9-206a4d048dd7](https://github.com/user-attachments/assets/2931788f-17d9-4557-ac3d-db4c034e8f3e)
+![Access-Share-3](https://github.com/user-attachments/assets/c8b512d4-91df-454e-9c41-9641eaf86378)
 
-Now that I'm connected to the share it's time to enumerate the share's contents. With Smbclient, this can be done with ls. I typed ls at the SMB prompt to enumerate the share's files.  
+Now that I'm connected to the share, it's time to enumerate the share's contents. With Smbclient, this can be done with ```ls```. I typed ```ls``` at the SMB prompt to enumerate the share's files.  
 
-![Access Share-4](https://github.com/user-attachments/assets/c453e9bf-e0a4-4006-9895-4407e95ba2fe)
+![Access-Share-4](https://github.com/user-attachments/assets/b5b33d50-67bb-4cdb-bfb6-4debd6f35ce1)
 
-Among the files in the share is flag.txt, which contains the answer to this challenge. With Smbclient, you can get followed by the filename to download the SMB share's file to your local system. I do this for flag.txt to download the file to my Linux VM, close the SMB connection, confirm the flag.txt file was download, and show its output to find the flag. 
+Among the files in the share is ```flag.txt```, which contains the answer to this challenge. With Smbclient, you can type ```get <filename>``` to download the SMB share's file to your local system. I do this for ```flag.txt``` to download the file to my Linux VM. Next, I close the SMB connection, confirm the ```flag.txt``` file was download, and view the file's output to find the flag. 
 
-![396631885-dfbaec17-acde-4350-9826-f9005e29b40c](https://github.com/user-attachments/assets/62d80b65-578d-4c39-971d-8af1255a476e)
+![Access-Share-5](https://github.com/user-attachments/assets/17f782db-b0ef-4c76-8b5d-27f84921c7d0)
 
 
 # Always Be Cracking
