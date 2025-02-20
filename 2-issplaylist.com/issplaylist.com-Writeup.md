@@ -65,6 +65,6 @@ Now that I have the cookie for admin from the Cookie Theft challenge, I can use 
 
 This returned the hidden page output. I scroll down to see the flag. 
 
-![Unauthorized-Access-1](https://github.com/user-attachments/assets/32a2744e-00b6-4bba-a965-428df3bed6e4)
+![Unauthorized-Access-1](https://github.com/user-attachments/assets/d1f969f3-05f8-4feb-a9ed-fcd4ebf2ae20)
 
 ![Unauthorized-Access-2](https://github.com/user-attachments/assets/f342c0ec-3b34-451e-b4e8-10c872c88e94)
