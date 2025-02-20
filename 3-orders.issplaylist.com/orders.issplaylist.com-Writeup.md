@@ -33,9 +33,9 @@ When I saw the term "in-game assets" I thought about ClippedBin and how it was u
 * Challenge - Using in-game assets, identify an exploit left behind by the attackers. Enter the name of the exploit code author (first and last).
 * Points - 2
 
-Looking at the same ClippedBin entry from the above challenge, the author's name for the exploit code is in line 6. 
+Looking at the same ClippedBin entry from the above challenge, the author's name for the exploit code is on line 6. 
 
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/a86beb50-9928-481a-8bbf-8b3572827fba)
+![Exploit-Identification-1](https://github.com/user-attachments/assets/80a8caa3-1561-4498-a57b-efedfc203678)
 
 
 # Vulnerability Exploitation
