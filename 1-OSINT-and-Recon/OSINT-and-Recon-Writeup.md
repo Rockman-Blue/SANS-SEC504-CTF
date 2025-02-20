@@ -3,7 +3,7 @@
 * Challenge - What is ISS Employee Jerald Orestes' title?
 * Points - 1
 
-This challenge tests basic website reconnaissance. The company name is ISS Playlist, so I navigated to their site at issplaylist.com. From there I go to the company page using the navbar at the top. Then I used CTRL + F to search for Jerald Orestes. From there, I saw his job title underneath his name.
+This challenge tests basic website reconnaissance. The company name is ISS Playlist, so I navigated to their site at issplaylist.com. From there I go to the company page using the navbar at the top. Then I used CTRL + F to search for Jerald Orestes. From there, I see his job title underneath his name.
 
 ![Website-Reconnaissance-1](https://github.com/user-attachments/assets/200c7ab1-5b53-4bdd-a36f-fa126b29ce1d)
 
