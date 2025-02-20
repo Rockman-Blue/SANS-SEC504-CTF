@@ -17,9 +17,9 @@ The flag is displayed a bit further down the page.
 * Challenge - Manipulate your search syntax when generating a playlist, attempting to produce an error. Enter the flag.
 * Points - 4
 
-Here, I can produce an error with unexpected inpupt. The first thing I tried was typing in a ' in the search field to see if the page returns an SQL error. 
+Here, I can produce an error with unexpected inpupt. The first thing I tried was typing in a ```'``` in the search field to see if the page returns an SQL error. 
 
-![396550594-b9b28aee-01a9-4234-93e0-9a2674e38505](https://github.com/user-attachments/assets/2fd6eeb3-a3a8-47bd-9f12-900d2e3518fa)
+![Error-Generation-1](https://github.com/user-attachments/assets/47a36d1d-097e-4304-aae6-85b0cba5c562)
 
 The page returns an SQL error and the flag is displayed. 
 
@@ -29,7 +29,7 @@ The page returns an SQL error and the flag is displayed.
 * Challenge - Explore the pls.issplaylist.com website to identify a vulnerability. Identify the type of vulnerability.
 * Points - 5
 
-From the above previous challenge, there's an SQL error. The SQL error indicates that the search function is querying from a backend database and returned the results of the query to the frontend of the site after submitting a search term. 
+From the previous challenge above, the error indicates that the search function queries the user's input from a backend database and returns the results of the query to the frontend of the site. 
 
 
 # Vulnerability Exploitation
