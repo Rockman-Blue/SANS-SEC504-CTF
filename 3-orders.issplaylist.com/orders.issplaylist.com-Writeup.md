@@ -130,9 +130,9 @@ I copied the ```/etc/shadow``` contents into my clipboard and typed ```exit``` t
 
 After pasting the hashes in Gedit, I saved and closed the file. Now it's time to crack the jorestes password with Hashcat. I cracked the hashes with Hashcat, then I displayed the cracked passwords and associated usernames with the ```--show``` and ```--user``` arguments.
 
-![Local Privilege Escalation-2](https://github.com/user-attachments/assets/758754f4-5125-414c-90f5-6d4f8b29f24b)
+![jorestes-Password-1](https://github.com/user-attachments/assets/e57ded58-086b-4b6e-b3c0-30a72f98da36)
 
-![396523377-c0623290-2e2c-4b13-8d89-a1e78ae52ccd](https://github.com/user-attachments/assets/3343a6c9-3556-4e9e-9c93-b038db434cbf)
+![jorestes-Password-2](https://github.com/user-attachments/assets/8e94e82f-3250-41e6-a4bd-7fc70261f346)
 
 The credentials for the jorestes user are retrieved by Hashcat in the format of ```<user>:<password_hash>:<plaintext_password>```.
 
