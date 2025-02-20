@@ -23,8 +23,9 @@ Looking at the robots.txt file screenshot from the above challenge, I can see th
 
 When I saw the term "in-game assets" I thought about ClippedBin and how it was used for the OSINT and Recon section of this CTF. I went to ClippedBin and searched for "struts" and found an entry. After viewing the entry, I see a CVE entry for this version of Apache Struts. 
 
-![Vulnerability Research-1](https://github.com/user-attachments/assets/7c1b2a92-f370-477e-8826-a1646eb964d7)
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/9dc83e9c-0151-44e5-96d7-751bf4e65ade)
+![Vulnerability-Research-1](https://github.com/user-attachments/assets/61f20ba3-d9e2-48b8-9363-a0abec860879)
+
+![Vulnerability-Research-2](https://github.com/user-attachments/assets/ad97543c-2ea8-4d29-b1a3-34136dca3f21)
 
 
 # Exploit Identification
