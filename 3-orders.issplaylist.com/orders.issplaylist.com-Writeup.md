@@ -86,7 +86,7 @@ Next, I used hashcat to recover the password, supplying my newly created hashfil
 
 ![Always-Be-Cracking-1](https://github.com/user-attachments/assets/fc39df42-9bee-482d-9d19-a068138b81eb)
 
-In Hashcat, cracked passwords are show in in the format ```username:hash:password``` when you use the ```--user``` argument. 
+In Hashcat, cracked passwords are show in in the format ```user:password_hash:plaintext_password``` when you use the ```--user``` argument. 
 
 # Remote Shell
 
@@ -134,7 +134,7 @@ After pasting the hashes in Gedit, I saved and closed the file. Now it's time to
 
 ![jorestes-Password-2](https://github.com/user-attachments/assets/8e94e82f-3250-41e6-a4bd-7fc70261f346)
 
-The credentials for the jorestes user are retrieved by Hashcat in the format of ```<user>:<password_hash>:<plaintext_password>```.
+The credentials for the jorestes user are retrieved by Hashcat in the format of ```user:password_hash:plaintext_password```.
 
 
 # pemma Password
