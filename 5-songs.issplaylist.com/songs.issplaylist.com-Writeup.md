@@ -55,19 +55,18 @@ I thought to try inputting ```128``` into the form on status page. This worked a
 * Challenge - Explore the songs.issplaylist.com website to identify a vulnerability. Identify the type of vulnerability.
 * Points - 4
 
-This question is multiple choice. I tried the different choices from top to down, starting with SQL injection. First I tried inputing a single quote, ' into the input field of the status page's form. This did not return a SQL error, but instead the same error page that contained the NetWars flag like the image below. 
+This question is multiple choice. I tried the different choices from top to down, starting with SQL injection. First I tried inputing a single quote, ' into the input field of the status page's form. This did not return a SQL error, but instead the same error page that contained the NetWars flag like in the image below. 
 
-![396615979-1022f923-3a7d-4948-aef3-44ad1b53b508](https://github.com/user-attachments/assets/2d9af7f0-f8e7-4196-a70f-13d0470e8610)
+![Vulnerability-Discovery-1](https://github.com/user-attachments/assets/a817b00e-b321-431b-9341-cca96adf9f17)
 
+I know that there are many ways to attempt stack commands, mainly by putting a ```;```, ```&&```, and ```||``` in between two commands. I tried multiple command stacking tests in the input field along with the ```whoami``` command. I use this command because ```whoami``` works on both Linux and Windows systems. I used a command that would work on both systems to make identifying the vulnerability easier. 
+* ```128 ; whoami```
+* ```128 || whoami```
+* ```128 && whoami```
 
-Next on the list of answer options to test is command injection. I know that there are many ways to attempt command stacking, mainly by putting a ;, &&, and || in between two commands. I tried multiple command stacking tests in the input field along with the whoami command. This is because the whoami command works on both Linux and Windows systems. I used a command that would work on both systems to make identifying the vulnerability easier. 
-* 128 ; whoami
-* 128 || whoami
-* 128 && whoami
+After trying the first two options in the bullet list above, I got the same error page as the screenshot above when I tried testing the form for an SQL injection vulnerability. However, when I tried the last option in the bulleted list above, I noticed the output was different. The ```whoami``` command ran successfully.
 
-After trying the first two options in the bullet list above, I got the same error page as the screenshot above when I tried testing the form for an SQL injection vulnerability. However, when I tried the last option in the bullet list, I noticed the output was different. The whoami command ran successfully.
-
-![396616531-aaac689c-b21f-4bc5-a893-7e589b7c52cc](https://github.com/user-attachments/assets/e6c33e90-707e-4791-8718-fb7b8ee91970)
+![Vulnerability-Discovery-2](https://github.com/user-attachments/assets/e7b696ba-8758-48c3-959e-b970934ffe9e)
 
 
 # Vulnerability Exploitation
