@@ -98,12 +98,12 @@ From the previous challenges, I know the following information:
 * The songs.issplaylist.com target is vulnerable to an attack at the status page.
 * The songs.issplaylist.com target is a Windows sserver system.
 
-Windows has many built-in utilities for system information enumeration. One of them is the ver tool, which I used in an attack to get the version of Windows server. I entered the below command into the input field:
-* 128 && ver
+Windows has many built-in utilities for system information enumeration. One of them is the ```ver``` tool, which I used in an attack to get the version of Windows server. I entered the below command into the input field:
+* ```128 && ver```
 
-This returned the version number. 
+This returns the version number. 
 
-![396621435-1f55c13d-dae6-41e1-8667-9c73acecd0e8](https://github.com/user-attachments/assets/b7b48be8-32d3-43a6-a80c-2799e232d272)
+![Windows-Version-Enumeration-1](https://github.com/user-attachments/assets/f5219df1-2727-4b2b-8165-7dc3ee39957c)
 
 
 # Privilege Evaluation
