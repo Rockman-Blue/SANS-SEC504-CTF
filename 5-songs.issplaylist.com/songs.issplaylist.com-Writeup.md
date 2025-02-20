@@ -215,11 +215,11 @@ Now that I have the hashfile, it's time to look for the NT hash for the Administ
 
 With the hash file, I use Hashcat to crack the recovered password hashes. Note that the screenshot output is not the full output.
 
-![Always Be Cracking (2)-1](https://github.com/user-attachments/assets/3fad03c7-b492-4684-b618-f7546a8ba492)
+![Always-Be-Cracking-(2)-1](https://github.com/user-attachments/assets/79d805a4-be67-4c06-b57a-d271cce8971e)
 
-With Hashcat, you can specify the following generic format to view already cracked passwords and their associated usernames for a hashfile:
-* hashcat hashfile_name --show --user
+With Hashcat, I can specify the following generic format to view already cracked passwords and their associated usernames for a hashfile:
+* ```hashcat hashfile_name --show --user```
 
-I used these arguments for the songs-hashes.txt file. The password for the Administrator account was successfully cracked. 
+I used these arguments for the ```songs-hashes.txt``` file. The password for the Administrator account was successfully cracked. 
 
-![396672664-05da8276-2165-448c-b9e2-7168d58b3018](https://github.com/user-attachments/assets/b96de60c-8e3f-42b7-b903-bc2ac84fb320)
+![Always-Be-Cracking-(2)-2](https://github.com/user-attachments/assets/7cc26404-1fef-4387-b7c9-5e884f7e177b)
