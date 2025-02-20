@@ -183,29 +183,29 @@ Among the files in the share is ```flag.txt```, which contains the answer to thi
 * Challenge - Use your credentials to access the songs.issplaylist.com server. Submit the NT password hash value for the Administrator account.
 * Points - 5
 
-For this challenge, I'll be using Metasploit with the windows/smb/psexec module against the target system. 
+For this challenge, I'll be using Metasploit with the ```windows/smb/psexec``` module against the target system. 
 
-![Always Be Cracking-1](https://github.com/user-attachments/assets/d93ae1d0-e1a0-48a2-a347-0e1ad8461b03)
+![Always-Be-Cracking-1](https://github.com/user-attachments/assets/00add64c-b5f9-4c9b-ae2c-fe0c96131cae)
 
 I'll keep the default payload the same. After viewing the options for the module and the payload, it's time to set them. 
 
-![Always Be Cracking-2](https://github.com/user-attachments/assets/f7af6b25-6618-4ee3-8169-66281e7c2af3)
+![Always-Be-Cracking-2](https://github.com/user-attachments/assets/1992ac25-5f1d-426a-ab55-b34d993a9950)
 
-The SMB options are for the user and password to login as when the exploit runs successfully. RHOST is the target system, songs.issplaylist.com, and I got the target's IP by running "ping songs.issplaylist.com" in a new terminal window. LHOST is the IP of my system. With a reverse shell, the victim connects to the attacker, so the attacking machine must be ready to listen and receive that connection. I set these options and confirm them by running "show options" at the msfconsole prompt. 
+The SMB options are for the user and password to login as when the exploit runs successfully. ```RHOST``` is the target system, songs.issplaylist.com, and I got the target's IP by running ```ping songs.issplaylist.com``` in a new terminal window. ```LHOST``` is the IP of my system. With a reverse shell, the victim connects to the attacker, so the attacking machine must be ready to listen and receive that connection. I set these options and confirm them by running ```show options``` at the msfconsole prompt. 
 
-![Always Be Cracking-3](https://github.com/user-attachments/assets/199652a5-0e20-4197-a4e5-9bc718b90c27)
+![Always-Be-Cracking-3](https://github.com/user-attachments/assets/a3096c94-f1dc-40ea-ba4b-a083ef68fbf7)
 
-Now that the options are set, I type "exploit" to send the exploit to the target system. It works and I gain a Meterpreter shell. 
+Now that the options are set, I type ```exploit``` to send the exploit to the target system. It works and I gain a Meterpreter shell. 
 
-After successfully gaining a reverse shell with Meterpreter against the target sytem. It's time to migrate to the LSASS process, and then run the hashdump command. The hashdump command fails, because it's a privileged operation. To fix the privilege issue, I migrated to the lsass.exe process. After this, I ran hashdump again and was able to get the password hashes for several users. 
+After successfully gaining a reverse shell with Meterpreter against the target sytem, it's time to migrate to the LSASS process, and then run the ```hashdump``` command. The ```hashdump``` command fails, because it's a privileged operation. To fix the privilege issue, I migrated to the ```lsass.exe``` process. After this, I run ```hashdump``` again and was able to get the password hashes for several users. 
 
-![396669565-85e8dd7c-e50a-43c9-8732-68c23f788ed2](https://github.com/user-attachments/assets/94a9e021-4bd1-49ed-9c68-635fa1566d7d)
+![Always-Be-Cracking-4](https://github.com/user-attachments/assets/8b3cd261-353a-4c67-99e9-b82436ed4e19)
 
-Hashdump is used to dump the contents of the SAM database on a Windows system. The SAM database stores user password information, similar to how /etc/shadow on Linux stores password hashes. Now that I have the password hashes, I copied the hashes to my clipboard. Next, I typed "exit" at the Meterpreter prompt to drop my reverse shell connection to the target system. Lastly, I typed "exit" to exit the Metasploit console and return to the Linux termal. From there I used Gedit to create a new file, paste the hashes into it, save the file, then close it. 
+Hashdump is used to dump the contents of the SAM database on a Windows system. The SAM database stores user password information, similar to how ```/etc/shadow``` on Linux stores password hashes. Now that I have the password hashes, I copied the hashes to my clipboard. Next, I typed ```exit``` at the Meterpreter prompt to drop my reverse shell connection to the target system. Lastly, I typed ```exit``` to exit the Metasploit console and return to the Linux termal. From there I used Gedit to create a new file, paste the hashes into it, save the file, then close it. 
 
-![396670563-c513bb0e-864d-42da-a8ec-6aaa637f3207](https://github.com/user-attachments/assets/ca5c0e42-caef-428c-9255-5ef1c8e168f3)
+![Always-Be-Cracking-5](https://github.com/user-attachments/assets/a0e9219f-a157-4b6a-abf0-5af367df321e)
 
-Now that I have the hashfile, it's time to look for the NT hash for the Administrator account. The screenshot above shows the hashes, and the NT password hash is the rightmost section of the colon separated fields from hashdump’s output. The NT hash for the Administrator account is the bc50ab76b6db99f148629a76bf0766c4. 
+Now that I have the hashfile, it's time to look for the NT hash for the Administrator account. The screenshot above shows the hashes, and the NT password hash is the rightmost section of the colon separated fields from hashdump’s output. So I just find the row for the Administrator account, and find the rightmost section, that's the NT hash.
 
 
 # Always Be Cracking (2)
