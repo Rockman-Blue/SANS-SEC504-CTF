@@ -15,7 +15,7 @@ This challenge tests basic website reconnaissance. The company name is ISS Playl
 * Challenge - What convention does ISS Playlist use for username creation?
 * Points - 2
 
-At the company page, hover over the names to see the email and the convention for usernames. 
+At the company page, I hover over the names to see the email and the convention for usernames. 
 
 ![Username-Format-Reconnaissance-1](https://github.com/user-attachments/assets/2cdb463c-d17b-4f5f-8ee0-7b6e29d79a1b)
 
@@ -25,7 +25,7 @@ At the company page, hover over the names to see the email and the convention fo
 * Challenge - Examine the website contents at http://www.clippedbin.com. Submit the flag.
 * Points - 2
 
-Navigate to clippedbin.com. In the CTF introduction, SANS tells you that the flag answers are in the format of NetWars{FlagValue}. So After going to clippedbin.com, I went to the Trending page, and searched for "NetWars". This returned a paste that has the flag value.  
+Navigate to clippedbin.com. In the CTF introduction, SANS tells me that the flag answers are in the format of NetWars{FlagValue}. So After going to clippedbin.com, I went to the Trending page, and searched for "NetWars". This returned a paste that has the flag value.  
 
 ![ClippedBinOSINT 1-2](https://github.com/user-attachments/assets/1204c6ad-56db-406a-8573-7541f6a05b09)
 ![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/b91fbe0d-5d3c-4503-b48f-3b157d1f2e82)
