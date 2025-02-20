@@ -74,19 +74,19 @@ After trying the first two options in the bullet list above, I got the same erro
 * Challenge - Use the vulnerability identified in the check submission functionality of the songs.issplaylist.com site to identify the flag in the web root directory c:\InetPub\songs.issplaylist.com\wwwroot.
 * Points - 5
 
-The general formula to target the page's vulnerability is typing 128 && followed by a Windows command, this challenge is about crafting the right command. I know the target is a Windows machine because of the file path in the question. 
+The general formula to target the page's vulnerability is typing ```128 &&``` followed by a Windows command, so this challenge is about crafting the right command. I know the target is a Windows machine because of the file path in the question. 
 
-On Windows machines, dir can be used to display directory contents. I used the dir command to find the filename associated with the flag in the web root directory by typing the below input into the field:
-* 128 && dir c:\InetPub\songs.issplaylist.com\wwwroot
+On Windows machines, ```dir``` can be used to display directory contents. I used the ```dir``` command to find the filename associated with the flag in the web root directory by typing the below input into the field:
+* ```128 && dir c:\InetPub\songs.issplaylist.com\wwwroot```
 
-![Vulnerability Exploitation-1](https://github.com/user-attachments/assets/c9f131a4-2b24-45b7-b67b-1496f9d39a75)
+![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/a1b54562-6032-43dc-b3b0-b56e965afd99)
 
-The output of the attack confirms the presence of F-L-A-G.txt in the web root directory, wwwroot. Now that I know what file I'm looking for and the location, it's time to craft the right command to display the flag file's content. The Windows type command displays the contents of the specified text file. I used the following command:
-* 128 && type c:\InetPub\songs.issplaylist.com\wwwroot\F-L-A-G.txt
+The output of the attack confirms the presence of ```F-L-A-G.txt``` in the web root directory, ```wwwroot```. Now that I know what file I'm looking for and the location, it's time to craft the right command to display the flag file's content. The Windows ```type``` command displays the contents of the specified text file. I used the following command:
+* ```128 && type c:\InetPub\songs.issplaylist.com\wwwroot\F-L-A-G.txt```
 
-![396619438-a8f9d367-381d-4049-9ab4-06b35863b21f](https://github.com/user-attachments/assets/c119b2be-1441-4dd8-8021-bc2aabee8cdf)
+![Vulnerability-Exploitation-2](https://github.com/user-attachments/assets/b29947e0-8d6b-486d-bab3-f9e361df1e37)
 
-The attack works successfully and I'm able to see the output of the F-L-A-G.txt file. That output is the answer to this challenge. 
+The attack works successfully and I'm able to see the output of the ```F-L-A-G.txt``` file. That output is the answer to this challenge. 
 
 
 # Windows Version Enumeration
