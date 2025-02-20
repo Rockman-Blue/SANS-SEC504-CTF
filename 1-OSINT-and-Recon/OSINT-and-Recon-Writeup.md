@@ -25,10 +25,11 @@ At the company page, I hover over the names to see the email and the convention 
 * Challenge - Examine the website contents at http://www.clippedbin.com. Submit the flag.
 * Points - 2
 
-Navigate to clippedbin.com. In the CTF introduction, SANS tells me that the flag answers are in the format of NetWars{FlagValue}. So After going to clippedbin.com, I went to the Trending page, and searched for "NetWars". This returned a paste that has the flag value.  
+I navigate to clippedbin.com. In the CTF introduction, SANS tells me that the flag answers are in the format of NetWars{FlagValue}. So After going to clippedbin.com, I went to the Trending page, and searched for "NetWars". This returned a paste that has the flag value.  
 
-![ClippedBinOSINT 1-2](https://github.com/user-attachments/assets/1204c6ad-56db-406a-8573-7541f6a05b09)
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/b91fbe0d-5d3c-4503-b48f-3b157d1f2e82)
+![ClippedBin-OSINT-1-1](https://github.com/user-attachments/assets/ece7bc76-6f1c-4249-9b7a-9ba4a9f3c476)
+
+![ClippedBin-OSINT-1-2](https://github.com/user-attachments/assets/fe32c4ba-43c9-4b0f-aa11-ecc607fe4661)
 
 
 # ClippedBin OSINT 2
