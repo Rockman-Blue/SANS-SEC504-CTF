@@ -39,8 +39,9 @@ I navigate to clippedbin.com. In the CTF introduction, SANS tells me that the fl
 
 At the ClippedBin trending page, I search for "password". This returned three different pastes, after opening each one in a new tab, I found the paste that has the password information. The password in lines 5-8 are repeated, for a total of four repeated passwords.
 
-![ClippedBin OSINT 2-2](https://github.com/user-attachments/assets/0ab1bb58-7c34-4caa-be25-655ef815b285)
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/a64cc828-53c9-4d61-bdfe-72a8764e2e48)
+![ClippedBin-OSINT-2-1](https://github.com/user-attachments/assets/2928e5e7-75df-40d2-b749-0b14b9e266f6)
+
+![ClippedBin-OSINT-2-2](https://github.com/user-attachments/assets/5be2bf83-290d-42a5-9e17-bcc71ebb1434)
 
 
 # DNS Reconnaissance
