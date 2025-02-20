@@ -44,20 +44,21 @@ Looking at the same ClippedBin entry from the above challenge, the author's name
 * Points - 5
 
 First, I created a new file from my Linux terminal called exploit.py in Gedit:
-* gedit exploit.py
+* ```gedit exploit.py```
+
 Once the editor screen came up, I pasted the entire exploit code from the ClippedBin entry used in the above two challenges. I then saved and closed the file. The ClippedBin entry lists the URL to use with the exploit.
 
 Make the script executable and run it:
-* chmod +x exploit.py
-* ./exploit.py
+* ```chmod +x exploit.py```
+* ```./exploit.py```
 
 When I ran the exploit code, the output suggested to run it with -h to get help information. 
 
-![Vulnerability Exploitation-1](https://github.com/user-attachments/assets/69de6b86-a332-4cdc-9884-77fdcd6c5d24)
+![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/7e429a16-7c37-465e-9ee5-425ce63fcb68)
 
 I used the help information to craft the command needed. After experimenting with a few commands to run this script correctly, I arrived at the solution below.
 
-![396504087-bb3bd7d9-69f3-466d-831b-8a21a2040e59](https://github.com/user-attachments/assets/45d1da2b-8b0a-4d60-878e-515232c9f6b6)
+![Vulnerability-Exploitation-2](https://github.com/user-attachments/assets/8e5af51e-0ea4-40db-955a-c7e5df729273)
 
 
 # Web Password File
