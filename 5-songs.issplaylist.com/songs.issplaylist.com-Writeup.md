@@ -111,17 +111,17 @@ This returns the version number.
 * Challenge - Evaluate the privileges available to the attacker by exploiting this vulnerability. Which user account is assigned to the web server process?
 * Points - 2
 
-The whoami command shows user, group, and privilege information for the user logged onto the system. In this case, using it against the target server will display the user account assigned to the web server process. 
+The ```whoami``` command shows user, group, and privilege information for the user logged onto the system. In this case, using it against the target server will display the user account assigned to the web server process. 
 
-The output to whoami is in the general format:
-* DomainName\username
+The output to ```whoami``` is in the general format:
+* ```DomainName\username```
 
-I used a attack against the server with whoami by typing the following into the input field:
-* 128 && whoami
+I used a attack against the server with ```whoami``` by typing the following into the input field:
+* ```128 && whoami```
 
 The output shows the account that is assigned to the web server process. 
 
-![396625298-bafd72b5-7d98-4636-b788-9b2a4b5b0823](https://github.com/user-attachments/assets/b5077479-b41b-4160-9bfc-c6683a550d65)
+![Privilege-Evaluation-1](https://github.com/user-attachments/assets/94ab6bd4-17b8-45bf-b4a9-66e297ab8cce)
 
 
 # Privileged Assessment
