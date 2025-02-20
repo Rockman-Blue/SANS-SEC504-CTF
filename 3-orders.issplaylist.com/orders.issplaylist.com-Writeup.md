@@ -54,11 +54,11 @@ Make the script executable and run it:
 
 When I ran the exploit code, the output suggested to run it with -h to get help information. 
 
-![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/7e429a16-7c37-465e-9ee5-425ce63fcb68)
+![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/da2d924a-e466-46ad-bb81-34d06b5cbcec)
 
 I used the help information to craft the command needed. After experimenting with a few commands to run this script correctly, I arrived at the solution below.
 
-![Vulnerability-Exploitation-2](https://github.com/user-attachments/assets/8e5af51e-0ea4-40db-955a-c7e5df729273)
+![Vulnerability-Exploitation-2](https://github.com/user-attachments/assets/eb81b631-c1b7-4447-aba5-fe00e65bc23d)
 
 
 # Web Password File
