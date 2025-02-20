@@ -27,11 +27,11 @@ The ```robots.txt``` file is a file associated with search engine crawlers. It t
 
 I went to the http://songs.issplaylist.com/ site and clicked on the Status page in the navbar at the top. From there, I see a field where I can input a number to check the status of the submission associated with it.
 
-![Invalid Status-1](https://github.com/user-attachments/assets/0bdf5d0e-2e95-4232-b1c0-f824ebfbb276)
+![Invalid-Status-1](https://github.com/user-attachments/assets/1fa88694-0ff8-4698-935e-8e6b535255a3)
 
 The field expects an ID number, so anything that is not a number is an invalid submission ID value. I entered 'a' in the form and clicked on the submit button. This invalid submission returns the flag. 
 
-![396610523-0345bab0-24ae-4ccd-93eb-e2f6f17d9c43](https://github.com/user-attachments/assets/47169173-dfd0-484a-879f-e629aec5c807)
+![Invalid-Status-2](https://github.com/user-attachments/assets/5b6118c1-4a42-4a3c-8cf3-2546ee2f238f)
 
 
 # Valid Status
