@@ -37,7 +37,7 @@ From the previous challenge above, the error indicates that the search function 
 * Challenge - Exploit the vulnerability identified on the pls.issplaylist.com website. Retrieve the flag value stored in the flag table.
 * Points - 5
 
-Manual SQL injection can be trick and time consuming. Instead, I'll use the Sqlmap tool to make exploiting the vulnerability easier. Several uses of Sqlmap are needed to get the flag. When you use SQL map, there are two rules to follow:
+Manual SQL injection can be trick and time consuming. Instead, I'll use the Sqlmap tool to make exploiting the site easier. Several uses of Sqlmap are needed to get the flag. When you use SQL map, there are two rules to follow:
 * Use a valid, non-error generating URL.
 * Put the URL in quotes.
 
@@ -45,16 +45,16 @@ First, I use Sqlmap against the URL that was displayed in the browser when I typ
 
 ![Vulnerability Exploitation-1](https://github.com/user-attachments/assets/c3e1d47d-c3b9-4abc-96bf-2b7f2bb57df3)
 
-Next, I repeat the same command as above, but with the addition of the --dbs argument to enumerate the SQL databases that are present. 
+Next, I repeat the same command as above, but with the addition of the ```--dbs``` argument to enumerate the SQL databases that are present. 
 
 ![Vulnerability Exploitation-2](https://github.com/user-attachments/assets/ba1be97d-3582-4a93-84e0-573c49489bb2)
 
-The next step is to enumerate the tables in the databases with the -D argument, which replaces the --dbs argument. This is to find which database has the flag table. I tested the -D argument with the information_schema, pls, and test databases to find which one had the flag table. Eventually, I ran the command below, and the pls database was the one that contained the flag table. 
+The next step is to enumerate the tables in the databases with the ```-D``` argument, which replaces the ```--dbs``` argument. This is to find which database has the flag table. I tested the ```-D``` argument with the ```information_schema```, ```pls```, and ```test``` databases to find which one has the flag table. Eventually, I ran the command below, and the ```pls``` database was the one that contained the flag table. 
 
 ![Vulnerability Exploitation-3](https://github.com/user-attachments/assets/ba1baa31-f68b-4654-988d-dcff6354a4d3)
 
-Now that I know that the pls database has the flag table, it's time to find the flag. Sqlmap supports dumping table content with the --dump argument. The format is:
-* sqlmap -u "URL" -D databaseName -T tableName --dump
+Now that I know that the pls database has the flag table, it's time to find the flag. Sqlmap supports dumping table content with the ```--dump``` argument. The format is:
+* ```sqlmap -u "URL" -D databaseName -T tableName --dump```
 
 I did so with the following command. After running the below command to dump the table output, I found the flag. 
 
