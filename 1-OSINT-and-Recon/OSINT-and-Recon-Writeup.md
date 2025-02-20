@@ -81,12 +81,13 @@ I already know the hostname for the camera target from the output of the above s
 
 From the previous challenges in this category/section, I know that I should use ClippedBin for OSINT against the target. So I go to clippedbin.com, and then the recent page. From there, I search for the hostname "cam.issplaylist.com" and find a paste that contains the credentials for this target.
 
-![IP Camera Access-2](https://github.com/user-attachments/assets/819e4ec0-ae38-44d9-b130-3e629c540cd4)
-![IP Camera Access-3](https://github.com/user-attachments/assets/8a32e139-837b-4500-a028-855187409f61)
+![IP-Camera Access-1](https://github.com/user-attachments/assets/3c67fa55-392d-4915-af6a-f1f015756c2d)
+
+![IP-Camera-Access-2](https://github.com/user-attachments/assets/5d160609-dfc7-4175-8ed9-aed79d654b96)
 
 Going back to the host at cam.issplaylist.com, use the credentials from the paste - admin/admin to login. After logging in, the flag is displayed at the bottom of the page. 
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/de9280cf-6126-4796-b062-2676914b7e06)
+![IP-Camera-Access-3](https://github.com/user-attachments/assets/9af0838e-90e7-420a-b99a-c87950197f07)
 
 
 # IP Camera Disclosure
