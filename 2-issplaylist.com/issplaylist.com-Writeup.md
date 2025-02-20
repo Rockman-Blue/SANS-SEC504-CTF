@@ -17,15 +17,15 @@ First, I navigated to the website in the question. From there, I clicked "Contac
 
 First, I tried experiemnting with including a ' in the fields to get an SQL error. That did not work, as I got the same flag as the previous challenge. 
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/53da4c88-831c-44b2-9c21-4b9dd8284073)
+![Vulnerability-Discovery-1](https://github.com/user-attachments/assets/9e6c2acb-21c3-492b-bed5-c3d5f6de6aa3)
 
-Then I tested for an XSS vulnerability by typing the hr HTML tag into each field of the contact form. I noticed the horizontal line from the hr HTML tag was displayed on the page. 
+Then I tested for a different input based vulnerability by typing the hr HTML tag into each field of the contact form. I noticed the horizontal line from the hr HTML tag was displayed on the page. 
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/87c7fd9d-fc96-4990-88aa-c63c96e4a939)
+![Vulnerability-Discovery-2](https://github.com/user-attachments/assets/da88e1ea-a407-428c-8be7-c17f6c381823)
 
 This means my input was reflected on the page. To confirm this, I viewed the page source, and used CTRL + F to look for my input, the hr HTML tag. The page source shows my input.  
 
-![396193111-3f8a0591-ff61-47d9-ad03-60ac8a6ae1ed](https://github.com/user-attachments/assets/db72d66c-e486-42c8-aedb-cd9ef4e9e16d)
+![Vulnerability-Discovery-3](https://github.com/user-attachments/assets/5fcfa96a-4913-4b4c-9a2b-12733f806139)
 
 
 # Forced Browsing
