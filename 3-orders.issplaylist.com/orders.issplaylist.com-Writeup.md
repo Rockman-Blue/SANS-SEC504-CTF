@@ -66,13 +66,13 @@ I used the help information to craft the command needed. After experimenting wit
 * Challenge - Using the same exploit access, examine the file used for storing encrypted passwords in the web root (/opt/tomcat/webapps/ROOT/). Submit the flag.
 * Points - 3
 
-First, I used the exploit used in the above challenge to view the contents of the /opt/tomcat/webapps/ROOT directory. 
+First, I used the exploit used in the above challenge to view the contents of the ```/opt/tomcat/webapps/ROOT``` directory. 
 
-![Web Password File-1](https://github.com/user-attachments/assets/add431f3-840d-4b4b-87a1-b407284f90f5)
+![Web-Password-File-1](https://github.com/user-attachments/assets/33a7ce7c-1c70-4ff6-9d54-4d59ab74936b)
 
-Viewing the directory, I see the .htpasswd file, which is the file used for storing encrypted passwords. The next step is to craft a command to display the contents of this file. For this, I changed the command to be run inside the single quotes from ls to show the directory's content, to cat to view the .htpasswd file.
+Viewing the directory, I see the ```.htpasswd``` file, which is the file used for storing encrypted passwords. The next step is to craft a command to display the contents of this file. For this, I changed the command to be run inside the single quotes from ```ls``` for show the directory's content, to ```cat``` so I can view the ```.htpasswd``` file.
 
-![411253757-700eccf0-5aa6-4d1e-a18e-34e73e65a742](https://github.com/user-attachments/assets/c22b930f-a7e3-42e2-b669-be322a67bdc7)
+![Web-Password-File-2](https://github.com/user-attachments/assets/a8441cb2-156f-4728-bafb-6724fc4ae8d9)
 
 
 # Always Be Cracking
