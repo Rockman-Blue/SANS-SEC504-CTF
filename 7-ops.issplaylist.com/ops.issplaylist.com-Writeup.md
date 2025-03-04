@@ -47,15 +47,15 @@ Using the same access gained through the exploit used in the challenge above, it
 
 Next, I went to ClippedBin and searched for "webmin" in the recent pastes page. Whenever I get stuck on a particular challenge, I search the keywords of that challenge in ClippedBin to find OSINT information to help me. 
 
-![Webmin Password File-1](https://github.com/user-attachments/assets/f7047b1e-79c7-4493-b9eb-8af35c62e7e4)
+![Webmin-Password-File-1](https://github.com/user-attachments/assets/c782ebe6-625f-46ab-afc7-da4ed944824b)
 
 The ClippedBin search reveals two pastes. After looking at both, one of them tells me the location of the webmin password file. 
 
-![Webmin Password File-2](https://github.com/user-attachments/assets/ad51d82d-ab72-4bd5-bfa6-c38ac02c9e93)
+![Webmin-Password-File-2](https://github.com/user-attachments/assets/460fee1f-3b86-4cd6-9faf-6dfce1122851)
 
 Now that I know the file location, it's as simple as running a cat command to obtain the file and the flag. 
 
-![397384886-0c480331-f3d1-4366-ba0b-900a218316bd](https://github.com/user-attachments/assets/164e5b11-237c-465c-81ad-320b6536238a)
+![Webmin-Password-File-3](https://github.com/user-attachments/assets/b9ab718d-295c-43e0-bca7-2d5a1359dc06)
 
 
 # Always Be Cracking
