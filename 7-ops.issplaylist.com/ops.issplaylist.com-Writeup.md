@@ -82,23 +82,24 @@ After cracking the password, I modified my previous command to include --show an
 
 I know the credentials for the Webmin admin from previous challenges. With SSH, the generic command format is ssh username@domain/IP. I tried to SSH into the server with the admin credentials, but I got a permissioned denied error. I thought I typed in the password wrong, so I typed the password more slowly twice and still got the same error.
 
-![Credential Reuse-1](https://github.com/user-attachments/assets/41cbf1c5-c91f-4b8f-8758-1a6f1ae66a65)
+![Credential-Reuse-1](https://github.com/user-attachments/assets/ff84a533-d7c4-46c4-a7c0-a09570c0ed5f)
 
 Instead of trying to SSH, I went to http://ops.issplaylist.com:10000/ and logged in with the admin credentials. I was able to successfully login to the Webmin admin interface. 
 
-![Credential Reuse-2](https://github.com/user-attachments/assets/7db0322e-9ebb-4a7d-92bf-da28face4aae)
+![Credential-Reuse-2](https://github.com/user-attachments/assets/fcefac44-5f56-42be-b09a-994110133893)
 
 From there I clicked on System in the left side pane, then Users and Groups. From there I found a new user to login over SSH. The username is Hacker1, but the password is hashed. 
 
-![Credential Reuse-3](https://github.com/user-attachments/assets/72c4091c-7842-4c92-a0cb-2278e2d8bc85)
+![Credential-Reuse-3](https://github.com/user-attachments/assets/297f4edf-ae7c-4519-a844-7d2ebacbb037)
 
 I return to my terminal to create a new file, paste the hashed password, then save and exit using Gedit. After creating the hashfile that contains the hashed password for the Hacker1 user, I cracked it with Hashcat. 
 
-![Credential Reuse-4](https://github.com/user-attachments/assets/d5ec4495-49a7-4c53-9e64-bf824b6161c0)
+![Credential-Reuse-4](https://github.com/user-attachments/assets/2f380bde-0c86-40f0-bf60-b451db1a2c66)
 
 Now that I have a user on the system to SSH with, Hacker1/Password. I ran “ssh Hacker1@ops.issplaylist.com” and entered the password. Once I logged in, I got the flag.
 
-![397402175-249ca5d6-c7f9-4672-ada5-5b4afb572599](https://github.com/user-attachments/assets/ecb0e81a-c91c-41d8-ad13-d2adbdf6a0ac)
+![Credential-Reuse-5](https://github.com/user-attachments/assets/badcab88-6156-47ce-a6d9-e1916995d10e)
+
 
 # Post-Exploitation Credential Gathering
 
