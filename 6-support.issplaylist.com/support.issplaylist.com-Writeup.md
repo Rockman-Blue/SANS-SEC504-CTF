@@ -17,7 +17,7 @@ Viewing the output of Nmap, I see that three ports are open out of all the ports
 
 From the port scan in the previous challenge, I know that SSH is open on one of the ports. With Nmap, you can do a version scan on specific port(s) to get more detailed info. This is done with the -sV argument, as shown here: 
 
-![396674509-ef9cc514-b0c7-4262-bf68-ec44c4dd5937](https://github.com/user-attachments/assets/b0de8b57-21cc-49bc-80fe-9d97aa2086b1)
+![Service-Version-Enumeration-1](https://github.com/user-attachments/assets/992a6cf2-9108-452b-8567-a7343a507eb0)
 
 The output shows me the version of OpenSSH used.
 
