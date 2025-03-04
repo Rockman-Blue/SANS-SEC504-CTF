@@ -108,31 +108,30 @@ Now that I have a user on the system to SSH with, Hacker1/Password. I ran “ssh
 
 From the Webmin server running at http://ops.issplaylist.com:10000, I found the password hash of the ftpacctng user by going to System > Users and Groups > ftpacctng.
 
-![Post-Exploitation Credential Gathering-1](https://github.com/user-attachments/assets/87d548c4-a83f-49f4-8039-cb0890e9b81d)
+![Post-Exploitation-Credential-Gathering-1](https://github.com/user-attachments/assets/9e494ad6-053a-4642-935e-cebbfdd89f1b)
 
 I copy pasted the line with the ftpacctng user’s password into hashfile.txt and tried to use Hashcat to crack it. The $1 in the hash, which indicates that this hash is MD5. 
 
-![Post-Exploitation Credential Gathering-2](https://github.com/user-attachments/assets/cbd6228b-4351-4a2a-b0f8-14bb44162e5d)
+![Post-Exploitation-Credential-Gathering-2](https://github.com/user-attachments/assets/9d68717a-1f7e-4b2b-ac22-686f6502ef42)
 
 I kept getting the “exhausted” status, even when trying using rules with the hashcat command. This dead end made me think about the user name, and how it likely supports login over FTP. The server that I am trying to access runs FTP, and FTP is a plain-text protocol. Because of this, I can sniff-out the authentication credentials and capture them when the ftpacctng user logs in. 
 
 Using the server access obtained from the previous challenge, I tried to use Tcpdump to capture the authentication credentials on the server with Tcpdump. I got a permission denied error, so I typed "exit" at my SSH prompt to drop the connection. 
 
-![Post-Exploitation Credential Gathering-3](https://github.com/user-attachments/assets/60044d85-c98a-4a7f-8e25-bbc79fdd134f)
+![Post-Exploitation-Credential-Gathering-3](https://github.com/user-attachments/assets/71d23d8c-4410-4b0e-b425-ed9110906f0c)
 
 One of the hints said I need root access, and that I should obtain it through previous attack mechanisms launched against this target. To obtain root access, I went back to the Webmin admin interface. From there I went to System > Users and Groups. I clicked on Hacker1, since that is the user I used to login to the server over SSH. From this page, I changed the Hacker1 user's primary group from users to root. I also changed the User ID to 0 to match the root user. After this I hit save at the bottom of the screen. 
 
-![Post-Exploitation Credential Gathering-4](https://github.com/user-attachments/assets/f6da82ee-85d8-4120-a1bc-a4ea40d5055e)
+![Post-Exploitation-Credential-Gathering-4](https://github.com/user-attachments/assets/753c006d-17bf-4d90-b740-14357496d357)
 
 Now it's time to test that my privilege escalation attack worked. I SSH into the server again, and noticed that my prompt changed to #, the root prompt. I confirm that I am root by running whoami.
 
-![397408394-c301dd30-9df3-4248-9191-f6d5260c0df7](https://github.com/user-attachments/assets/625ba61f-0bff-427c-ac85-6a56fa9eacaa)
+![Post-Exploitation-Credential-Gathering-5](https://github.com/user-attachments/assets/a427d093-6384-4921-9167-e5d89447d404)
 
 Now that I have root access, I can run Tcpdump to start capturing traffic on the target system. After running Tcpdump for a few minutes, I pressed CTRL + C to stop capturing traffic. 
 
-![Post-Exploitation Credential Gathering-6](https://github.com/user-attachments/assets/b1aef36e-cd6d-45e5-b30a-b95c618f2299)
+![Post-Exploitation-Credential-Gathering-6](https://github.com/user-attachments/assets/83430a34-cdec-4f35-8a0f-2179c77f50f1)
 
 Now I used Tcpdump with the -r argument to read from the pcap file and search for the password with Grep. 
 
-![397424301-f5a04e00-6fc1-47e9-98f0-d675b3ef1fa0](https://github.com/user-attachments/assets/64e406c0-4cb0-4bd2-ac8c-470430148118)
-
+![Post-Exploitation-Credential-Gathering-7](https://github.com/user-attachments/assets/dd5c1cc7-8ba0-4a64-a155-01026e01cc3d)
