@@ -43,5 +43,4 @@ The ping functionality of this server works as expected. After experimenting wit
 
 I know from the previous challenge that the server is vulnerable to an input attack. Now it's just about crafting the right command. In the previous attack, ls shows that the flag.txt file is in the current working directory. So I use cat to display the flag value in the file. 
 
-![397431320-fd6c4da0-228c-4a4e-aeb5-afdb39db793d](https://github.com/user-attachments/assets/bc0ada9b-d79a-4e0d-b49b-35431d2ddd39)
-
+![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/86a70867-04a7-4163-b9cd-84b785767a85)
