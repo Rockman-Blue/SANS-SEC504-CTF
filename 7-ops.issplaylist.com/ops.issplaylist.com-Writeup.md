@@ -5,7 +5,7 @@
 
 This question is multiple choice, so I limited my scan to only those ports. Nmap shows me the open ports. Use Nmap with sudo whenever possible for the best restuls. 
 
-![397377818-4330b8ec-24c0-4643-b61a-b3cc31c9c2e4](https://github.com/user-attachments/assets/ad5c647e-ba57-4a9b-a4e9-5d59462ba23a)
+![Port-Scan-1](https://github.com/user-attachments/assets/2ddf01fd-2fa9-4b4c-bca6-25959a0a29db)
 
 Nmap shows me that there are three open ports
 
