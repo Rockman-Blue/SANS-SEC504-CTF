@@ -67,11 +67,11 @@ The top file seems obvious due to its name, but I thought about if how I could i
 
 From the previous challenge, I know that a file in /tmp is the file that grants the attacker root access. I run the file, and my prompt changed. To confirm I successfully obtained root access, I used the whoami command. 
 
-![396680915-3f8b412b-ebeb-40da-be18-03b95bd6e32d](https://github.com/user-attachments/assets/578e28b0-50cc-4bf1-9718-1e0be318f238)
+![Root-Privileges-Required-1](https://github.com/user-attachments/assets/ca4b6afb-3f17-41e3-85a9-d4ce97af3c37)
 
 After confirming that I have root access, I enumerated the files in the current working directory with ls and displayed the output of flag2.txt. 
 
-![396681200-2295bdc6-2c47-4ef8-bb6b-0180f89aa538](https://github.com/user-attachments/assets/878e8712-b6b4-4473-a434-a3ec5f1768c0)
+![Root-Privileges-Required-2](https://github.com/user-attachments/assets/bc415b96-9d56-4d9b-b722-8c5bd302a7f3)
 
 
 # More Backdoors
