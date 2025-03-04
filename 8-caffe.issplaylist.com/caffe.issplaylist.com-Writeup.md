@@ -25,15 +25,15 @@ I know that Netcat can be used to connect to an open port on a server. First, I 
 
 Now that I’m connected to the server, I will start to look for vulnerabilities. Looking at the menu for this server from the screenshot above, 97 is a connectivity checker. I select it by typing 97 at the prompt and hitting enter. 
 
-![Vulnerability Discovery-1](https://github.com/user-attachments/assets/7ea6843c-20e8-47a4-bba6-896d23000c0a)
+![Vulnerability-Discovery-1](https://github.com/user-attachments/assets/03fd9229-e7e1-4eef-b95a-a1d37345ab82)
 
 Out of the possible options, number 4 seems vulnerable. What I am expecting is that the ping test accepts your input and appends it to a ping command run by the server. Before trying to exploit a server/service/page, it's good practice to observe normal and expected input. So I type in an IP address and hit enter to test the ping service. 
 
-![Vulnerability Discovery-2](https://github.com/user-attachments/assets/3785e985-6c5e-47d4-9181-dab32b158371)
+![Vulnerability-Discovery-2](https://github.com/user-attachments/assets/0964c878-a194-42a4-aefd-4d0daeacb069)
 
 The ping functionality of this server works as expected. After experimenting with different inputs with ;, ||, and &&, I am able to perform an input based attack. The fact that ls ran successfully indicates the server is vulnerable. 
 
-![Vulnerability Discovery-3](https://github.com/user-attachments/assets/038129ce-cca9-4e08-bbd6-0b0f271dee03)
+![Vulnerability-Discovery-3](https://github.com/user-attachments/assets/76988d12-9ac9-48cb-aa35-3e7eac228324)
 
 
 # Vulnerability Exploitation
