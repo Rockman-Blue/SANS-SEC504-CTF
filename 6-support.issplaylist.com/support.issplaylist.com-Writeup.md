@@ -83,8 +83,8 @@ First off, I started browsing different directories for suspicious files. After 
 
 Now it's time to find the bash_history.save file. After looking in different directories, I found it in the root directory. I used cat to view the bash_history.save file and noticed a suspicious file in /var/www/html/images. 
 
-![396682791-4233e66b-fad0-4108-8926-56efd19af6a5](https://github.com/user-attachments/assets/2cd7d4d4-36c1-4879-857d-e8f7807814f2)
+![More-Backdoors-1](https://github.com/user-attachments/assets/6f6e2123-9bd5-4f9c-8da9-4817486b3303)
 
 I viewed the contents of the suspicious file in /var/www/html/images and it displayed the flag.
 
-![396683115-447686c6-050e-427f-9fd6-60a7e4bdd2ec](https://github.com/user-attachments/assets/925cba8c-3c5c-4a48-9837-44dcd452eed1)
+![More-Backdoors-2](https://github.com/user-attachments/assets/5e930e06-adc2-479f-b501-9addf80d2914)
