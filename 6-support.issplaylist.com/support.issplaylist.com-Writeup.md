@@ -29,11 +29,11 @@ The output shows me the version of OpenSSH used.
 
 The backdoor will be on one of the open ports from the Port Scan challenge above. I looked at those scan results, and started thinking about which port to connect to with Netcat. I thought that SSH would be ruled out because I don't have credentials for a user on the target system. Next I looked at the venus service running on another open port and thought it was suspicious. To use Netcat to connect to the port running venus, I needed the IP address of the system. So I used ping to obtain the IP address, then I used Netcat to connect to the open port. 
 
-![396676301-330036e7-11da-4ca6-8880-f5bb40dcbc01](https://github.com/user-attachments/assets/ff4cef82-b517-444e-86df-9dfcfb1d7ac2)
+![Backdoor-Reuse-1](https://github.com/user-attachments/assets/19717a21-4afe-4088-a500-fa2480a86346)
 
 Now that I have a shell against the target system I run “ls” to enumerate files, then “cat flag1.txt” to get the flag. 
 
-![396676616-c4a3998d-b655-42f6-b24f-2046fdd6f57a](https://github.com/user-attachments/assets/ef61186e-a4b2-4374-8256-2b77ff5ddf15)
+![Backdoor-Reuse-2](https://github.com/user-attachments/assets/b56b8920-8563-4e23-b0b6-c913b3385b41)
 
 
 # User Access Enumeration
