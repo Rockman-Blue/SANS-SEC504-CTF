@@ -53,7 +53,7 @@ I know the listening process that grants the attacker backdoor access to the sys
 
 The key words here are privilege escalation. For Linux privilege escalation, there's a variety of commands to look for weak spots in the system configuration. I ran a find command to look for uncommon SETUID files. 
 
-![396679976-471d0168-28bf-4835-a4b0-183aa8ef510e](https://github.com/user-attachments/assets/04ca13c5-c112-47e3-905d-e6b0e156a8e3)
+![Local-Privilege-Escalation-1](https://github.com/user-attachments/assets/03fc20e6-1050-4293-a8c1-e2922507775d)
 
 After searching through the output of the find command that did not return permission denied, there were a few options. Most of those options resided in the /usr/bin/ folder, which makes sense since that directory contains the executable file for common Linux commands. 
 
