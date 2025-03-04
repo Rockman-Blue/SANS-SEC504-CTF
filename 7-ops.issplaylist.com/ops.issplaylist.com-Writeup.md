@@ -134,4 +134,4 @@ Now that I have root access, I can run Tcpdump to start capturing traffic on the
 
 Now I used Tcpdump with the -r argument to read from the pcap file and search for the password with Grep. 
 
-![Post-Exploitation-Credential-Gathering-7](https://github.com/user-attachments/assets/dd5c1cc7-8ba0-4a64-a155-01026e01cc3d)
+![Post-Exploitation-Credential-Gathering-7](https://github.com/user-attachments/assets/df2036f2-6cf5-4c7f-9de1-2c737b317594)
