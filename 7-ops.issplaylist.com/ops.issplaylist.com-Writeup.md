@@ -27,15 +27,15 @@ After typing in the URL:portnumber for the server, the flag is displayed on the 
 
 For this challenge, I will use Metasploit. First I started the console, searched for Webmin eploits, and loaded one to use. I picked #0 because it seemed the simplest to use from reading its description compared to the other ones. 
 
-![Vulnerability Exploitation-1](https://github.com/user-attachments/assets/c77854cd-2d87-47fb-addc-0e3daca07158)
+![Vulnerability-Exploitation-1](https://github.com/user-attachments/assets/71f87631-70f2-4d22-b0e0-5326f2e943a5)
 
 Now that the exploit is loaded, it is time to show and set the options so that the exploit runs successfully. The main options to worry about are RHOSTS (the target) and LHOST (my attacking system). 
 
-![Vulnerability Exploitation-2](https://github.com/user-attachments/assets/46e520b0-5b79-43c5-a187-aa3e50fe54d4)
+![Vulnerability-Exploitation-2](https://github.com/user-attachments/assets/44faa2dc-65ab-4f0a-bd01-ee7769fccbb1)
 
 Now that my options are set, it's time to exploit the vulnerability. I send the exploit and it works successfully. I display the contents of the /flag.txt file to get the answer to this challenge. 
 
-![397382776-e3e6c9eb-0264-411c-96e4-a812e5e35bdb](https://github.com/user-attachments/assets/d79d917b-0a8a-4ee8-9c8a-ee16332de6b0)
+![Vulnerability-Exploitation-3](https://github.com/user-attachments/assets/7e3f4948-e290-4bf5-8d68-09ce3afde57d)
 
 
 # Webmin Password File
