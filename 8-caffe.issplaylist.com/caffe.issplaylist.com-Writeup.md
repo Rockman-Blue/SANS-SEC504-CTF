@@ -5,7 +5,7 @@
 
 This question is multiple choice, so I limited my scan to the only possible answers to save time. From the output, only one port is open. 
 
-![397426293-07f2da3c-47e6-463a-a4f3-fd101a41fe5c](https://github.com/user-attachments/assets/fffc0675-f448-49be-8b0d-0972514c5dc1)
+![Port-Scan-1](https://github.com/user-attachments/assets/b97ed407-8bb9-482f-90de-130ae693bcef)
 
 
 # Server Connection
