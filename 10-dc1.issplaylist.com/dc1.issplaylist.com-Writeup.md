@@ -70,12 +70,12 @@ To get around this, I have to migrate the Meterpreter shell from the initial pro
 
 Now that I have obtained the password hashes for the IP domain, I copy them into my clipboard. I exit Meterpreter and Metasploit to return to my local terminal. From there, I create a new file with Gedit, paste the hashes, save the file, then close it. 
 
-![397459476-cc1afe0a-c19b-486a-97ed-92209468593e](https://github.com/user-attachments/assets/d19ce5e6-4381-4a68-9031-73b4dc7b33f2)
+![Always-Be-Cracking-1](https://github.com/user-attachments/assets/f3fdd91c-5768-4ca0-9eb0-6029071fd719)
 
 Next, I use Hashcat to crack the passwords with a straight attack. 
 
-![Always Be Cracking-2](https://github.com/user-attachments/assets/9a9a6acf-db5d-4d1d-b328-963129936abd)
+![Always-Be-Cracking-2](https://github.com/user-attachments/assets/0832ea0f-2534-4100-bf4f-01fa2d25bbd6)
 
-After Hashcat finishes cracking the passwords, I run it again with --show and --user to display cracked passwords and their associated usernames. The password for the prosa user is Sharks21. 
+After Hashcat finishes cracking the passwords, I run it again with --show and --user to display cracked passwords and their associated usernames to see the plaintext password for the prosa account. 
 
-![397460535-49a30eb8-921e-45b8-931f-c858fb30b3d2](https://github.com/user-attachments/assets/cea9d871-ee3a-4256-a722-c7dbb9076e9a)
+![Always-Be-Cracking-3](https://github.com/user-attachments/assets/d014f032-0eae-49d6-b15b-ab0faeaf2abe)
