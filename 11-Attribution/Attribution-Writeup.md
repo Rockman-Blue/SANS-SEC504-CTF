@@ -5,15 +5,15 @@
 
 First I need to find out how to access the email service that ISS Playlist uses. In the “DNS Reconnaissance” challenge for the “OSINT and Recon” section, I discovered that it's possible to do a zone transfer with Dig.
 
-![Email Assessment-1](https://github.com/user-attachments/assets/1b41e1ac-ab10-4e3b-a6d2-c654be719d82)
+![Email-Assessment-1](https://github.com/user-attachments/assets/13dcdbfa-445b-431d-ab55-98e02db70e75)
 
 This displays all of the DNS records, disclosing the mail server - mail.issplaylist.com. In a web browser I go to that page and login with the credentials of the suspicious user discovered in the 10-dc1.issplaylist.com challenge category. I am able to successfully login to the user's email.
 
-![Email Assessment-2](https://github.com/user-attachments/assets/fa271198-282d-48f9-a751-19eb35831db4)
+![Email-Assessment-2](https://github.com/user-attachments/assets/20a7694c-d3c0-44bd-b7c0-74a23070ada7)
 
 I click on the top email from bsh@sunsetisp.com. This email displays the flag. 
 
-![397463503-0dfeea7e-c91a-45ce-96ca-5b906a3a29c4](https://github.com/user-attachments/assets/ca02a3c3-f78a-4337-b485-31be3754991e)
+![Email-Assessment-3](https://github.com/user-attachments/assets/9c5bddc0-de4f-462f-940b-e2d7c6d7fa90)
 
 
 # The Manifesto
