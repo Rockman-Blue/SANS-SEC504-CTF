@@ -31,7 +31,7 @@ In Meterpreter, I get a system shell, then access to PowerShell. The file path f
 
 There are many ways to establish persistence on a Windows system. Some examples include using processes, backdoors, services, account creation, and scheduled tasks. With PowerShell, I use the Get-Service cmdlet to interrogate the services running on the system. I find the flag in the output of Get-Service.
 
-![397451320-e004ec53-3000-4b66-a8d4-06da66614920 (1)](https://github.com/user-attachments/assets/45375597-84d8-40c3-aeec-b8960c2f8c09)
+![Windows-Persistence-1](https://github.com/user-attachments/assets/abafa2f0-8380-478f-b0a0-45516c2ae8ad)
 
 
 # Suspicious User
