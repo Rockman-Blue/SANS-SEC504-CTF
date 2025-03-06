@@ -96,7 +96,7 @@ The attack works successfully and I'm able to see the output of the ```F-L-A-G.t
 
 From the previous challenges, I know the following information:
 * The songs.issplaylist.com target is vulnerable to an attack at the status page.
-* The songs.issplaylist.com target is a Windows sserver system.
+* The songs.issplaylist.com target is a Windows server system.
 
 Windows has many built-in utilities for system information enumeration. One of them is the ```ver``` tool, which I used in an attack to get the version of Windows server. I entered the below command into the input field:
 * ```128 && ver```
