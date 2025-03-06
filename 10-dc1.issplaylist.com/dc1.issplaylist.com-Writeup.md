@@ -56,11 +56,11 @@ The user shown in C:\Users directory for this domain controller is the director 
 
 From the PowerShell prompt I have on the dc1 system, I type exit to return to the Windows command prompt. From there, I type exit again to return to the Meterpreter prompt. Meterpreter supports the hashdump command, which will allow me to dump the password hashes for this Windows domain controller system. If you try to run the hashdump command right away in Meterpreter, you will get an operation failed error. 
 
-![Password Hash Retrieval-1](https://github.com/user-attachments/assets/93b844d7-ea86-4682-8dc4-d6568f38ef3e)
+![Password-Hash-Retrieval-1](https://github.com/user-attachments/assets/ae922b38-bc4d-4012-b3f9-99bdfe4a7fa6)
 
 To get around this, I have to migrate the Meterpreter shell from the initial process to one running inside of lsass.exe. This will fix the permission issue. After migrating to lsass.exe, I ran the hashdump command again to obtain the hashes for the domain controller. It works, and the NT hash is the right most string in the colon separated fields.
 
-![397457833-bbfbfd80-50fa-4046-ac77-8ab64299b9da](https://github.com/user-attachments/assets/44615dd3-8fdb-4a53-9060-4e7ed9db46ff)
+![Password-Hash-Retrieval-2](https://github.com/user-attachments/assets/b9a76177-bcc7-4932-a8ee-d49f0e54763e)
 
 
 # Always Be Cracking
