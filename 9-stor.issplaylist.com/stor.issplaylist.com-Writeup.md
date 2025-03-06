@@ -14,7 +14,7 @@ Instead, I tried to re-use already compromised credentials from previous challen
 
 After some testing, I was able to login as the jorestes user. In the command above, IP is the below, and jorestes is the user. The quotes around domain\user are needed since \ is interpreted as a shell escape character without it. The “-m SMB2” argument is needed to access modern windows systems.
 
-![Target-Enumeration-1](https://github.com/user-attachments/assets/924e3718-bb19-442d-a0b1-f8c4f660e617)
+![Target-Enumeration-1](https://github.com/user-attachments/assets/7c0e8a3a-2127-47b6-88eb-2003e9cc8353)
 
  There is one non-hidden share name is, the one that doesn’t have a $ at the end of the share name. The hidden shares are ADMIN$, C$, and IPC$ - or anything with a $ at the end of the name.
 
@@ -26,11 +26,11 @@ After some testing, I was able to login as the jorestes user. In the command abo
 
 In the previous challenge, I enumerated the SMB shares on the server to find the one non-hidden share. Now let’s connect to it to retrieve the flag. After noticing the error message at the bottom of the command above, "Failed to connect...", I changed my Smbclient command to connect with SMB3. I then authenticated with the password of for the jorestes user, which was discovered earlier in the CTF.  
 
-![Target-Enumeration-1](https://github.com/user-attachments/assets/3afd0f8b-a172-48e6-bd1f-dc406d89c42f)
+![Server-Share-Access-1](https://github.com/user-attachments/assets/7c7a82b5-b404-49e1-b6e3-2bc4573edeb7)
 
 The command ran successfully, and I was able to get a SMB prompt. I enumerated the files on the share with ls and saw that flag.txt is present. I used the get command to download the file to my local system. After the file was downloaded, I exit the SMB connection and go back to my local system. I confirm that flag.txt was download successfully, and displayed the contents. 
 
-![Server-Share-Access-2](https://github.com/user-attachments/assets/30e727ae-e232-4bd2-a46b-6302dd044eb3)
+![Server-Share-Access-2](https://github.com/user-attachments/assets/e5880a96-07cc-4bbe-93b4-ba951b6c5e64)
 
 
 # Embedded Data Retrieval
@@ -40,11 +40,11 @@ The command ran successfully, and I was able to get a SMB prompt. I enumerated t
 
 Embedded data means data hidden in some or wrapped by some other data. Exiftool is a script that extracts metadata from a file. I connect back to the STOR share, enumerate the folders, cd to one, and download an audio file from the server.
 
-![397438228-b2667a4b-d89f-4380-921c-89d40aa649fa](https://github.com/user-attachments/assets/d6d8e50f-a6a1-499d-98ee-d49ef6ac7028)
+![Embedded-Data-Retrieval-1](https://github.com/user-attachments/assets/404f5f1e-e57a-4935-89b7-ae2c3ea6e88b)
 
 Now that I have an audio file from the server, I exit the SMB connection to return to my local system terminal by typing "exit" and hitting enter. I confirm the .mp3 file was successfully downloaded. I run Exiftool against the .mp3 file, the value of the comment field is the flag. 
 
-![397439209-0864e850-b04f-4fa9-8c7f-f760f567af10](https://github.com/user-attachments/assets/bb0f46d7-9ca3-4e03-8756-b0162780ffa9)
+![Embedded-Data-Retrieval-2](https://github.com/user-attachments/assets/d546dd23-c47d-4915-aa1f-40938ad38f05)
 
 
 # Target Exploitation
