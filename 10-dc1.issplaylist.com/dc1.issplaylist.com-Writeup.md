@@ -5,23 +5,23 @@
 
 The dc1 server isn’t accessible directly from your attacker system. I must use Metasploit to exploit a previously compromised system, then pivot to dc1 from there. From previous challenges and compromises, the non-hidden share in the 9-stor.issplaylist.com series of challenges is vulnerable to SMB attacks. I will Metasploit with the psexec exploit to attack this server’s SMB functionality. I start Metasploit, load the exploit, configure the options, and send the exploit to get a reverse TCP shell on the server with Meterpreter. 
 
-![397445591-6b37e190-bf87-43a5-8fba-afd4f5abb9c0](https://github.com/user-attachments/assets/90b9989c-2041-420b-9ce1-e9c5ddcf009e)
+![Exploitation-1](https://github.com/user-attachments/assets/8611e8a7-4948-41fa-9a88-fd50ef0b087a)
 
-![397446205-aec023f1-51b3-4a5c-80d5-925030f4e41a](https://github.com/user-attachments/assets/0effe357-ac01-4470-900d-2f34ca99686a)
+![Exploitation-2](https://github.com/user-attachments/assets/68d1d29f-950e-4dfe-85ff-696a0b67f8fa)
 
 Now that I have Meterpreter access to a system inside the network, I can pivot to the DC1. But first, I need the IP of the dc1 system. In a new terminal, I run "ping dc1.issplaylist.com" to get the DC1's IP, 10.142.145.150.
 
 I run "background" to send my current Meterpreter session to the background so I can interact with the Metasploit console again. I type "sessions" to view the session number associated with my Meterpreter session. I must use the existing Meterpreter session with the portfwd or route command to pivot from inside the network to the dc1 server. I add the route and confirm that it has been defined. 
 
-![Exploitation-3](https://github.com/user-attachments/assets/6b43657c-48cf-4647-92a0-87c304f008cd)
+![Exploitation-3](https://github.com/user-attachments/assets/62f3aa3e-ae42-4df6-bd16-85d3e58be38a)
 
 Now that the route is added, I have to change the RHOST to the IP address of the dc1 system. After I change the RHOST option, I send the exploit. After running "exploit" I am successfully able to get a Meterpreter shell against the dc1 system.
 
-![Exploitation-4](https://github.com/user-attachments/assets/d1f286bc-eae3-415d-aa55-8f7195961b02)
+![Exploitation-4](https://github.com/user-attachments/assets/bff323bb-95d3-419c-a67d-e96e799a8502)
 
 In Meterpreter, I get a system shell, then access to PowerShell. The file path for the flag is C:\flag1.txt, so I use the type command to display the contents of the file. 
 
-![397449893-fe946e37-7a92-485e-96c9-650c72d6e1bf](https://github.com/user-attachments/assets/d0b45895-d477-4d20-90d0-f30fd9f19aa6)
+![Exploitation-5](https://github.com/user-attachments/assets/c17c6c20-e1a8-4857-9309-31818c1b642d)
 
 
 # Windows Persistence
