@@ -60,7 +60,7 @@ From the PowerShell prompt I have on the dc1 system, I type exit to return to th
 
 To get around this, I have to migrate the Meterpreter shell from the initial process to one running inside of lsass.exe. This will fix the permission issue. After migrating to lsass.exe, I ran the hashdump command again to obtain the hashes for the domain controller. It works, and the NT hash is the right most string in the colon separated fields.
 
-![Password-Hash-Retrieval-2](https://github.com/user-attachments/assets/b9a76177-bcc7-4932-a8ee-d49f0e54763e)
+![Password-Hash-Retrieval-2](https://github.com/user-attachments/assets/3c8852a8-7404-4303-a9b3-06952fe8745c)
 
 
 # Always Be Cracking
