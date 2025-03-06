@@ -26,11 +26,11 @@ After some testing, I was able to login as the jorestes user. In the command abo
 
 In the previous challenge, I enumerated the SMB shares on the server to find the one non-hidden share. Now let’s connect to it to retrieve the flag. After noticing the error message at the bottom of the command above, "Failed to connect...", I changed my Smbclient command to connect with SMB3. I then authenticated with the password of for the jorestes user, which was discovered earlier in the CTF.  
 
-![397435426-795ff296-6c26-45ca-a50e-48d4858039ee](https://github.com/user-attachments/assets/7289d71c-1352-4969-9fad-f5b793ecff28)
+![Target-Enumeration-1](https://github.com/user-attachments/assets/3afd0f8b-a172-48e6-bd1f-dc406d89c42f)
 
 The command ran successfully, and I was able to get a SMB prompt. I enumerated the files on the share with ls and saw that flag.txt is present. I used the get command to download the file to my local system. After the file was downloaded, I exit the SMB connection and go back to my local system. I confirm that flag.txt was download successfully, and displayed the contents. 
 
-![397436756-02f2c933-aae2-4049-9b89-43e941b02367](https://github.com/user-attachments/assets/a54fec73-0d56-4898-ae49-e099b7e4fc2d)
+![Server-Share-Access-2](https://github.com/user-attachments/assets/30e727ae-e232-4bd2-a46b-6302dd044eb3)
 
 
 # Embedded Data Retrieval
