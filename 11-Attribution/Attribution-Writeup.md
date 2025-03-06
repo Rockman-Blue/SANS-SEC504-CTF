@@ -23,4 +23,4 @@ I click on the top email from bsh@sunsetisp.com. This email displays the flag.
 
 From the same email that I viewed in the previous challenge, I click on the manifesto link. At the bottom of the page is the flag. 
 
-![397464592-9069ee7e-0081-4cda-bde7-60e2401d8c49](https://github.com/user-attachments/assets/cbfdc9be-bc34-47ad-af1b-b56d04e2da12)
+![The-Manifesto-1](https://github.com/user-attachments/assets/77bddcc7-83d7-49a5-809f-1803e4af3b64)
