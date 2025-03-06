@@ -153,7 +153,7 @@ Hidden shares end in $, so the share not ending in $ is the non-hidden share and
 * Challenge - Access the non-hidden share on the songs.issplaylist.com server. Retrieve the flag.
 * Points - 6
 
-To access the non-hidden share, I have two main tools, Rpcclient and Smbclient. Rpcclient is used to gather target configuration details. Smbclient is used to interact with shares, to enumerate, download and upload files. To use either of these tools, I need valid credentials
+To access the non-hidden share, I have two main tools, Rpcclient and Smbclient. Rpcclient is used to gather target configuration details. Smbclient is used to interact with shares, to enumerate, download and upload files. To use either of these tools, I need valid credentials.
 
 Re-using the site's vulnerability, I create a new user account and add it to the administrators group with two commands. First, I input this command into the input field:
 * ```128 && net user /add Rockman Password1```
