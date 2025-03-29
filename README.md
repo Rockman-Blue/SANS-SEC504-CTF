@@ -17,7 +17,7 @@ Topics Covered Include:
 
 As you can see from the screenshot below, I have completed every challenge. Each section/challenge category of this CTF will have their own folders, and each folder will have a file for each individual challenge within the category. Each challenge category starts with a "Stand-up Meeting" where you get information about the target system(s) for that challenge by the employees of ISS Playlist. 
 
-![Screenshot 2024-12-16 114512](https://github.com/user-attachments/assets/73805530-a97f-4ea8-aa0c-92273592a904)
+![Badge](https://github.com/user-attachments/assets/3bf14dea-9420-40e9-a415-b3388a646ec8)
 
 Questions are answered either by submitting a flag (format of NetWars{flag}), or a string. Some questions are multiple choice. Due to my agreement with the SANS Copyright Team, I cannot disclose the answers for the CTF. So, my write-up will include the question/challenge and the steps I took to solve it, but not the answers themselves. The order of the challenge categories is below:
 
